@@ -3,8 +3,13 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
+
 	<link href='https://fonts.googleapis.com/css?family=Fira Sans Condensed' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=Fontdiner Swanky' rel='stylesheet'>
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Spreco</title>
 </head>
@@ -25,19 +30,19 @@
 				</div>
 			</div>
 
-		<div class="vindu1 col-small100">
+		<div class="vindu1 col-small100 " id="vindu1">
 			<div class="slagord col-small50">
 				<h1>Bekjempelsen av  <mark id="matsvinn"> matsvinn</mark> har ikke vært enklere!</h1>
-
+				<a href="#vindu2" class="slagordknapp">Les mer</a>
 			</div>
-
-
-
 		</div>
 		<div class="iphone col-small30">
 				<img src="mockupMobil.png">
 			</div>
-		<div class="vindu2 col-small100">
+
+
+
+		<div class="vindu2 col-small100" id="vindu2">
 			<div class="tboks col-small25">
 
 				<div class="tlogo">
@@ -77,6 +82,8 @@
 				<a href="" class="knapptboks" >Les mer</a>
 
 			</div>
+			<a onclick="topFunction()" id="myBtn" title="Go to top" href=" #vindu1"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+
 			<div class="tittel1 col-small100">
 				<div class="oppelinje"></div>
 				<h1 align="center">Spreco di cibo</h1>
@@ -102,7 +109,7 @@
 				<div class="borderhøyre"></div>
 				<div class="kontaktboks2 col-small30">
 					<h3><a href:"tel:4795093697" class="fa fa-phone" style="text-decoration:none"></a>+ 47 00 00 00 00</h3>
-					<h3> <a href="mailto:SPRECO@diCibo.no" class="fa fa-envelope" style="text-decoration:none"></a>SPRECO@diCibo.no</h3>
+					<h3> <a href="mailto:SPRECO@diCibo.no" class="fa fa-envelope" style="text-decoration:none"></a>spreco@dicibo.no</h3>
 					<h3><a href="https://g.page/OsloMet-storbyuniversitetet" target="_blank" class="fa fa-map-pin" style="text-decoration:none"></a>OsloMet <br> 0167 Oslo </h3>
 
 				</div>
@@ -122,6 +129,27 @@
 
 
 	</div>
+
+	<script type="text/javascript">
+		mybutton = document.getElementById("myBtn");
+
+		
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 670 || document.documentElement.scrollTop > 670) {
+		    mybutton.style.display = "block";
+		  } else {
+		    mybutton.style.display = "none";
+		  }
+		}
+
+		
+		function topFunction() {
+		  document.body.scrollTop = 0; 
+		  document.documentElement.scrollTop = 0; 
+		}
+	</script>
 
 
 
