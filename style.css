@@ -6,6 +6,9 @@
 body{
   background-color:#fbeceb;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 /*--------------vindu1-------------*/
 .vindu1{
@@ -83,6 +86,23 @@ body{
   color: #FEB249;
   background-color: transparent;
 }
+.slagordknapp{
+  display: inline-block;
+  padding:6px 18px;
+  margin-left: 1vw;
+  margin-top: 7vh;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 1.5vw;
+  letter-spacing: 2px;
+  border-radius: 3vw;
+  background-color: #FEB249;
+}
+.slagordknapp:hover{
+  background-color:#53D3D1;
+  border: 1px solid ;
+}
 
 
 .iphone{
@@ -121,7 +141,9 @@ body{
 
 .tlogo img{
   height: 20vh;
-  padding-left: 8vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   padding-top: 2vw;
 }
 .ttekst{
@@ -145,6 +167,21 @@ body{
 color: #fff;
 background-color:#53D3D1 ;
 }
+#myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: transparent ;
+  color: #FEB249;
+  cursor: pointer; 
+  font-size: 4vw; 
+}
+
+
 .oppelinje{
   height: 2px;
   width: 70vw;
@@ -211,8 +248,7 @@ background-color:#53D3D1 ;
   float: left;
   height: 45vh;
   margin-left:5vw;
-  text-align: left;
-
+  text-align: center;
 }
 
 .kontaktboks1 a{
@@ -275,7 +311,7 @@ color: #FEB249;
 
   display: inline-block;
   padding:10px 20px;
-  margin-left: 8vw;
+  margin-left: 10vw;
   margin-top: 10vh;
   text-decoration: none;
   text-transform: uppercase;
@@ -294,7 +330,7 @@ background-color:#53D3D1 ;
 
 
 [class*="col-"]{
-  border: black solid 0px;
+  border: black solid px;
 
 }
 
@@ -312,3 +348,17 @@ background-color:#53D3D1 ;
 .col-small60{width: 60%;}
 .col-small70{width: 70%;}
 .col-small100{width: 100%;}
+
+@media only screen and (max-width: 600px){
+
+
+}
+
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 790px){
+
+
+  
+}
