@@ -4,7 +4,7 @@
 
 }
 body{
-  background-color:#fbeceb; 
+  background-color:#fbeceb;
 }
 
 /*--------------vindu1-------------*/
@@ -14,7 +14,7 @@ body{
   background-size: cover;
   background-position: center;
   overflow: auto;
-  border-radius : 0% 0% 50% 0%;   
+  border-radius : 0% 0% 50% 0%;
   z-index: -1;
 }
 
@@ -26,7 +26,7 @@ body{
   width: 100vw;
   z-index: 15;
   border-style: outset;
-  
+
 }
 
 .logo{
@@ -39,7 +39,7 @@ body{
   float: left;
  width: 20vw;
  height: 20vw;
-  
+
 }
 .nav a{
   float: left;
@@ -52,12 +52,12 @@ body{
 
 }
 .nav a.active {
-  
+
   color: #FEB249;
 }
 
 .nav a:hover{
-  
+
   color: #FEB249;
 }
 .nav{
@@ -77,11 +77,11 @@ body{
 .slagord h1{
   font-size: 3.5vw;
   font-family: monospace;
-  padding-left: 1vw;  
+  padding-left: 1vw;
 }
 #matsvinn{
   color: #FEB249;
-  background-color: transparent; 
+  background-color: transparent;
 }
 
 
@@ -93,19 +93,19 @@ body{
   z-index: 10;
 
 
- 
+
 }
 .iphone img{
   float: right;
   height: 60vh;
   padding-right: 7vw;
 
-  
+
 }
 
 /*--------------vindu2-------------*/
 .vindu2{
-  
+
   float: left;
   background-size: cover;
   background-position: center;
@@ -149,15 +149,23 @@ background-color:#53D3D1 ;
   height: 2px;
   width: 70vw;
   background: #FEB249 ;
-  display: inline-block; 
-  margin-left:15vw; 
+  display: inline-block;
+  margin-left:15vw;
 }
 .nedelinje{
   height: 2px;
   width: 40vw;
   background: #FEB249 ;
-  display: inline-block; 
-  margin-left:30vw; 
+  display: inline-block;
+  margin-left:30vw;
+}
+.nedelinjek{
+  height: 1px;
+  width: 20vw;
+  background: white;
+  display: inline-block;
+  margin-left:40vw;
+
 }
 .tittel1{
   float: left;
@@ -166,7 +174,7 @@ background-color:#53D3D1 ;
 
 .tittel1 h1{
   font-size: 10vw;
-  
+
 }
 .tittel1 h3{
   color: #FEB249;
@@ -196,36 +204,60 @@ background-color:#53D3D1 ;
   height: 1px;
   width: 30vw;
   background: #FFF ;
-  display: inline-block; 
-  margin-left:35vw; 
+  display: inline-block;
+  margin-left:35vw;
 }*/
 .kontaktboks1{
   float: left;
-  height: 45vh; 
+  height: 45vh;
   margin-left:5vw;
   text-align: left;
+
 }
 
 .kontaktboks1 a{
   font-size: 3vw;
   display: block;
-  margin: 2vw 0;
+  margin: 3vw 0;
   color: white;
+  padding-top: 0.5vw;
 }
+
 .borderhøyre{
   height: 30vh;
   width: 1px;
   background: #FFF ;
-  display: inline-block; 
+  display: inline-block;
   float: left;
   margin-top: 6vh;
-  
+
 
 }
 .kontaktboks2{
   float: left;
   height: 45vh;
+
 }
+.kontaktboks2 a{
+  text-align: center;
+  font-size: 3vw;
+  display: block;
+  color: white;
+  padding-top: 1vw;
+
+}
+.kontaktboks2 :hover{
+color: #FEB249;
+
+}
+.kontaktboks2 h3{
+  position: center;
+  padding: 1vw;
+  text-align: center;
+  color: white;
+  font-size: 1vw;
+}
+
 .kontaktboks3{
   float: left;
   height: 45vh;
@@ -234,15 +266,29 @@ background-color:#53D3D1 ;
  height: 30vh;
   width: 1px;
   background: #FFF ;
-  display: inline-block; 
+  display: inline-block;
   float: left;
   margin-top: 6vh;
 
 }
+.knapptboks3{
 
-
-
-
+  display: inline-block;
+  padding:10px 20px;
+  margin-left: 8vw;
+  margin-top: 10vh;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.5vw;
+  letter-spacing: 2px;
+  border-radius: 3vw;
+  background-color: #FEB249;
+}
+.knapptboks3:hover{
+color: #fff;
+background-color:#53D3D1 ;
+}
 
 
 
