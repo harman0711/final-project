@@ -3,13 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
-
 	<link href='https://fonts.googleapis.com/css?family=Fira Sans Condensed' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=Fontdiner Swanky' rel='stylesheet'>
-
-
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Spreco</title>
 </head>
@@ -21,17 +17,21 @@
 					<img src="spreco123.png" alt="Bedriftslogo">
 				</div>
 
-				<div class="nav col-small50">
+				<div class="nav col-small50" id="nav">
 				<a class="active" href="index.html">Hjem</a>
 	            <a href="">Problemet</a>
 	            <a href="">Løsningen</a>
 	            <a href="">Appen</a>
 	            <a href=""><i class="fa fa-envelope" aria-hidden="true"></i></a>
 				</div>
+
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				 <i class="fa fa-bars"></i>
+				 </a>
 			</div>
 
 		<div class="vindu1 col-small100 " id="vindu1">
-			<div class="slagord col-small50">
+			<div class="slagord col-small50 col-mob100">
 				<h1>Bekjempelsen av  <mark id="matsvinn"> matsvinn</mark> har ikke vært enklere!</h1>
 				<a href="#vindu2" class="slagordknapp">Les mer</a>
 			</div>
@@ -43,7 +43,7 @@
 
 
 		<div class="vindu2 col-small100" id="vindu2">
-			<div class="tboks col-small25">
+			<div class="tboks col-small25 col-mob90">
 
 				<div class="tlogo">
 				<img src="problemlogo.png">
@@ -56,7 +56,7 @@
 				<a href="" class="knapptboks">Les mer</a>
 
 			</div>
-			<div class="tboks col-small25">
+			<div class="tboks col-small25 col-mob90">
 				<div class="tlogo">
 				<img src="løsninglogo.png">
 				</div>
@@ -69,7 +69,7 @@
 
 
 			</div>
-			<div class="tboks col-small25">
+			<div class="tboks col-small25 col-mob90">
 				<div class="tlogo col-">
 				<img src="applogo.png">
 				</div>
@@ -82,6 +82,7 @@
 				<a href="" class="knapptboks" >Les mer</a>
 
 			</div>
+
 			<a onclick="topFunction()" id="myBtn" title="Go to top" href=" #vindu1"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
 
 			<div class="tittel1 col-small100">
@@ -101,13 +102,13 @@
 				</div>
 
 
-				<div class="kontaktboks1 col-small30">
+				<div class="kontaktboks1 col-small30 col-mob40">
 					<a href="https://www.facebook.com/" class="fa fa-facebook-official" target="_blank" style="text-decoration:none">  Facebook</a>
 					<a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank" style="text-decoration:none">  Instagram</a>
 					<a href="https://www.twittwe.com/" class="fa fa-twitter-square" target="_blank" style="text-decoration:none">  Twitter</a>
 				</div>
 				<div class="borderhøyre"></div>
-				<div class="kontaktboks2 col-small30">
+				<div class="kontaktboks2 col-small30 col-mob40">
 					<h3><a href:"tel:4795093697" class="fa fa-phone" style="text-decoration:none"></a>+ 47 00 00 00 00</h3>
 					<h3> <a href="mailto:SPRECO@diCibo.no" class="fa fa-envelope" style="text-decoration:none"></a>spreco@dicibo.no</h3>
 					<h3><a href="https://g.page/OsloMet-storbyuniversitetet" target="_blank" class="fa fa-map-pin" style="text-decoration:none"></a>OsloMet <br> 0167 Oslo </h3>
@@ -115,7 +116,7 @@
 				</div>
 				<div class="bordervenstre"></div>
 
-				<div class="kontaktboks3 col-small30">
+				<div class="kontaktboks3 col-small30 col-mob100">
 					<a href="https://www.un.org/sustainabledevelopment/sustainable-consumption-production/" target="_blank" class="knapptboks3" >FN Mål</a>
 					<a href="" class="knapptboks3" >Kilder</a>
 
@@ -131,9 +132,19 @@
 	</div>
 
 	<script type="text/javascript">
-		mybutton = document.getElementById("myBtn");
 
-		
+
+		/*	function myFunction() {
+		  var x = document.getElementById("nav");
+		  if (x.style.display === "block") {
+		    x.style.display = "none";
+		  } else {
+		    x.style.display = "block";
+		  }
+}*/
+
+
+		mybutton = document.getElementById("myBtn");
 		window.onscroll = function() {scrollFunction()};
 
 		function scrollFunction() {

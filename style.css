@@ -67,6 +67,10 @@ html {
   margin-top: 3vw;
   color: rgb(6,26,38);
 }
+.bar a.icon {
+  display: none;
+  
+}
 
 
 
@@ -76,7 +80,7 @@ html {
 }
 
 .slagord h1{
-  font-size: 3.5vw;
+  font-size: 4vw;
   padding-left: 1vw;
   font-family: Monosame;
 }
@@ -232,7 +236,6 @@ background-color:#53D3D1 ;
 
 /*--------------vindu3-------------*/
 .vindu3{
-  height: 60vh;
   float: left;
   background-color: #002447;
   margin-top: 20vh;
@@ -357,6 +360,82 @@ background-color:#53D3D1 ;
 .col-small100{width: 100%;}
 
 @media only screen and (max-width: 600px){
+.col-mob10{width: 10%;}
+.col-mob15{width: 15%;}
+.col-mob25{width: 25%;}
+.col-mob30{width: 30%;}
+.col-mob40{width: 40%;}
+.col-mob50{width: 50%;}
+.col-mob60{width: 60%;}
+.col-mob70{width: 70%;}
+.col-mob90{width: 90%;}
+.col-mob100{width: 100%;}
+
+.logo{
+  margin-left: 27vw;
+  margin-top: -11vw;
+}
+.logo img{
+  width: 40vw;
+  height:40vw;
+}
+.iphone{
+  display: none;
+}
+.slagord{
+  text-align: center;
+  padding-left: 0;
+}
+.slagord h1{
+  font-size: 5vw;
+  padding-left: 0;
+}
+.slagordknapp{
+  font-size: 3vw;
+}
+.knapptboks{
+  font-size: 3vw;
+  margin-left: 36vw;
+
+}
+.ttekst h2{
+  font-size: 5vw;
+}
+.tittelk{
+  font-size: 4vw;
+}
+.kontaktboks1{
+  margin-left: 10vw;
+}
+.kontaktboks1 a{
+  font-size: 6vw;
+  margin: 5vw 0;
+}
+.kontaktboks2 a{
+  font-size: 4vw;
+}
+.kontaktboks2 h3{
+  font-size: 4vw;
+}
+.bordervenstre{
+  display: none;
+}
+.kontaktboks3{
+  height: 15vh;
+}
+.knapptboks3{
+  margin-left: 25vw;
+  margin-top: 5vh;
+}
+
+
+
+
+
+
+
+
+
 
 
 }
