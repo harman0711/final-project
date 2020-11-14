@@ -5,6 +5,7 @@
 }
 body{
   background-color:#fbeceb;
+  font-family: Fira Sans Condensed;
 }
 
 /*--------------vindu1-------------*/
@@ -17,7 +18,6 @@ body{
   border-radius : 0% 0% 50% 0%;
   z-index: -1;
 }
-
 .bar{
   height: 15vh;
   background-color: rgba(251, 236, 235,.9);
@@ -26,14 +26,12 @@ body{
   width: 100vw;
   z-index: 15;
   border-style: outset;
-
 }
 
 .logo{
   float: left;
   margin-top: -5.5vw;
   padding-left:4vw;
-
 }
 .logo img{
   float: left;
@@ -76,8 +74,8 @@ body{
 
 .slagord h1{
   font-size: 3.5vw;
-  font-family: monospace;
   padding-left: 1vw;
+  font-family: Monosame;
 }
 #matsvinn{
   color: #FEB249;
@@ -117,6 +115,15 @@ body{
   margin-top: 20vh;
   border-style: outset;
   background-image:linear-gradient(rgba(83, 211, 209,0.7),rgba(255,255,255,0.7)), url(./white.jpg);
+}
+.ttekst h2{
+  font-size: 3.5vw;
+  padding-left: 1vw;
+  font-family: Astul;
+}
+
+.ttekst h3{
+  font-family: Athiti
 }
 
 .tlogo img{
