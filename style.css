@@ -379,6 +379,38 @@ background-color:#53D3D1 ;
   width: 40vw;
   height:40vw;
 }
+
+
+
+.bar a.icon {
+  display: block;
+  position: absolute;
+  top: 5vh;
+  right: 2vw;
+  color: black;
+  
+}
+#nav{
+  display: none;;
+  position: absolute;
+  top: 12vh;
+  height: 50vh;
+  width: 100%;
+  background-color: #002447;
+  text-align: center;
+}
+.nav a{
+  display: block;
+  width: 100%;
+  padding-top: 2vh;
+  color: white;
+
+}
+
+
+
+
+
 .iphone{
   display: none;
 }
