@@ -22,7 +22,7 @@ html {
   z-index: -1;
 }
 .bar{
-  height: 15vh;
+  
   background-color: rgba(251, 236, 235,.9);
   position: fixed;
   top: 0;
@@ -33,13 +33,14 @@ html {
 
 .logo{
   float: left;
-  margin-top: -5.5vw;
-  padding-left:4vw;
+  margin-top: 2vh;
+  margin-left: 3vw;
+  margin-bottom: 1vh;
+  
 }
 .logo img{
   float: left;
- width: 20vw;
- height: 20vw;
+ width: 100%; 
 
 }
 .nav a{
@@ -133,7 +134,7 @@ html {
   background-position: center;
 }
 .tboks{
-  height: 75vh;
+  height: ;
   float: left;
   margin-left: 6.2vw;
   margin-top: 20vh;
@@ -166,6 +167,7 @@ html {
   padding:6px 18px;
   margin-left: 7.2vw;
   margin-top: 7vh;
+  margin-bottom: 3vh;
   text-decoration: none;
   text-transform: uppercase;
   color: black;
@@ -256,7 +258,6 @@ background-color:#53D3D1 ;
 }*/
 .kontaktboks1{
   float: left;
-  height: 45vh;
   margin-left:5vw;
   text-align: center;
 }
@@ -267,6 +268,10 @@ background-color:#53D3D1 ;
   margin: 3vw 0;
   color: white;
   padding-top: 0.5vw;
+}
+.kontaktboks1 a:hover{
+color: #FEB249;
+
 }
 
 .borderhøyre{
@@ -281,7 +286,6 @@ background-color:#53D3D1 ;
 }
 .kontaktboks2{
   float: left;
-  height: 45vh;
 
 }
 .kontaktboks2 a{
@@ -292,7 +296,7 @@ background-color:#53D3D1 ;
   padding-top: 1vw;
 
 }
-.kontaktboks2 :hover{
+.kontaktboks2 a:hover{
 color: #FEB249;
 
 }
@@ -306,7 +310,6 @@ color: #FEB249;
 
 .kontaktboks3{
   float: left;
-  height: 45vh;
 }
 .bordervenstre{
  height: 30vh;
@@ -317,7 +320,7 @@ color: #FEB249;
   margin-top: 6vh;
 
 }
-.knapptboks3{
+.knapptboks3a{
 
   display: inline-block;
   padding:10px 20px;
@@ -331,7 +334,21 @@ color: #FEB249;
   border-radius: 3vw;
   background-color: #FEB249;
 }
-.knapptboks3:hover{
+.knapptboks3b{
+
+  display: inline-block;
+  padding:10px 20px;
+  margin-left: 10vw;
+  margin-top: 10vh;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.5vw;
+  letter-spacing: 2px;
+  border-radius: 3vw;
+  background-color: #FEB249;
+}
+.kontaktboks3 a:hover{
 color: #fff;
 background-color:#53D3D1 ;
 }
@@ -351,6 +368,7 @@ background-color:#53D3D1 ;
 }
 .col-small10{width: 10%;}
 .col-small15{width: 15%;}
+.col-small20{width: 20%;}
 .col-small25{width: 25%;}
 .col-small30{width: 30%;}
 .col-small40{width: 40%;}
@@ -367,17 +385,20 @@ background-color:#53D3D1 ;
 .col-mob40{width: 40%;}
 .col-mob50{width: 50%;}
 .col-mob60{width: 60%;}
+.col-mob65{width: 65%;}
 .col-mob70{width: 70%;}
 .col-mob90{width: 90%;}
 .col-mob100{width: 100%;}
 
 .logo{
-  margin-left: 27vw;
-  margin-top: -11vw;
+  float: left;
+  margin-left: 30vw; 
+  margin-top: 2vh;
 }
 .logo img{
-  width: 40vw;
-  height:40vw;
+  float: left;
+ width: 100%; 
+
 }
 
 
@@ -385,25 +406,28 @@ background-color:#53D3D1 ;
 .bar a.icon {
   display: block;
   position: absolute;
-  top: 5vh;
-  right: 2vw;
+  top: 4vh;
+  right: 3vw;
+  font-size: 6vw;
   color: black;
   
 }
 #nav{
-  display: none;;
+  display: none;
   position: absolute;
   top: 12vh;
-  height: 50vh;
-  width: 100%;
+  left: -5px;
+  height: 40vh;
+  width: 102%;
   background-color: #002447;
   text-align: center;
 }
 .nav a{
   display: block;
   width: 100%;
-  padding-top: 2vh;
+  padding-top: 4vh;
   color: white;
+  font-size: 3vw;
 
 }
 
@@ -454,20 +478,27 @@ background-color:#53D3D1 ;
 }
 .kontaktboks3{
   height: 15vh;
-}
-.knapptboks3{
   margin-left: 25vw;
-  margin-top: 5vh;
+  align-items: center;
+  justify-content: center;
+
 }
+.knapptboks3a{
+  float: left;
+  margin-left: 0vw;
+  margin-top: 0vh;
+  font-size: 2vw;
+}
+.knapptboks3b{
+  float: right;
+  margin-left: 0;
+  margin-top: 0;
+  font-size: 2vw;
 
-
-
-
-
-
-
-
-
+}
+#myBtn{
+  font-size: 8vw;
+}
 
 
 }
@@ -476,7 +507,94 @@ background-color:#53D3D1 ;
 
 
 @media only screen and (min-width: 600px) and (max-width: 790px){
+.col-pad10{width: 10%;}
+.col-pad15{width: 15%;}
+.col-pad20{width: 20%;}
+.col-pad25{width: 25%;}
+.col-pad30{width: 30%;}
+.col-pad40{width: 40%;}
+.col-pad50{width: 50%;}
+.col-pad60{width: 60%;}
+.col-pad65{width: 65%;}
+.col-pad70{width: 70%;}
+.col-pad80{width: 80%;}
+.col-pad90{width: 90%;}
+.col-pad100{width: 100%;}
+ 
+  .nav a{
+    font-size: 3vw;
+    padding-right: 3vw;
+  }
+  .nav{
+    margin-top: 5vh;
+  }
+  .slagord h1{
+    font-size: 6vw;
+  }
+  .slagordknapp{
+    font-size: 3vw;
+  }
+  .iphone{
+    top: 25vh;
+  }
+  .iphone img{
+    height: 70vh;
+  }
 
+  .ttekst{
+    float: right;
+  }
+  .ttekst h2{
+ 
+}
+
+.tlogo{
+  float: left;
+  margin-top: 7vh;
+  margin-left: 3vw;
+  padding-bottom: 5vh;
+}
+.tlogo img{
+  height: 20vh;
+ 
+}
+.ttekst{
+  padding-top: 4vh;
+}
+.knapptboks{
+  margin-left: 30vw;
+  font-size: 2.5vw;
+
+}
+.kontaktboks1 a{
+  font-size: 4vw;
+  margin: 6vw 0;
+  padding-top: 0.5vw;
+}
+
+.kontaktboks2 a{
+  font-size: 5vw;
+  margin: 1.4vw 0;
+  padding-top: 0vw;
+}
+
+.kontaktboks2 h3{
+  font-size: 2.4vw;
+  
+}
+.tittelk h1{
+font-size: 6vw;
+}
+
+.kontaktboks3 a{
+  font-size: 2.6vw;
+  margin-top: 9vh;
+  
+
+}
+#myBtn{
+  font-size: 6vw;
+}
 
   
 }
