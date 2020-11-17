@@ -22,7 +22,7 @@ html {
   z-index: -1;
 }
 .bar{
-  
+
   background-color: rgba(251, 236, 235,.9);
   position: fixed;
   top: 0;
@@ -36,11 +36,11 @@ html {
   margin-top: 2vh;
   margin-left: 3vw;
   margin-bottom: 1vh;
-  
+
 }
 .logo img{
   float: left;
- width: 100%; 
+ width: 100%;
 
 }
 .nav a{
@@ -70,7 +70,7 @@ html {
 }
 .bar a.icon {
   display: none;
-  
+
 }
 
 
@@ -85,10 +85,12 @@ html {
   padding-left: 1vw;
   font-family: Monosame;
 }
+
 #matsvinn{
   color: #FEB249;
   background-color: transparent;
 }
+
 .slagordknapp{
   display: inline-block;
   padding:6px 18px;
@@ -181,17 +183,17 @@ color: #fff;
 background-color:#53D3D1 ;
 }
 #myBtn {
-  display: none; 
-  position: fixed; 
-  bottom: 20px; 
-  right: 30px; 
-  z-index: 99; 
-  border: none; 
-  outline: none; 
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
   background-color: transparent ;
   color: #FEB249;
-  cursor: pointer; 
-  font-size: 4vw; 
+  cursor: pointer;
+  font-size: 4vw;
 }
 
 
@@ -353,11 +355,159 @@ color: #fff;
 background-color:#53D3D1 ;
 }
 
+/*-----------------------------LØSNIIIIIIIIIIIING!!!!!!-----------------------*/
+.Lslagord{
+  margin-top: 45vh;
+  padding-left: 5vw;
+  margin-left: 10vw;
+}
+.Lslagord h1{
+  font-size: 4vw;
+  padding-left: 1vw;
+  font-family: Monosame;
 
+}
+.Lslagordknapp{
+  display: inline-block;
+  padding:6px 18px;
+  margin-left: 25vw;
+  margin-top: 7vh;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 2.5vw;
+  letter-spacing: 2px;
+  border-radius: 3vw;
+  background-color: #FEB249;
+}
+.Lslagordknapp:hover{
+  background-color:#53D3D1;
+  border: 1px solid ;
+}
+.Lmarkinger{
+  color: #FEB249;
+  background-color: transparent;
+}
+
+.Lvindu1{
+  background-image:linear-gradient(rgba(255,255,255,0.7),rgba(83, 211, 209,0.7)), url(./white.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  overflow: auto;
+  background-color: black;
+  z-index: -1;
+}
+
+.Lvindu2{
+  background-color: rgb(245, 237, 236);
+
+  background-size: cover;
+  background-position: center;
+  overflow: auto;
+  z-index: -1;
+  float: left;
+}
+
+.Ltittel{
+  font-size: 2.8vw;
+  margin-left: 36vw;
+  margin-top: 15vh;
+}
+.Lnedelinjek{
+  height: 2.7px;
+  width: 20vw;
+  background: #FEB249;
+  display: inline-block;
+  margin-left:2.59999999999vw;
+
+}
+
+
+.Lttekst{
+  text-align: center;
+  margin-left: 10vw;
+  margin-top: 8vh;
+  font-size: 1.5vw;
+
+}
+
+.Ltpunkter{
+  margin-left: 13vw;
+  margin-top: 8vh;
+  font-size: 2vw;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Lttekst2 img{
+width: 20vw;
+margin-left: 5vw;
+margin-top: 5vw;
+float: left;
+}
+.Lbildetekst{
+  margin-left: 5vw;
+  margin-top: 10vh;
+  float: left;
+  font-size: 2vw;
+}
+.Lnedelinjek2{
+  height: 2px;
+  width: 70vw;
+  background: #FEB249;
+  display: inline-block;
+  margin-left:15vw;
+  margin-top: 13vw;
+}
+.Lbordervenstre{
+ height: 30vh;
+  width: 2px;
+  background: #FEB249;
+  display: inline-block;
+  float: left;
+  margin-top: 9vh;
+  margin-left: 5vw;
+
+}
+.Lborderhøyre{
+ height: 30vh;
+  width: 2px;
+  background: #FEB249;
+  display: inline-block;
+  float: left;
+  margin-top: -22vh;
+  margin-left: 90vw;
+}
+.Lnedelinjekk2{
+  height: 2px;
+  width: 70vw;
+  background: #FEB249;
+  display: inline-block;
+  margin-left:10vw;
+  margin-top: 5vh;
+}
+
+.Lttekst3{
+  margin-left: 10vw;
+  margin-top: 5vw;
+  font-size: 2vw;
+}
+.Lttekst33{
+  margin-left: 10vw;
+  margin-top: 10vw;
+  font-size: 2vw;
+}
+.Lttekst4{
+  margin-left: 10vw;
+  margin-top: 5vw;
+  font-size: 2vw;
+}
+
+/*-------------------------------Responsiv----------------------*/
 
 
 [class*="col-"]{
-  border: black solid px;
+  border: black solid 0px;
 
 }
 
@@ -375,6 +525,8 @@ background-color:#53D3D1 ;
 .col-small50{width: 50%;}
 .col-small60{width: 60%;}
 .col-small70{width: 70%;}
+.col-small80{width: 80%;}
+.col-small90{width: 90%;}
 .col-small100{width: 100%;}
 
 @media only screen and (max-width: 600px){
@@ -392,12 +544,12 @@ background-color:#53D3D1 ;
 
 .logo{
   float: left;
-  margin-left: 30vw; 
+  margin-left: 30vw;
   margin-top: 2vh;
 }
 .logo img{
   float: left;
- width: 100%; 
+ width: 100%;
 
 }
 
@@ -410,7 +562,7 @@ background-color:#53D3D1 ;
   right: 3vw;
   font-size: 6vw;
   color: black;
-  
+
 }
 #nav{
   display: none;
@@ -520,7 +672,7 @@ background-color:#53D3D1 ;
 .col-pad80{width: 80%;}
 .col-pad90{width: 90%;}
 .col-pad100{width: 100%;}
- 
+
   .nav a{
     font-size: 3vw;
     padding-right: 3vw;
@@ -545,7 +697,7 @@ background-color:#53D3D1 ;
     float: right;
   }
   .ttekst h2{
- 
+
 }
 
 .tlogo{
@@ -556,7 +708,7 @@ background-color:#53D3D1 ;
 }
 .tlogo img{
   height: 20vh;
- 
+
 }
 .ttekst{
   padding-top: 4vh;
@@ -580,7 +732,7 @@ background-color:#53D3D1 ;
 
 .kontaktboks2 h3{
   font-size: 2.4vw;
-  
+
 }
 .tittelk h1{
 font-size: 6vw;
@@ -589,12 +741,12 @@ font-size: 6vw;
 .kontaktboks3 a{
   font-size: 2.6vw;
   margin-top: 9vh;
-  
+
 
 }
 #myBtn{
   font-size: 6vw;
 }
 
-  
+
 }
