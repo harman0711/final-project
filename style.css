@@ -355,6 +355,154 @@ color: #fff;
 background-color:#53D3D1 ;
 }
 
+/*-----------------------------Problemet--------------------------------------*/
+.Pvindu1{
+  background-image:linear-gradient(rgba(255,255,255,0.7),rgba(83, 211, 209,0.7)), url(./white.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  overflow: auto;
+  background-color: black;
+  z-index: -1;
+}
+.Pslagord{
+  margin-top: 45vh;
+  margin-left: 15vw;
+}
+.Pslagord h1{
+  font-size: 4vw;
+  padding-left: 1vw;
+  font-family: Monosame;
+
+}
+.Pmarkering{
+  color: #FEB249;
+  background-color: transparent;
+}
+.Pkilde{
+  color: black;
+  background-color: transparent;
+  font-size: 1.5vw;
+}
+.Pslagordknapp{
+  display: inline-block;
+  padding:6px 18px;
+  margin-left: 25vw;
+  margin-top: 7vh;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 2.5vw;
+  letter-spacing: 2px;
+  border-radius: 3vw;
+  background-color: #FEB249;
+}
+.Pslagordknapp:hover{
+  background-color:#53D3D1;
+  border: 1px solid ;
+}
+
+.Pvindu2{
+  float: left;
+}
+
+.Ptittel{
+  font-size: 2.8vw;
+  margin-left: 36vw;
+  margin-top: 15vh;
+}
+.Pnedelinjek{
+  height: 2.7px;
+  width: 20vw;
+  background: #FEB249;
+  display: inline-block;
+  margin-left:2.59999999999vw;
+
+}
+.Ptekst{
+  text-align: center;
+  margin-left: 10vw;
+  margin-top: 8vh;
+  font-size: 1.5vw;
+
+}
+
+.Pstorquote{
+  float: left;
+}
+.Pborderoppe{
+  float: left;
+  margin-bottom: 5vh;
+  width: 60vw;
+  height: 2px;
+  margin-left: 7vw;
+  background-color: #FEB249;
+}
+.Pbordervenstre{
+  margin-top: 10vh;
+  width: 2px;
+  height: 15vh;
+  margin-left:13vw; 
+  background-color: #FEB249;
+  float: left;
+
+
+}
+.Pquote{
+  float: left;
+  margin-left: 2vw;
+  margin-right: 2vw;
+
+}
+.Pquote h2{
+  font-size: 4vw;
+}
+.Pquote h3{
+  padding-right: 2.5vw;
+}
+.Pborderhøyre{
+  margin-top: 5vh;
+  width: 2px;
+  height: 15vh;
+  background-color: #FEB249;
+  float: left;
+
+}
+.Pbordernede{
+  width: 60vw;
+  height: 2px;
+  margin-left: 20vw;
+  margin-top: 5vh;
+  background-color: #FEB249;
+  float: left;
+
+}
+.Ptekst2{
+ float: left;
+ margin-bottom: 10vh;
+ margin-top: 5vh;
+}
+.P12{
+  float: left;
+  margin-left: 20vw;
+
+}
+.P12 img{
+  width: 100%;
+
+}
+.P13{
+  float: right;
+  margin-right: 20vw;
+  }
+
+.P13 img{
+  width: 100%;
+
+}
+
+
+
 /*-----------------------------LØSNIIIIIIIIIIIING!!!!!!-----------------------*/
 .Lslagord{
   margin-top: 45vh;
@@ -572,7 +720,7 @@ float: left;
 
 
 [class*="col-"]{
-  border: black solid 0px;
+  border: black solid px;
 
 }
 
