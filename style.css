@@ -412,7 +412,7 @@ background-color:#53D3D1 ;
 .Ltittel{
   font-size: 2.8vw;
   margin-left: 36vw;
-  margin-top: 15vh;
+  margin-top: 11vh;
 }
 .Lnedelinjek{
   height: 2.7px;
@@ -427,7 +427,7 @@ background-color:#53D3D1 ;
 .Lttekst{
   text-align: center;
   margin-left: 10vw;
-  margin-top: 8vh;
+  margin-top: 2vh;
   font-size: 1.5vw;
 
 }
@@ -437,6 +437,54 @@ background-color:#53D3D1 ;
   margin-top: 8vh;
   font-size: 2vw;
   font-family: 'Roboto', sans-serif;
+
+}
+.Ltpunkter li{
+  margin: 1.5vh 0;
+}
+.Llinjek2{
+  height: 2.7px;
+  width: 30vw;
+  background: #FEB249;
+  display: inline-block;
+  margin-left:35vw;
+  margin-top: 1.5vw;
+
+}
+.Lv2knapp{
+  display: inline-block;
+  padding: 3px 8px;
+  margin-top: 12vh;
+  margin-left: 44vw;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 2vw;
+  letter-spacing: 2px;
+  border-radius: 3vw;
+  background-color: #FEB249;
+}
+.Lv3knapp{
+  display: inline-block;
+  padding: 3px 8px;
+  margin-top: 9vh;
+  margin-left: 44vw;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 2vw;
+  letter-spacing: 2px;
+  border-radius: 3vw;
+  background-color: #FEB249;
+}
+.Lms{
+  margin-left: 50vw;
+
+}
+.Ltteekst {
+  margin-top: 7vh;
+  margin-left: 10vw;
+  font-size: 2vw;
 }
 
 .Lttekst2 img{
@@ -456,8 +504,8 @@ float: left;
   width: 70vw;
   background: #FEB249;
   display: inline-block;
-  margin-left:15vw;
-  margin-top: 13vw;
+  margin-left:7vw;
+  margin-top: 5vw;
 }
 .Lbordervenstre{
  height: 30vh;
@@ -465,7 +513,7 @@ float: left;
   background: #FEB249;
   display: inline-block;
   float: left;
-  margin-top: 9vh;
+  margin-top: 15vh;
   margin-left: 5vw;
 
 }
@@ -475,7 +523,7 @@ float: left;
   background: #FEB249;
   display: inline-block;
   float: left;
-  margin-top: -22vh;
+  margin-top: -30vh;
   margin-left: 90vw;
 }
 .Lnedelinjekk2{
@@ -483,7 +531,7 @@ float: left;
   width: 70vw;
   background: #FEB249;
   display: inline-block;
-  margin-left:10vw;
+  margin-left:12vw;
   margin-top: 5vh;
 }
 
@@ -494,13 +542,30 @@ float: left;
 }
 .Lttekst33{
   margin-left: 10vw;
-  margin-top: 10vw;
-  font-size: 2vw;
-}
-.Lttekst4{
-  margin-left: 10vw;
   margin-top: 5vw;
   font-size: 2vw;
+}
+
+.Lttlinje{
+  height: 2px;
+  width: 30vw;
+  background: #FEB249;
+  display: inline-block;
+  margin-left:2vw;
+  margin-bottom: 2vh;
+
+}
+
+.Lttekst4{
+  margin-left: 10vw;
+  margin-top: 3vw;
+  font-size: 2vw;
+}
+.Lttekst44{
+  margin-left: 10vw;
+  margin-top: 3vw;
+  font-size: 2vw;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*-------------------------------Responsiv----------------------*/
