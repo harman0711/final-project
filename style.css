@@ -323,7 +323,6 @@ color: #FEB249;
 
 }
 .knapptboks3a{
-
   display: inline-block;
   padding:10px 20px;
   margin-left: 10vw;
@@ -442,7 +441,7 @@ background-color:#53D3D1 ;
   margin-top: 10vh;
   width: 2px;
   height: 15vh;
-  margin-left:13vw; 
+  margin-left:13vw;
   background-color: #FEB249;
   float: left;
 
@@ -560,7 +559,7 @@ background-color:#53D3D1 ;
 .Ltittel{
   font-size: 2.8vw;
   margin-left: 36vw;
-  margin-top: 11vh;
+  margin-top: 13vh;
 }
 .Lnedelinjek{
   height: 2.7px;
@@ -596,13 +595,13 @@ background-color:#53D3D1 ;
   background: #FEB249;
   display: inline-block;
   margin-left:35vw;
-  margin-top: 1.5vw;
+  margin-top: 1vw;
 
 }
 .Lv2knapp{
   display: inline-block;
   padding: 3px 8px;
-  margin-top: 12vh;
+  margin-top: 9vh;
   margin-left: 44vw;
   text-decoration: none;
   text-transform: uppercase;
@@ -633,6 +632,7 @@ background-color:#53D3D1 ;
   margin-top: 7vh;
   margin-left: 10vw;
   font-size: 2vw;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .Lttekst2 img{
@@ -692,6 +692,7 @@ float: left;
   margin-left: 10vw;
   margin-top: 5vw;
   font-size: 2vw;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .Lttlinje{
@@ -708,19 +709,23 @@ float: left;
   margin-left: 10vw;
   margin-top: 3vw;
   font-size: 2vw;
+  font-family: 'Roboto', sans-serif;
+}
+.Lttekst4 li{
+  margin: 1.5vh 0;
 }
 .Lttekst44{
   margin-left: 10vw;
   margin-top: 3vw;
   font-size: 2vw;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 /*-------------------------------Responsiv----------------------*/
 
 
 [class*="col-"]{
-  border: black solid px;
+  border: black solid 0px;
 
 }
 
@@ -866,6 +871,125 @@ float: left;
 }
 
 
+/*---------------------------------------------------------------------------------*/
+/*-------------------------------Responsiv Løsning----------------------------------*/
+/*---------------------------------------------------------------------------------*/
+
+                        /*---------Mobil-----------*/
+.Lslagord {
+  text-align: center;
+  padding-left: 0;
+  margin-top: 45vh;
+  margin-left: 5vw;
+
+}
+.Lslagord h1{
+  font-size: 5vw;
+}
+.Lslagordknapp{
+  font-size: 3vw;
+  margin-right: 25vw;
+}
+.Ltittel{
+  font-size: 4vw;
+  margin-left: 34vw;
+  margin-top: 13vh;
+}
+.Lnedelinjek{
+  height: 2.7px;
+  width: 20vw;
+  background: #FEB249;
+  display: inline-block;
+  margin-left: 6vw;
+}
+.Lttekst{
+  font-size: 3vw;
+  line-height: 1.4;
+  margin-left: 15vw;
+  margin-top: 3vh;
+}
+.Ltpunkter{
+  font-size: 3vw;
+  margin-top: 7vw;
+}
+.Llinjek2{
+  margin-top: 10vw;
+}
+.Lv2knapp{
+  display: none;
+}
+.Ltteekst{
+  font-size: 3vw;
+  line-height: 1.4;
+  margin-left: 15vw;
+  margin-top: 3vh;
+}
+
+.Lttekst2 img{
+width: 40vw;
+margin-left: 23vw;
+margin-top: 7vw;
+float: none;
+}
+
+.Lbildetekst{
+  margin-left: 23vw;
+  margin-top: 6vh;
+  float: none;
+  font-size: 3vw;
+  line-height: 1.4;
+}
+.Lnedelinjek2{}
+
+.Lbordervenstre{
+  height: 30vh;
+  width: 2px;
+  background: #FEB249;
+  display: inline-block;
+  float: left;
+  margin-top: 13vh;
+  margin-left: 5vw;
+}
+.Lborderhøyre{
+}
+.Lnedelinjekk2{
+
+}
+.Lv3knapp{
+  display: none;
+}
+.Lttekst33{
+  margin-left: 15vw;
+  margin-top: 6vw;
+}
+.Lttekst33 h3{
+  text-align: center;
+  font-size: 4.5vw;
+}
+.Lttlinje{
+  margin-left:20vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+.Lttekst33 h4{
+  font-size: 3vw;
+  line-height: 1.4;
+}
+.Lttekst4 {
+  font-size: 3vw;
+  margin-left: 13vw;
+  margin-top: 5vw;
+}
+.Lttekst44{
+  margin-top: 5vw;
+  margin-left: 15vw;
+}
+.Lttekst44 h4{
+  font-size: 3vw;
+  line-height: 1.4;
+}
+
+
 }
 
 
@@ -962,4 +1086,119 @@ font-size: 6vw;
 }
 
 
+/*-----------------------------------------LØSNINGGGG------------------------*/
+
+.Lslagord {
+  text-align: center;
+  padding-left: 0;
+  margin-top: 45vh;
+  margin-left: 5vw;
+
+}
+.Lslagord h1{
+  font-size: 5vw;
+}
+.Lslagordknapp{
+  font-size: 3vw;
+  margin-right: 25vw;
+}
+.Ltittel{
+  font-size: 4vw;
+  margin-left: 33vw;
+  margin-top: 15vh;
+}
+
+.Lttekst{
+  font-size: 2.5vw;
+  line-height: 1.4;
+  margin-left: 10vw;
+  margin-top: 3vh;
+}
+.Lnedelinjek{
+  margin-left: 7vw;
+}
+.Ltpunkter{
+  font-size: 2.7vw;
+  margin-bottom: 15vh;
+  margin-top: 5vh;
+}
+.Lv2knapp{
+  display: none;
+}
+.Llinjek2{
+  margin-top: 2vh;
+  margin-bottom: 7vh;
+
+}
+.Ltteekst{
+  font-size: 2.5vw;
+  margin-left: 5vw;
+  float: left;
+
+}
+.Lv3knapp{
+  display: none;
+}
+.Lnedelinjek2{
+  height: 2px;
+  width: 40vw;
+  background: #FEB249;
+  display: transparent;
+  float: right;
+  margin-left: 0vw;
+  margin-top: 6vh;
+  margin-right: 5vw;
+}
+.Lbordervenstre{
+  height: 60vh;
+  float: left;
+  margin-top: 13vh;
+  margin-left: 5vw;
+}
+.Lborderhøyre{
+  height: 60vh;
+  width: 2px;
+  background: #FEB249;
+  display: inline-block;
+  float: left;
+  margin-top: -64vh;
+  margin-left: 98vw;
+}
+.Lnedelinjekk2{
+  height: 2px;
+  width: 40vw;
+  background: #FEB249;
+  display: inline-block;
+  margin-left: 55vw;
+  margin-top: -3vh;
+}
+
+.Lttekst2 img{
+  width: 25vw;
+  margin-left: 60vw;
+  margin-top: -35vw;
+
+}
+.Lbildetekst{
+margin-right: 5vw;
+margin-top: -25vh;
+float: right;
+font-size: 2vw;
+}
+.Lttekst33 h3{
+  font-size: 3.3vw;
+}
+.Lttekst33 h4{
+  font-size: 2.5vw;
+}
+.Lttekst4{
+  font-size: 2.7vw;
+}
+.Lttekst44{
+  font-size: 2.5vw;
+}
+.Lttlinje{
+  margin-left: 12vw;
+  margin-top: 2vh;
+}
 }
