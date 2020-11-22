@@ -716,6 +716,127 @@ float: left;
   font-family: 'Roboto', sans-serif;
 }
 
+/*-----------------------------APPEN--------------------------------------*/
+.Avindu1{
+  background-image:linear-gradient(rgba(255,255,255,0.7),rgba(83, 211, 209,0.7)), url(./white.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  overflow: auto;
+  z-index: -1;
+}
+.Aslagord{
+  margin-top: 45vh;
+  padding-left: 5vw;
+}
+
+.Aslagord h1{
+  font-size: 4vw;
+  padding-left: 1vw;
+  font-family: Monosame;
+}
+
+#Amarkering{
+  color: #FEB249;
+  background-color: transparent;
+}
+
+.Aslagordknapp{
+  display: inline-block;
+  padding:6px 18px;
+  margin-left: 1vw;
+  margin-top: 7vh;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 2.5vw;
+  letter-spacing: 2px;
+  border-radius: 3vw;
+  background-color: #FEB249;
+}
+.Aslagordknapp:hover{
+  background-color:#53D3D1;
+  border: 1px solid ;
+}
+
+
+.Atablet{
+  float: right;
+  position: absolute;
+  top: 20vh;
+  left: 50vw;
+  z-index: 10;
+
+}
+.Atablet img{
+  height: 60vh;
+}
+.Aappstore{
+  float: left;
+  position: absolute;
+  top: 85vh;
+  left: 52vw;
+  z-index: 10;
+}
+.Aappstore img{
+  height: 10vh;
+  margin-left: 4%;
+}
+
+.Avindu2{
+  float: left;
+  background-size: cover;
+  background-position: center;
+}
+
+.Abildeboks1 {
+  margin-top: 10vh;
+  float: left;
+}
+.Abildeboks1 img{
+  width: 40vw;
+}
+.Atekstboks1 {
+  margin-top: 4vh;
+  float: left;
+  font-size: 1.5vw;
+}
+.Atekstboks1 h1{
+  font-size: 4vw;
+}
+.Atekstboks1 li{
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 40px;
+  margin: 0;
+  padding: 16px 0 16px 84px;
+  list-style: none;
+  background-image: url('punkt.png');
+}
+.Abildeboks2 {
+  margin-top: 2vh;
+  float: left;
+}
+.Abildeboks2 img{
+  width: 20vw;
+}
+.Atekstboks2{
+  margin-top: 1.1vw;
+  float: left;
+  font-size: 1.5vw;
+  padding-left: 3vw;
+}
+.Atekstboks2 h1{
+  font-size: 4vw;
+}
+.Atekstboks2 h2{
+  color: orange;
+  margin-top: 2vh;
+}
+.Atekstboks2 p{
+  padding-right: 6vw;
+}
+
 /*-------------------------------Responsiv----------------------*/
 
 
