@@ -409,7 +409,7 @@ background-color:#53D3D1 ;
 .Ptittel{
   font-size: 2.8vw;
   margin-left: 36vw;
-  margin-top: 15vh;
+  margin-top: 12vh;
 }
 .Pnedelinjek{
   height: 2.7px;
@@ -422,8 +422,8 @@ background-color:#53D3D1 ;
 .Ptekst{
   text-align: center;
   margin-left: 10vw;
-  margin-top: 8vh;
-  font-size: 1.5vw;
+  margin-top: 6vh;
+  font-size: 1.8vw;
 
 }
 
@@ -456,6 +456,7 @@ background-color:#53D3D1 ;
 }
 .Pquote h2{
   font-size: 4vw;
+  text-align: center;
 }
 .Pquote h3{
   padding-right: 2.5vw;
@@ -479,8 +480,8 @@ background-color:#53D3D1 ;
 }
 .Ptekst2{
  float: left;
- margin-bottom: 10vh;
- margin-top: 5vh;
+ margin-bottom: 5vh;
+ margin-top: 6vh;
 }
 .P12{
   float: left;
@@ -500,7 +501,41 @@ background-color:#53D3D1 ;
   width: 100%;
 
 }
+.Ptittel3{
+  float: left;
+  margin-top: 8vh;
+  margin-left: 10vw;
+}
+.Ptittel3 h1{
+  font-size: 3vw;
+}
+.Plittnedelinje{
+  height: 2px;
+  width: 35vw;
+  background: #FEB249;
+  display: inline-block;
+  margin-left:2.5vw;
+  margin-bottom: 1vh;
+  float: left;
 
+}
+.Ptekst3{
+  float: left;
+  margin-top: 5vh;
+  margin-left: 10vw;
+  margin-bottom: 8vh;
+}
+.Ptekst3 h3{
+  font-size: 1.8vw; 
+}
+.Pkilde2{
+  color: #FEB249;
+  background-color: transparent;
+  text-decoration: underline ;
+  font-size: 2vw;
+  font-family: 'Cormorant Garamond', serif;
+
+}
 
 
 /*-----------------------------LØSNIIIIIIIIIIIING!!!!!!-----------------------*/
@@ -985,6 +1020,78 @@ float: left;
 #myBtn{
   font-size: 8vw;
 }
+/*-----------------------------Problemet--------------------------------------*/
+.Pslagord{
+  margin-left: 6vw;
+  
+}
+.Pslagord h1{
+  padding-left:0;
+  font-size: 7vw;
+  
+}
+.Pkilde{
+  font-size: 3vw;
+  float: left;
+}
+.Pslagordknapp{
+  margin-left: 30vw;
+  font-size: 5vw;
+}
+.Ptittel{
+  margin-left: 25vw;
+
+}
+.Ptittel h1{
+  font-size: 10vw;
+  padding-left: 4vw;
+ 
+
+}
+.Pnedelinjek{
+  width: 35vw;
+  margin-left: 8vw;
+}
+.Ptekst{
+  font-size: 4vw;
+  text-align: 
+}
+.P12{
+  margin-left: 5vw;
+}
+.P13{
+  margin-right:  5vw;
+}
+.Ptittel3 h1{
+  font-size: 6vw;
+
+}
+.Plittnedelinje{
+  width: 70vw;
+  margin-left: 5vw;
+}
+.Ptekst3 h3{
+  text-align:center; 
+  font-size: 4vw;
+}
+.Pkilde2{
+  font-size: 4vw;
+}
+
+.Pquote h2{
+  font-size: 7vw;
+}
+.Pquote h3{
+  padding-right: 0vw;
+}
+.Pbordervenstre{
+  height: 25vh;
+
+}
+.Pborderhøyre{
+  height: 25vh;
+  
+}
 
 
 }
@@ -998,12 +1105,14 @@ float: left;
 .col-pad20{width: 20%;}
 .col-pad25{width: 25%;}
 .col-pad30{width: 30%;}
+.col-pad35{width: 35%;}
 .col-pad40{width: 40%;}
 .col-pad50{width: 50%;}
 .col-pad60{width: 60%;}
 .col-pad65{width: 65%;}
 .col-pad70{width: 70%;}
 .col-pad80{width: 80%;}
+.col-pad85{width: 85%;}
 .col-pad90{width: 90%;}
 .col-pad100{width: 100%;}
 
@@ -1081,6 +1190,74 @@ font-size: 6vw;
 #myBtn{
   font-size: 6vw;
 }
+/*-----------------------------Problemet--------------------------------------*/
+.Pslagord{
+  margin-left: 5vw;
+}
+.Pslagord h1{
+  padding-left: 0;
+  font-size:6vw;
+}
+.Pkilde{
+  font-size: 2.5vw;
+  float: right;
+}
+.Pslagordknapp{
+  font-size: 4vw;
+  margin-left:32.5vw; 
 
+}
+.Ptittel{
+  margin-left: 30vw;
+
+}
+.Ptittel h1{
+  font-size: 8vw;
+  padding-left: 3vw;
+ 
+}
+.Pnedelinjek{
+  width: 30vw;
+  margin-left: 5vw;
+}
+.Ptekst{
+  font-size: 3vw;
+}
+.P12{
+  margin-left: 10vw;
+  
+}
+.P13{
+  margin-right: 10vw;
+
+}
+.Ptittel3 h1{
+  font-size: 5vw;
+}
+.Plittnedelinje{
+  width: 60vw;
+
+}
+.Ptekst3 h3{
+  font-size: 3vw;
+}
+.Pkilde2{
+  font-size: 3vw;
+}
+.Pquote h2{
+  font-size: 5vw;
+
+}
+.Pquote h3{
+  font-size: 3vw;
+
+}
+.Pborderhøyre{
+  height: 20vw;
+}
+
+.Pbordervenstre{
+  height:20vw;
+}
 
 }
