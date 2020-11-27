@@ -1025,6 +1025,7 @@ float: left;
 #myBtn{
   font-size: 8vw;
 }
+<<<<<<< Updated upstream
 /*-----------------------------Problemet--------------------------------------*/
 .Pslagord{
   margin-left: 6vw;
@@ -1225,7 +1226,56 @@ float: none;
   line-height: 1.4;
 }
 
+=======
+/*-------------------------------App mobil----------------------*/
+.Atablet {
+  display: none;
+}
+.Aappstore{
+  left: 1;
+}
+.Aappstore img{
+>>>>>>> Stashed changes
 
+  }
+.Aslagord{
+  text-align: center;
+  padding-left: 0;
+}
+.Aslagord h1{
+  font-size: 5vw;
+  padding-left: 0;
+}
+.Aslagordknapp{
+  font-size: 3vw;
+}
+.Aappstore{
+  position: absolute;
+  top: 65vh;
+  left: 30vw;
+  z-index: 10;
+}
+.Aappstore img{
+  margin-left: 0;
+  width: 40vw;
+}
+.Atekstboks1{
+  font-size: 3.5vw;
+  padding-left: 0;
+  margin-left: 3.5vw;
+
+}
+.Atekstboks2{
+  font-size: 3.5vw;
+  margin-left: 3.5vw;
+}
+.Abildeboks1 img{
+  width: 100%;
+}
+
+.Abildeboks2 img{
+  display: none;
+}
 
 }
 
