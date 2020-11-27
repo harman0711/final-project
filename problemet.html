@@ -24,10 +24,10 @@
 	            <a class="active" href="problemet.html">Problemet </a>
 	            <a href="losning.html">Løsningen</a>
 	            <a href="app.html">Appen</a>
-	            <a href="#vindu3"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+	            <a id="envelope" href="#vindu3"><i class="fa fa-envelope" aria-hidden="true"></i></a>
 				</div>
 
-				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<a href="javascript:void(0);" id="b"class="icon" onclick="myFunction()">
 				 <i class="fa fa-bars"></i>
 				 </a>
 			</div>
@@ -110,8 +110,7 @@
 
 
 
-
-			<div class="vindu3 col-small100" id="vindu3">
+<div class="vindu3 col-small100" id="vindu3">
 			<div class="tittelk col-small100">
 				<h1 align="center">Kontakt oss</h1>
 				<div class="nedelinjek col-"></div>
@@ -119,19 +118,17 @@
 
 
 				<div class="kontaktboks1 col-small30 col-mob40">
-					<a href="https://www.facebook.com/" class="fa fa-facebook-official" target="_blank" style="text-decoration:none">  Facebook</a>
+					<a href="https://www.facebook.com/" class="fa fa-facebook-official" target="_blank" style="text-decoration:none"> Facebook</a>
 					<a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank" style="text-decoration:none">  Instagram</a>
 					<a href="https://www.twittwe.com/" class="fa fa-twitter-square" target="_blank" style="text-decoration:none">  Twitter</a>
 				</div>
 				<div class="borderhøyre"></div>
 				<div class="kontaktboks2 col-small30 col-mob40">
-					<h3><a href="tel:47000000001" class="fa fa-phone" style="text-decoration:none"></a>+ 47 00 00 00 00</h3>
-					<h3> <a href="mailto:SPRECO@diCibo.no" class="fa fa-envelope" style="text-decoration:none"></a>spreco@dicibo.no</h3>
-					<h3><a href="https://g.page/OsloMet-storbyuniversitetet" target="_blank" class="fa fa-map-pin" style="text-decoration:none"></a>OsloMet <br> 0167 Oslo </h3>
-						</div>
-			
-	
+					<a href="tel:47000000001" class="fa fa-phone" style="text-decoration:none"> <br> + 47 00 00 00 00</a>
+					<h3> <a href="mailto:SPRECO@diCibo.no" class="fa fa-envelope" style="text-decoration:none"><br>spreco@dicibo.no</a>
+					<h3><a href="https://g.page/OsloMet-storbyuniversitetet" target="_blank" class="fa fa-map-pin" style="text-decoration:none"><br>OsloMet <br> 0167 Oslo </a>
 
+				</div>
 				<div class="bordervenstre"></div>
 
 				<div class="kontaktboks3 col-small30 col-mob50">
@@ -152,12 +149,17 @@
 	<script type="text/javascript">
 
 
+
 			function myFunction() {
+			var b=document.getElementById("b")	
 		  var x = document.getElementById("nav");
 		  if (x.style.display === "block") {
 		    x.style.display = "none";
+		    b.style.color="black";
 		  } else {
 		    x.style.display = "block";
+		    b.style.color="white";
+
 		  }
 }
 

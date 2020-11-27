@@ -386,7 +386,7 @@ background-color:#53D3D1 ;
 .Pslagordknapp{
   display: inline-block;
   padding:6px 18px;
-  margin-left: 25vw;
+  margin-left: 30vw;
   margin-top: 7vh;
   text-decoration: none;
   text-transform: uppercase;
@@ -407,7 +407,7 @@ background-color:#53D3D1 ;
 
 .Ptittel{
   font-size: 2.8vw;
-  margin-left: 36vw;
+  margin-left: 40vw;
   margin-top: 12vh;
 }
 .Pnedelinjek{
@@ -415,7 +415,7 @@ background-color:#53D3D1 ;
   width: 20vw;
   background: #FEB249;
   display: inline-block;
-  margin-left:2.59999999999vw;
+  margin-left:2vw;
 
 }
 .Ptekst{
@@ -881,7 +881,7 @@ float: left;
 
 
 [class*="col-"]{
-  border: black solid 0px;
+  border: black solid px;
 
 }
 
@@ -927,7 +927,9 @@ float: left;
 
 }
 
-
+#envelope{
+  display: none;
+}
 
 .bar a.icon {
   display: block;
@@ -939,11 +941,11 @@ float: left;
 
 }
 #nav{
-  display: none;
+  display:none;
   position: absolute;
-  top: 12vh;
+  top: -5vh;
   left: -5px;
-  height: 40vh;
+  height: 105vh;
   width: 102%;
   background-color: #002447;
   text-align: center;
@@ -951,9 +953,9 @@ float: left;
 .nav a{
   display: block;
   width: 100%;
-  padding-top: 4vh;
+  padding-top: 15vh;
   color: white;
-  font-size: 3vw;
+  font-size: 5vw;
 
 }
 
@@ -969,7 +971,7 @@ float: left;
   padding-left: 0;
 }
 .slagord h1{
-  font-size: 5vw;
+  font-size: 7vw;
   padding-left: 0;
 }
 .slagordknapp{
@@ -980,18 +982,29 @@ float: left;
   margin-left: 36vw;
 
 }
+.tboks{
+  margin-left: 5vw;
+}
 .ttekst h2{
+
   font-size: 5vw;
+}
+.ttekst h3{
+  padding-left:2vw ;
+  padding-right:2vw ;
 }
 .tittelk{
   font-size: 4vw;
+}
+.vindu3{
+  margin-top: 10vh;
 }
 .kontaktboks1{
   margin-left: 10vw;
 }
 .kontaktboks1 a{
   font-size: 6vw;
-  margin: 5vw 0;
+  margin: 5vh 0;
 }
 .kontaktboks2 a{
   font-size: 4vw;
@@ -1022,13 +1035,14 @@ float: left;
   font-size: 2vw;
 
 }
-#myBtn{
-  font-size: 8vw;
+#myBtn i{
+  display: none;
 }
-<<<<<<< Updated upstream
+
 /*-----------------------------Problemet--------------------------------------*/
 .Pslagord{
   margin-left: 6vw;
+  margin-top: 40vh;
   
 }
 .Pslagord h1{
@@ -1039,6 +1053,7 @@ float: left;
 .Pkilde{
   font-size: 3vw;
   float: left;
+  margin-top: 2vh;
 }
 .Pslagordknapp{
   margin-left: 30vw;
@@ -1324,7 +1339,10 @@ float: none;
   }
   .ttekst h2{
 
-}
+  }
+  .tboks{
+    margin-left: 5vw;
+  }
 
 .tlogo{
   float: left;
@@ -1338,11 +1356,15 @@ float: none;
 }
 .ttekst{
   padding-top: 4vh;
+  
 }
 .knapptboks{
   margin-left: 30vw;
   font-size: 2.5vw;
 
+}
+.vindu3{
+  margin-top: 10vh;
 }
 .kontaktboks1 a{
   font-size: 4vw;
@@ -1351,15 +1373,12 @@ float: none;
 }
 
 .kontaktboks2 a{
-  font-size: 5vw;
+  font-size: 3vw;
   margin: 1.4vw 0;
-  padding-top: 0vw;
+  padding-top: 2vh;
 }
 
-.kontaktboks2 h3{
-  font-size: 2.4vw;
 
-}
 .tittelk h1{
 font-size: 6vw;
 }
@@ -1382,12 +1401,13 @@ font-size: 6vw;
   font-size:6vw;
 }
 .Pkilde{
+  margin-top: 2vh;
   font-size: 2.5vw;
   float: right;
 }
 .Pslagordknapp{
   font-size: 4vw;
-  margin-left:32.5vw; 
+  margin-left:35vw; 
 
 }
 .Ptittel{
