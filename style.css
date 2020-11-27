@@ -540,19 +540,19 @@ background-color:#53D3D1 ;
 /*-----------------------------LØSNIIIIIIIIIIIING!!!!!!-----------------------*/
 .Lslagord{
   margin-top: 45vh;
-  padding-left: 5vw;
-  margin-left: 10vw;
+  
+  margin-left: 18vw;
 }
 .Lslagord h1{
   font-size: 4vw;
-  padding-left: 1vw;
+  
   font-family: Monosame;
 
 }
 .Lslagordknapp{
   display: inline-block;
   padding:6px 18px;
-  margin-left: 25vw;
+  margin-left: 27vw;
   margin-top: 7vh;
   text-decoration: none;
   text-transform: uppercase;
@@ -593,7 +593,7 @@ background-color:#53D3D1 ;
 .Ltittel{
   font-size: 2.8vw;
   margin-left: 36vw;
-  margin-top: 13vh;
+  margin-top: 12vh;
 }
 .Lnedelinjek{
   height: 2.7px;
@@ -815,7 +815,7 @@ float: left;
   float: left;
   position: absolute;
   top: 85vh;
-  left: 52vw;
+  left: 51.5vw;
   z-index: 10;
 }
 .Aappstore img{
@@ -830,7 +830,7 @@ float: left;
 }
 
 .Abildeboks1 {
-  margin-top: 10vh;
+  margin-top: 20vh;
   float: left;
 }
 .Abildeboks1 img{
@@ -844,6 +844,11 @@ float: left;
 .Atekstboks1 h1{
   font-size: 4vw;
 }
+.Atekstboks1 p{
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+  font-size: 2vw;
+}
 .Atekstboks1 li{
   background-repeat: no-repeat;
   background-position: left center;
@@ -852,9 +857,10 @@ float: left;
   padding: 16px 0 16px 84px;
   list-style: none;
   background-image: url('punkt.png');
+  font-size: 1.7vw;
 }
 .Abildeboks2 {
-  margin-top: 2vh;
+  margin-top: 10vh;
   float: left;
 }
 .Abildeboks2 img{
@@ -863,11 +869,15 @@ float: left;
 .Atekstboks2{
   margin-top: 1.1vw;
   float: left;
-  font-size: 1.5vw;
+  font-size: 1.7vw;
   padding-left: 3vw;
 }
 .Atekstboks2 h1{
   font-size: 4vw;
+}
+.Atekstboks2 p{
+  margin-top: 1vh;
+  margin-bottom: 2vh;
 }
 .Atekstboks2 h2{
   color: orange;
@@ -1240,25 +1250,25 @@ float: none;
   font-size: 3vw;
   line-height: 1.4;
 }
-
-=======
 /*-------------------------------App mobil----------------------*/
+
+
+
+
+
 .Atablet {
   display: none;
 }
 .Aappstore{
   left: 1;
 }
-.Aappstore img{
->>>>>>> Stashed changes
-
-  }
 .Aslagord{
   text-align: center;
   padding-left: 0;
+  margin-left: 5vw;
 }
 .Aslagord h1{
-  font-size: 5vw;
+  font-size: 7vw;
   padding-left: 0;
 }
 .Aslagordknapp{
@@ -1278,11 +1288,25 @@ float: none;
   font-size: 3.5vw;
   padding-left: 0;
   margin-left: 3.5vw;
+}
+.Atekstboks1 li{
+  font-size: 3.5vw;
+
+}
+.Atekstboks1 p{
+  font-size: 3.8vw;
+
+}
+.Atekstboks1 h1{
+  font-size: 7vw;
 
 }
 .Atekstboks2{
   font-size: 3.5vw;
   margin-left: 3.5vw;
+}
+.Atekstboks2 h1{
+  font-size: 7vw;
 }
 .Abildeboks1 img{
   width: 100%;
@@ -1291,8 +1315,10 @@ float: none;
 .Abildeboks2 img{
   display: none;
 }
-
 }
+
+
+
 
 
 
