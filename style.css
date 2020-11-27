@@ -639,10 +639,10 @@ background-color:#53D3D1 ;
 .Llinjek2{
   height: 2.7px;
   width: 30vw;
-  background: #FEB249;
+  background: rgb(255,235,235);
   display: inline-block;
   margin-left:35vw;
-  margin-top: 5vw;
+  margin-top: 0vw;
 
 }
 .Lv2knapp{
@@ -668,6 +668,14 @@ background-color:#53D3D1 ;
   margin-left: 10vw;
   font-size: 2vw;
   font-family: 'Noto Sans', sans-serif;
+}
+.Lteksover{
+  height: 2px;
+  width: 30vw;
+  background: #FEB249;
+  display: inline-block;
+  margin-left:2vw;
+  margin-bottom: 2vh;
 }
 
 .Lttekst2 img{
@@ -1165,6 +1173,16 @@ float: left;
 .Ltpunkter{
   font-size: 3vw;
   margin-top: 7vw;
+  margin-left: 18vw;
+}
+.Ltteekst h2{
+
+}
+.Lteksover{
+  margin-left:11vw;
+  margin-bottom: 1vh;
+
+
 }
 .Lpunkterbilde{
   margin-top: 3vh;
@@ -1239,7 +1257,7 @@ float: none;
 }
 .Lttekst4 {
   font-size: 3vw;
-  margin-left: 13vw;
+  margin-left: 18vw;
   margin-top: 5vw;
 }
 .Lttekst44{
@@ -1256,6 +1274,8 @@ float: none;
 
 
 
+
+=======
 .Atablet {
   display: none;
 }
@@ -1529,14 +1549,14 @@ font-size: 6vw;
   display: none;
 }
 .Llinjek2{
-  margin-top: -5vh;
-  margin-bottom: 7vh;
+  display: none;
 
 }
 .Ltteekst{
-  font-size: 2.5vw;
-  margin-left: 5vw;
-  margin-top: 12vh;
+  font-size: 2.7vw;
+  margin-top: -3vh;
+}
+.Ltteekst h2{
   float: left;
 
 }
@@ -1544,42 +1564,35 @@ font-size: 6vw;
   display: none;
 }
 .Lnedelinjek2{
-  display: none;
-
+  margin-left: 11vw;
+  margin-top: 5vw;
 }
 .Lbordervenstre{
-  height: 60vh;
-  float: left;
-  margin-top: 8vh;
-  margin-left: 5vw;
+  display: none;
 }
 .Lborderhøyre{
-display: none;
+  display: none;
 }
 .Lnedelinjekk2{
-  height: 2px;
-  width: 40vw;
-  background: rgb(253,235,235);
-  display: inline-block;
-  margin-left: 55vw;
-  margin-top: 0vh;
-  display: transparent;
 }
 
 .Lttekst2 img{
-  width: 25vw;
-  margin-left: 60vw;
-  margin-top: -46vw;
+  width: 20vw;
+  margin-left: 10vw;
+  margin-top: 5vw;
+  float: 0;
+  width: 25%;
 
 }
 .Lbildetekst{
-margin-right: 5vw;
-margin-top: -32vh;
-float: right;
-font-size: 2vw;
+  margin-left: 10vw;
+  margin-top: 5vh;
+  float: 0;
+  font-size: 2.2vw;
 }
 .Lttekst33 h3{
   font-size: 3.3vw;
+  margin-top: 7vh;
 }
 .Lttekst33 h4{
   font-size: 2.5vw;
@@ -1588,10 +1601,10 @@ font-size: 2vw;
   font-size: 2.7vw;
 }
 .Lttekst44{
-  font-size: 2.5vw;
+  font-size: 2.7vw;
 }
 .Lttlinje{
-  margin-left: 12vw;
+  margin-left: 5vw;
   margin-top: 2vh;
 }
 .Lpunkterbilde{
@@ -1599,6 +1612,9 @@ font-size: 2vw;
   margin-left: 25vw;
   margin-right: 0;
 }
-
+.Lteksover{
+  margin-left: 5vw;
+  margin-top: 2vh;
+}
 
 }
