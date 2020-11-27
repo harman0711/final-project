@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="nb">
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href='https://fonts.googleapis.com/css?family=Fira Sans Condensed' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Fontdiner Swanky' rel='stylesheet'>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
 	<title>Spreco</title>
 </head>
 <body>
@@ -21,18 +23,18 @@
 				<a href="index.html">Hjem</a>
 	            <a class="active" href="problemet.html">Problemet </a>
 	            <a href="losning.html">Løsningen</a>
-	            <a href="">Appen</a>
-	            <a href="#vindu3"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+	            <a href="app.html">Appen</a>
+	            <a id="envelope" href="#vindu3"><i class="fa fa-envelope" aria-hidden="true"></i></a>
 				</div>
 
-				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<a href="javascript:void(0);" id="b"class="icon" onclick="myFunction()">
 				 <i class="fa fa-bars"></i>
 				 </a>
 			</div>
 
 
 			<div class="Pvindu1 col-small100">
-				<div class="Pslagord col-small70">
+				<div class="Pslagord col-small70 col-mob90 col-pad90" >
 					<h1>“Hvert eneste år kaster nordmenn mer enn <mark class="Pmarkering"> 217 tonn</mark> mat. Mat som <mark class="Pmarkering">kunne</mark> vært spist”&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <mark class="Pkilde">-Marie Hebrok og Nina Heidenstrøm ("Maten vi kaster"-SIFO)</mark> </h1>
 					
 					<a href="#Pvindu2" class="Pslagordknapp">Les mer</a>
@@ -44,35 +46,58 @@
 
 
 			<div class="Pvindu2 col-small100" id="Pvindu2">
-	        <div class="Ptittel col-small30">
+	        <div class="Ptittel col-small30 col-pad40 col-mob50">
 	          <h1>Problemet</h1>
 	          <div class="Pnedelinjek "></div>
 	        </div>
 	        <div class="Ptekst col-small80">
+
 	        	<h3>Vi som Spreco har et mål om å kunne jobbe mot FN`s 12. bærekraftsmål "Ansvarlig forbruk og produksjon", ved at vi fokusere på delmålet 12.3(Innen 2030 halvere matsvinn per innbygger på verdensbasis). Samtidig vil vårt arbeid for å redusere matsvinn føre til en grønnere fremtid, minske unødig mat produskjon og redusere klimaendringer. Dermed jobber vi delvis mot FN`s 13. bærekraftsmål "Stoppe klimaendringene". </h3>
 	        	
 	        </div>
 
 	        <div class="Ptekst2 col-small100">
-	        <div class="P12 col-small20">
-	        	<img src="FN12.png">	        	
+	        <div class="P12 col-small20 col-pad35 col-mob40">
+	        	<img src="FN12.png" alt="Bilde av fn sitt 13 bærekraftsmål logo">	        	
 	        </div>
-	        <div class="P13 col-small20">
-	        	<img src="FN13.png">	        	
+	        <div class="P13 col-small20 col-pad35 col-mob40">
+	        	<img src="FN13.png" alt="Bilde av fn sitt 12 bærekraftsmål logo">	        	
 	        </div>
+	        <a onclick="topFunction()" id="myBtn" title="Go to top" href=" #vindu1"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+
 	        </div>
 	        
 
-	        <div class="Pstorquote col-small100">
+	        
+
+	        <div class="Ptittel3 col-small80">
+	        	<h1>Hvorfor er matsvinn et problem?</h1>
+	        <div class="Plittnedelinje"></div>
+	        </div>
+	      	<div class="Ptekst3 col-small80">
+	      		<h3>Når en kaster mat i søpla, så er det ikke kun maten som går til spille. Også vannet, frøene og gjødselen kastes. Bondens arbeid går til spille. Til og med drivstoffet som er brukt for å frakte maten rundt, kastes bort. På denne måten er ikke dagens produksjon og konsum bærekraftig. Mer enn en tredel av all mat produsert går tapt eller kastes. Dette forekommer i alle deler av produksjons- og distribueringskjeden. Store deler går tapt på grunn av dårlige avlinger, strenge kvalitetskrav, feil oppbevaring, og dårlig planlegging under innkjøp. <a class="Pkilde2" href="">Source1</a></h3>
+	        	<br>
+	        	<br>
+	      		<h3>Å redusere matsvinn er alfa og omega for å gjøre verden til et bedre sted. Det viktigste vi får ut av å redusere matsvinn er at miljøavtrykket avlastes. Dette er et steg mot riktig retning for å redde kloden vår. Samtidig så vil redusert matsvinn gi økt inntekt og det blir en vinn-vinn situasjon for både forbruker og produsent.<a class="Pkilde2" href="">Source2</a></h3>
+
+	      		<br>
+	      		<h3>Ifølge FN’s hjemmeside så finnes det mer enn nok mat for alle i verden. Likevel så går millioner av mennesker til søvns sulten, hver eneste dag! Hvis vi klarer å hindre matsvinn vil vi redusere både fattigdom og sult. <a class="Pkilde2" href="">Source3</a></h3>
+	      		
+	      	</div>
+
+	      	<div class="Pstorquote col-small100">
 	        <div class="Pbordervenstre"></div>
 	        <div class="Pborderoppe"></div>
-	        <div class="Pquote col-small70">
-	        	<h2 align="center">“Cutting food waste is a delicious way of <mark class="Pmarkering">saving</mark> money, <mark class="Pmarkering">helping</mark> to feed the world and <mark class="Pmarkering">protect</mark> the planet”</h2>
+	        <div class="Pquote col-small70 col-mob80">
+	        	<h2 >“Cutting food waste is a delicious way of <mark class="Pmarkering">saving</mark> money, <mark class="Pmarkering">helping</mark> to feed the world and <mark class="Pmarkering">protect</mark> the planet”</h2>
 	        	<h3 align="right">-Tristram Stuart</h3>
 	        </div>
 	        <div class="Pborderhøyre"></div>
 	        <div class="Pbordernede"></div>
 	        </div>
+	        	
+	        
+	   		
 
 	        
              
@@ -85,8 +110,7 @@
 
 
 
-
-			<div class="vindu3 col-small100" id="vindu3">
+<div class="vindu3 col-small100" id="vindu3">
 			<div class="tittelk col-small100">
 				<h1 align="center">Kontakt oss</h1>
 				<div class="nedelinjek col-"></div>
@@ -94,19 +118,17 @@
 
 
 				<div class="kontaktboks1 col-small30 col-mob40">
-					<a href="https://www.facebook.com/" class="fa fa-facebook-official" target="_blank" style="text-decoration:none">  Facebook</a>
+					<a href="https://www.facebook.com/" class="fa fa-facebook-official" target="_blank" style="text-decoration:none"> Facebook</a>
 					<a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank" style="text-decoration:none">  Instagram</a>
 					<a href="https://www.twittwe.com/" class="fa fa-twitter-square" target="_blank" style="text-decoration:none">  Twitter</a>
 				</div>
 				<div class="borderhøyre"></div>
 				<div class="kontaktboks2 col-small30 col-mob40">
-					<h3><a href="tel:47000000001" class="fa fa-phone" style="text-decoration:none"></a>+ 47 00 00 00 00</h3>
-					<h3> <a href="mailto:SPRECO@diCibo.no" class="fa fa-envelope" style="text-decoration:none"></a>spreco@dicibo.no</h3>
-					<h3><a href="https://g.page/OsloMet-storbyuniversitetet" target="_blank" class="fa fa-map-pin" style="text-decoration:none"></a>OsloMet <br> 0167 Oslo </h3>
-						</div>
-			
-	
+					<a href="tel:47000000001" class="fa fa-phone" style="text-decoration:none"> <br> + 47 00 00 00 00</a>
+					<h3> <a href="mailto:SPRECO@diCibo.no" class="fa fa-envelope" style="text-decoration:none"><br>spreco@dicibo.no</a>
+					<h3><a href="https://g.page/OsloMet-storbyuniversitetet" target="_blank" class="fa fa-map-pin" style="text-decoration:none"><br>OsloMet <br> 0167 Oslo </a>
 
+				</div>
 				<div class="bordervenstre"></div>
 
 				<div class="kontaktboks3 col-small30 col-mob50">
@@ -127,12 +149,17 @@
 	<script type="text/javascript">
 
 
+
 			function myFunction() {
+			var b=document.getElementById("b")	
 		  var x = document.getElementById("nav");
 		  if (x.style.display === "block") {
 		    x.style.display = "none";
+		    b.style.color="black";
 		  } else {
 		    x.style.display = "block";
+		    b.style.color="white";
+
 		  }
 }
 

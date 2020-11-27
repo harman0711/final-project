@@ -292,10 +292,10 @@ color: #FEB249;
 }
 .kontaktboks2 a{
   text-align: center;
-  font-size: 3vw;
+  font-size: 2vw;
   display: block;
   color: white;
-  padding-top: 1vw;
+  padding-top: 3vh;
 
 }
 .kontaktboks2 a:hover{
@@ -386,7 +386,7 @@ background-color:#53D3D1 ;
 .Pslagordknapp{
   display: inline-block;
   padding:6px 18px;
-  margin-left: 25vw;
+  margin-left: 30vw;
   margin-top: 7vh;
   text-decoration: none;
   text-transform: uppercase;
@@ -407,22 +407,22 @@ background-color:#53D3D1 ;
 
 .Ptittel{
   font-size: 2.8vw;
-  margin-left: 36vw;
-  margin-top: 15vh;
+  margin-left: 40vw;
+  margin-top: 13vh;
 }
 .Pnedelinjek{
   height: 2.7px;
   width: 20vw;
   background: #FEB249;
   display: inline-block;
-  margin-left:2.59999999999vw;
+  margin-left:2vw;
 
 }
 .Ptekst{
   text-align: center;
   margin-left: 10vw;
-  margin-top: 8vh;
-  font-size: 1.5vw;
+  margin-top: 6vh;
+  font-size: 1.8vw;
 
 }
 
@@ -455,6 +455,7 @@ background-color:#53D3D1 ;
 }
 .Pquote h2{
   font-size: 4vw;
+  text-align: center;
 }
 .Pquote h3{
   padding-right: 2.5vw;
@@ -478,8 +479,8 @@ background-color:#53D3D1 ;
 }
 .Ptekst2{
  float: left;
- margin-bottom: 10vh;
- margin-top: 5vh;
+ margin-bottom: 5vh;
+ margin-top: 6vh;
 }
 .P12{
   float: left;
@@ -499,25 +500,59 @@ background-color:#53D3D1 ;
   width: 100%;
 
 }
+.Ptittel3{
+  float: left;
+  margin-top: 8vh;
+  margin-left: 10vw;
+}
+.Ptittel3 h1{
+  font-size: 3vw;
+}
+.Plittnedelinje{
+  height: 2px;
+  width: 35vw;
+  background: #FEB249;
+  display: inline-block;
+  margin-left:2.5vw;
+  margin-bottom: 1vh;
+  float: left;
 
+}
+.Ptekst3{
+  float: left;
+  margin-top: 5vh;
+  margin-left: 10vw;
+  margin-bottom: 8vh;
+}
+.Ptekst3 h3{
+  font-size: 1.8vw; 
+}
+.Pkilde2{
+  color: #FEB249;
+  background-color: transparent;
+  text-decoration: underline ;
+  font-size: 2vw;
+  font-family: 'Cormorant Garamond', serif;
+
+}
 
 
 /*-----------------------------LØSNIIIIIIIIIIIING!!!!!!-----------------------*/
 .Lslagord{
   margin-top: 45vh;
-  padding-left: 5vw;
-  margin-left: 10vw;
+  
+  margin-left: 18vw;
 }
 .Lslagord h1{
   font-size: 4vw;
-  padding-left: 1vw;
+  
   font-family: Monosame;
 
 }
 .Lslagordknapp{
   display: inline-block;
   padding:6px 18px;
-  margin-left: 25vw;
+  margin-left: 27vw;
   margin-top: 7vh;
   text-decoration: none;
   text-transform: uppercase;
@@ -729,11 +764,142 @@ float: left;
   font-family: 'Noto Sans', sans-serif;
 }
 
+/*-----------------------------APPEN--------------------------------------*/
+.Avindu1{
+  background-image:linear-gradient(rgba(255,255,255,0.7),rgba(83, 211, 209,0.7)), url(./white.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  overflow: auto;
+  z-index: -1;
+}
+.Aslagord{
+  margin-top: 45vh;
+  padding-left: 5vw;
+}
+
+.Aslagord h1{
+  font-size: 4vw;
+  padding-left: 1vw;
+  font-family: Monosame;
+}
+
+#Amarkering{
+  color: #FEB249;
+  background-color: transparent;
+}
+
+.Aslagordknapp{
+  display: inline-block;
+  padding:6px 18px;
+  margin-left: 1vw;
+  margin-top: 7vh;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 2.5vw;
+  letter-spacing: 2px;
+  border-radius: 3vw;
+  background-color: #FEB249;
+}
+.Aslagordknapp:hover{
+  background-color:#53D3D1;
+  border: 1px solid ;
+}
+
+
+.Atablet{
+  float: right;
+  position: absolute;
+  top: 20vh;
+  left: 50vw;
+  z-index: 10;
+
+}
+.Atablet img{
+  height: 60vh;
+}
+.Aappstore{
+  float: left;
+  position: absolute;
+  top: 85vh;
+  left: 51.5vw;
+  z-index: 10;
+}
+.Aappstore img{
+  height: 10vh;
+  margin-left: 4%;
+}
+
+.Avindu2{
+  float: left;
+  background-size: cover;
+  background-position: center;
+}
+
+.Abildeboks1 {
+  margin-top: 20vh;
+  float: left;
+}
+.Abildeboks1 img{
+  width: 40vw;
+}
+.Atekstboks1 {
+  margin-top: 4vh;
+  float: left;
+  font-size: 1.5vw;
+}
+.Atekstboks1 h1{
+  font-size: 4vw;
+}
+.Atekstboks1 p{
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+  font-size: 2vw;
+}
+.Atekstboks1 li{
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 40px;
+  margin: 0;
+  padding: 16px 0 16px 84px;
+  list-style: none;
+  background-image: url('punkt.png');
+  font-size: 1.7vw;
+}
+.Abildeboks2 {
+  margin-top: 10vh;
+  float: left;
+}
+.Abildeboks2 img{
+  width: 20vw;
+}
+.Atekstboks2{
+  margin-top: 1.1vw;
+  float: left;
+  font-size: 1.7vw;
+  padding-left: 3vw;
+}
+.Atekstboks2 h1{
+  font-size: 4vw;
+}
+.Atekstboks2 p{
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+}
+.Atekstboks2 h2{
+  color: orange;
+  margin-top: 2vh;
+}
+.Atekstboks2 p{
+  padding-right: 6vw;
+}
+
 /*-------------------------------Responsiv----------------------*/
 
 
 [class*="col-"]{
-  border: black solid 0px;
+  border: black solid px;
 
 }
 
@@ -779,7 +945,9 @@ float: left;
 
 }
 
-
+#envelope{
+  display: none;
+}
 
 .bar a.icon {
   display: block;
@@ -791,11 +959,11 @@ float: left;
 
 }
 #nav{
-  display: none;
+  display:none;
   position: absolute;
-  top: 12vh;
+  top: -5vh;
   left: -5px;
-  height: 40vh;
+  height: 105vh;
   width: 102%;
   background-color: #002447;
   text-align: center;
@@ -803,9 +971,9 @@ float: left;
 .nav a{
   display: block;
   width: 100%;
-  padding-top: 4vh;
+  padding-top: 15vh;
   color: white;
-  font-size: 3vw;
+  font-size: 5vw;
 
 }
 
@@ -821,7 +989,7 @@ float: left;
   padding-left: 0;
 }
 .slagord h1{
-  font-size: 5vw;
+  font-size: 7vw;
   padding-left: 0;
 }
 .slagordknapp{
@@ -832,18 +1000,29 @@ float: left;
   margin-left: 36vw;
 
 }
+.tboks{
+  margin-left: 5vw;
+}
 .ttekst h2{
+
   font-size: 5vw;
+}
+.ttekst h3{
+  padding-left:2vw ;
+  padding-right:2vw ;
 }
 .tittelk{
   font-size: 4vw;
+}
+.vindu3{
+  margin-top: 10vh;
 }
 .kontaktboks1{
   margin-left: 10vw;
 }
 .kontaktboks1 a{
   font-size: 6vw;
-  margin: 5vw 0;
+  margin: 5vh 0;
 }
 .kontaktboks2 a{
   font-size: 4vw;
@@ -874,8 +1053,83 @@ float: left;
   font-size: 2vw;
 
 }
-#myBtn{
-  font-size: 8vw;
+#myBtn i{
+  display: none;
+}
+
+/*-----------------------------Problemet--------------------------------------*/
+.Pslagord{
+  margin-left: 6vw;
+  margin-top: 40vh;
+  
+}
+.Pslagord h1{
+  padding-left:0;
+  font-size: 7vw;
+  
+}
+.Pkilde{
+  font-size: 3vw;
+  float: left;
+  margin-top: 2vh;
+}
+.Pslagordknapp{
+  margin-left: 30vw;
+  font-size: 5vw;
+}
+.Ptittel{
+  margin-left: 25vw;
+
+}
+.Ptittel h1{
+  font-size: 10vw;
+  padding-left: 4vw;
+ 
+
+}
+.Pnedelinjek{
+  width: 35vw;
+  margin-left: 8vw;
+}
+.Ptekst{
+  font-size: 4vw;
+  text-align: 
+}
+.P12{
+  margin-left: 5vw;
+}
+.P13{
+  margin-right:  5vw;
+}
+.Ptittel3 h1{
+  font-size: 6vw;
+
+}
+.Plittnedelinje{
+  width: 70vw;
+  margin-left: 5vw;
+}
+.Ptekst3 h3{
+  text-align:center; 
+  font-size: 4vw;
+}
+.Pkilde2{
+  font-size: 4vw;
+}
+
+.Pquote h2{
+  font-size: 7vw;
+}
+.Pquote h3{
+  padding-right: 0vw;
+}
+.Pbordervenstre{
+  height: 25vh;
+
+}
+.Pborderhøyre{
+  height: 25vh;
+  
 }
 
 
@@ -1014,11 +1268,77 @@ float: none;
   font-size: 3vw;
   line-height: 1.4;
 }
+/*-------------------------------App mobil----------------------*/
 
 
 
+
+
+
+=======
+.Atablet {
+  display: none;
+}
+.Aappstore{
+  left: 1;
+}
+.Aslagord{
+  text-align: center;
+  padding-left: 0;
+  margin-left: 5vw;
+}
+.Aslagord h1{
+  font-size: 7vw;
+  padding-left: 0;
+}
+.Aslagordknapp{
+  font-size: 3vw;
+}
+.Aappstore{
+  position: absolute;
+  top: 65vh;
+  left: 30vw;
+  z-index: 10;
+}
+.Aappstore img{
+  margin-left: 0;
+  width: 40vw;
+}
+.Atekstboks1{
+  font-size: 3.5vw;
+  padding-left: 0;
+  margin-left: 3.5vw;
+}
+.Atekstboks1 li{
+  font-size: 3.5vw;
 
 }
+.Atekstboks1 p{
+  font-size: 3.8vw;
+
+}
+.Atekstboks1 h1{
+  font-size: 7vw;
+
+}
+.Atekstboks2{
+  font-size: 3.5vw;
+  margin-left: 3.5vw;
+}
+.Atekstboks2 h1{
+  font-size: 7vw;
+}
+.Abildeboks1 img{
+  width: 100%;
+}
+
+.Abildeboks2 img{
+  display: none;
+}
+}
+
+
+
 
 
 
@@ -1029,12 +1349,14 @@ float: none;
 .col-pad20{width: 20%;}
 .col-pad25{width: 25%;}
 .col-pad30{width: 30%;}
+.col-pad35{width: 35%;}
 .col-pad40{width: 40%;}
 .col-pad50{width: 50%;}
 .col-pad60{width: 60%;}
 .col-pad65{width: 65%;}
 .col-pad70{width: 70%;}
 .col-pad80{width: 80%;}
+.col-pad85{width: 85%;}
 .col-pad90{width: 90%;}
 .col-pad100{width: 100%;}
 
@@ -1063,7 +1385,10 @@ float: none;
   }
   .ttekst h2{
 
-}
+  }
+  .tboks{
+    margin-left: 5vw;
+  }
 
 .tlogo{
   float: left;
@@ -1077,11 +1402,15 @@ float: none;
 }
 .ttekst{
   padding-top: 4vh;
+  
 }
 .knapptboks{
   margin-left: 30vw;
   font-size: 2.5vw;
 
+}
+.vindu3{
+  margin-top: 10vh;
 }
 .kontaktboks1 a{
   font-size: 4vw;
@@ -1090,15 +1419,12 @@ float: none;
 }
 
 .kontaktboks2 a{
-  font-size: 5vw;
+  font-size: 3vw;
   margin: 1.4vw 0;
-  padding-top: 0vw;
+  padding-top: 2vh;
 }
 
-.kontaktboks2 h3{
-  font-size: 2.4vw;
 
-}
 .tittelk h1{
 font-size: 6vw;
 }
@@ -1112,7 +1438,76 @@ font-size: 6vw;
 #myBtn{
   font-size: 6vw;
 }
+/*-----------------------------Problemet--------------------------------------*/
+.Pslagord{
+  margin-left: 5vw;
+}
+.Pslagord h1{
+  padding-left: 0;
+  font-size:6vw;
+}
+.Pkilde{
+  margin-top: 2vh;
+  font-size: 2.5vw;
+  float: right;
+}
+.Pslagordknapp{
+  font-size: 4vw;
+  margin-left:35vw; 
 
+}
+.Ptittel{
+  margin-left: 30vw;
+
+}
+.Ptittel h1{
+  font-size: 8vw;
+  padding-left: 3vw;
+ 
+}
+.Pnedelinjek{
+  width: 30vw;
+  margin-left: 5vw;
+}
+.Ptekst{
+  font-size: 3vw;
+}
+.P12{
+  margin-left: 10vw;
+  
+}
+.P13{
+  margin-right: 10vw;
+
+}
+.Ptittel3 h1{
+  font-size: 5vw;
+}
+.Plittnedelinje{
+  width: 60vw;
+
+}
+.Ptekst3 h3{
+  font-size: 3vw;
+}
+.Pkilde2{
+  font-size: 3vw;
+}
+.Pquote h2{
+  font-size: 5vw;
+
+}
+.Pquote h3{
+  font-size: 3vw;
+
+}
+.Pborderhøyre{
+  height: 20vw;
+}
+
+.Pbordervenstre{
+  height:20vw;
+}
 
 /*-----------------------------------------LØSNINGGGG------------------------*/
 
