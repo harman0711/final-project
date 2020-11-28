@@ -9,9 +9,14 @@ body{
 html {
   scroll-behavior: smooth;
 }
-h1,h2,h3,mark{
+h1{
   font-family: 'Lato', sans-serif;
   font-weight: 900;
+  font-style: : black;
+}
+h2,h3,mark{
+  font-family: 'Lato', sans-serif;
+  font-weight:700;
   font-style: : black;
 }
 
@@ -21,12 +26,13 @@ p,li,a{
   font-style:normal;
 
 }
-h4{
+h4,.Pkilde2 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-style: italic;
 
 }
+
 
 
 /*--------------vindu1-------------*/
@@ -67,7 +73,7 @@ h4{
   transition: 0.5s ease;
   text-align: center;
   color: rgb(6,26,38);
-  padding-right: 4vw;
+  padding-right: 3vw;
   font-size: 2vw;
 
 }
@@ -161,14 +167,10 @@ h4{
   background-image:linear-gradient(rgba(83, 211, 209,0.7),rgba(255,255,255,0.7)), url(./white.jpg);
 }
 .ttekst h2{
-  font-size: 3.5vw;
+  font-size: 2.8vw;
   padding-left: 1vw;
-  font-family: Astul;
 }
 
-.ttekst h3{
-  font-family: Athiti
-}
 
 .tlogo img{
   height: 20vh;
@@ -178,7 +180,11 @@ h4{
   padding-top: 2vw;
 }
 .ttekst{
-  padding-top: 4vh;
+  padding-top: 3vh;
+  padding: 1vh;
+}
+.ttekst p{
+  font-size: 1.5vw;
 }
 
 .knapptboks{
@@ -383,7 +389,7 @@ background-color:#53D3D1 ;
 }
 .Pslagord{
   margin-top: 45vh;
-  margin-left: 15vw;
+  margin-left: 16vw;
 }
 .Pslagord h1{
   font-size: 4vw;
@@ -398,11 +404,14 @@ background-color:#53D3D1 ;
   color: black;
   background-color: transparent;
   font-size: 1.5vw;
+  float: right;
+  margin-right: 7vw;
+  margin-top: 2vh;
 }
 .Pslagordknapp{
   display: inline-block;
   padding:6px 18px;
-  margin-left: 30vw;
+  margin-left: 25vw;
   margin-top: 7vh;
   text-decoration: none;
   text-transform: uppercase;
@@ -423,7 +432,7 @@ background-color:#53D3D1 ;
 
 .Ptittel{
   font-size: 2.8vw;
-  margin-left: 40vw;
+  text-align: center;
   margin-top: 13vh;
 }
 .Pnedelinjek{
@@ -431,7 +440,6 @@ background-color:#53D3D1 ;
   width: 20vw;
   background: #FEB249;
   display: inline-block;
-  margin-left:2vw;
 
 }
 .Ptekst {
@@ -528,7 +536,7 @@ background-color:#53D3D1 ;
 }
 .Plittnedelinje{
   height: 2px;
-  width: 35vw;
+  width: 40vw;
   background: #FEB249;
   display: inline-block;
   margin-left:2.5vw;
@@ -541,15 +549,14 @@ background-color:#53D3D1 ;
   margin-top: 5vh;
   margin-left: 10vw;
   margin-bottom: 8vh;
+  font-size: 1.8vw;
 }
-.Ptekst3 h3{
-  font-size: 1.8vw; 
-}
+
 .Pkilde2{
   color: #FEB249;
   background-color: transparent;
   text-decoration: underline ;
-  font-size: 2vw;
+  font-size: 1.8vw;
 }
 
 
@@ -606,15 +613,14 @@ background-color:#53D3D1 ;
 
 .Ltittel{
   font-size: 2.8vw;
-  margin-left: 36vw;
   margin-top: 13vh;
+  text-align: center;
 }
 .Lnedelinjek{
   height: 2.7px;
   width: 20vw;
   background: #FEB249;
   display: inline-block;
-  margin-left:2.59999999999vw;
 
 }
 
@@ -623,15 +629,16 @@ background-color:#53D3D1 ;
   text-align: center;
   margin-left: 10vw;
   margin-top: 2vh;
-  font-size: 1.5vw;
 
+}
+.Lttekst p{
+  font-size: 1.8vw;
 }
 
 .Ltpunkter{
   margin-left: 13vw;
   margin-top: 8vh;
   font-size: 2vw;
-  font-family: 'Roboto', sans-serif;
 
 }
 .Ltpunkter li{
@@ -680,8 +687,12 @@ background-color:#53D3D1 ;
 .Ltteekst {
   margin-top: 19vh;
   margin-left: 10vw;
-  font-size: 2vw;
-  font-family: 'Noto Sans', sans-serif;
+}
+.Ltteekst h2{
+  font-size: 3vw;
+}
+.Ltteekst p{
+  font-size: 1.8vw;
 }
 .Lteksover{
   height: 2px;
@@ -748,13 +759,17 @@ float: left;
 .Lttekst33{
   margin-left: 10vw;
   margin-top: 5vw;
-  font-size: 2vw;
-  font-family: 'Noto Sans', sans-serif;
+}
+.Lttekst33 h3{
+  font-size: 3vw;
+}
+.Lttekst33 p{
+  font-size: 1.8vw;
 }
 
 .Lttlinje{
   height: 2px;
-  width: 30vw;
+  width: 31vw;
   background: #FEB249;
   display: inline-block;
   margin-left:2vw;
@@ -766,7 +781,6 @@ float: left;
   margin-left: 13vw;
   margin-top: 3vw;
   font-size: 2vw;
-  font-family: 'Roboto', sans-serif;
 }
 .Lttekst4 li{
   margin: 1.5vh 0;
@@ -775,7 +789,6 @@ float: left;
   margin-left: 10vw;
   margin-top: 3vw;
   font-size: 2vw;
-  font-family: 'Noto Sans', sans-serif;
 }
 
 /*-----------------------------APPEN--------------------------------------*/
@@ -914,7 +927,7 @@ float: left;
 
 
 [class*="col-"]{
-  border: black solid px;
+  border: black solid 1px;
 
 }
 
@@ -1008,23 +1021,25 @@ float: left;
   padding-left: 0;
 }
 .slagordknapp{
-  font-size: 3vw;
+  display:none; 
 }
 .knapptboks{
-  font-size: 3vw;
-  margin-left: 36vw;
+  font-size: 4vw;
+  margin-left: 32.6vw;
 
 }
 .tboks{
+  margin-top: 15vh;
   margin-left: 5vw;
 }
 .ttekst h2{
 
-  font-size: 5vw;
+  font-size: 6vw;
 }
-.ttekst h3{
+.ttekst p{
   padding-left:2vw ;
   padding-right:2vw ;
+  font-size: 4vw;
 }
 .tittelk{
   font-size: 4vw;
@@ -1084,27 +1099,25 @@ float: left;
   
 }
 .Pkilde{
-  font-size: 3vw;
+  font-size: 2.9vw;
   float: left;
   margin-top: 2vh;
 }
 .Pslagordknapp{
-  margin-left: 30vw;
-  font-size: 5vw;
+ display: none;
 }
 .Ptittel{
-  margin-left: 25vw;
+  text-align: center;
 
 }
 .Ptittel h1{
   font-size: 10vw;
   padding-left: 4vw;
  
-
 }
 .Pnedelinjek{
-  width: 35vw;
-  margin-left: 8vw;
+  width: 40vw;
+  margin-left: 5vw;
 }
 .Ptekst p{
   font-size: 4vw;
@@ -1117,12 +1130,12 @@ float: left;
   margin-right:  5vw;
 }
 .Ptittel3 h1{
-  font-size: 6vw;
+  font-size: 5.2vw;
 
 }
 .Plittnedelinje{
   width: 70vw;
-  margin-left: 5vw;
+  margin-left: 4vw;
 }
 .Ptekst3 p{
   text-align:center; 
@@ -1161,7 +1174,7 @@ float: left;
 
 }
 .Lslagord h1{
-  font-size: 5vw;
+  font-size: 7vw;
 }
 .Lslagordknapp{
   font-size: 3vw;
@@ -1249,9 +1262,7 @@ float: none;
 .Lborderhøyre{
   background: rgb(253,235,235);
 }
-.Lnedelinjekk2{
 
-}
 .Lv3knapp{
   display: none;
 }
@@ -1259,10 +1270,7 @@ float: none;
   margin-left: 10vw;
   margin-top: 6vw;
 }
-.Lttekst33 h3{
-  text-align: center;
-  font-size: 4.5vw;
-}
+
 .Lttlinje{
   margin-left:23vw;
   margin-top: 2vh;
@@ -1270,8 +1278,11 @@ float: none;
 }
 .Lttekst33 p{
   font-size: 3vw;
-  line-height: 1.4;
-  text-align: center;
+ 
+}
+.Lttekst33 h3{
+  font-size: 10vw;
+  
 }
 .Lttekst4 {
   font-size: 3vw;
@@ -1376,7 +1387,7 @@ float: none;
 
   .nav a{
     font-size: 3vw;
-    padding-right: 3vw;
+    padding-right: 2vw;
   }
   .nav{
     margin-top: 5vh;
@@ -1398,6 +1409,11 @@ float: none;
     float: right;
   }
   .ttekst h2{
+    font-size: 4.5vw;
+
+  }
+  .ttekst p{
+    font-size: 2.5vw;
 
   }
   .tboks{
@@ -1419,7 +1435,7 @@ float: none;
   
 }
 .knapptboks{
-  margin-left: 30vw;
+  margin-left: 28.7vw;
   font-size: 2.5vw;
 
 }
@@ -1458,7 +1474,7 @@ font-size: 6vw;
 }
 .Pslagord h1{
   padding-left: 0;
-  font-size:6vw;
+  font-size:5.4vw;
 }
 .Pkilde{
   margin-top: 2vh;
@@ -1466,24 +1482,23 @@ font-size: 6vw;
   float: right;
 }
 .Pslagordknapp{
-  font-size: 4vw;
+  font-size: 3vw;
   margin-left:35vw; 
 
 }
 .Ptittel{
-  margin-left: 30vw;
+  text-align: center;
 
 }
 .Ptittel h1{
-  font-size: 8vw;
-  padding-left: 3vw;
+  font-size: 5.5vw;
  
 }
 .Pnedelinjek{
-  width: 30vw;
-  margin-left: 5vw;
+  width: 23vw;
 }
-.Ptekst{
+
+.Ptekst p{
   font-size: 3vw;
 }
 .P12{
@@ -1498,10 +1513,10 @@ font-size: 6vw;
   font-size: 5vw;
 }
 .Plittnedelinje{
-  width: 60vw;
+  width: 69vw;
 
 }
-.Ptekst3 h3{
+.Ptekst3 p{
   font-size: 3vw;
 }
 .Pkilde2{
@@ -1540,22 +1555,26 @@ font-size: 6vw;
   margin-right: 25vw;
 }
 .Ltittel{
-  font-size: 4vw;
-  margin-left: 33vw;
   margin-top: 15vh;
 }
+.Ltittel h1{
+ font-size: 5.5vw;
+}
+
 
 .Lttekst{
-  font-size: 2.5vw;
   line-height: 1.4;
   margin-left: 10vw;
   margin-top: 3vh;
 }
+.Lttekst p{
+  font-size: 3vw;
+}
 .Lnedelinjek{
-  margin-left: 7vw;
+  width: 20vw;
 }
 .Ltpunkter{
-  font-size: 2.7vw;
+  font-size: 3vw;
   margin-bottom: 15vh;
   margin-top: 8vh;
 }
@@ -1567,11 +1586,21 @@ font-size: 6vw;
 
 }
 .Ltteekst{
-  font-size: 2.7vw;
+  
   margin-top: -3vh;
 }
 .Ltteekst h2{
+  font-size: 5vw;
   float: left;
+
+}
+.Ltteekst p{
+  font-size: 3vw;
+
+}
+.Lteksover{
+  width: 50vw;
+  margin-left: 3vw;
 
 }
 .Lv3knapp{
@@ -1593,7 +1622,7 @@ font-size: 6vw;
 .Lttekst2 img{
   width: 20vw;
   margin-left: 10vw;
-  margin-top: 5vw;
+  margin-top: 10vw;
   float: 0;
   width: 25%;
 
@@ -1602,34 +1631,31 @@ font-size: 6vw;
   margin-left: 10vw;
   margin-top: 5vh;
   float: 0;
-  font-size: 2.2vw;
+  font-size: 2.5vw;
 }
 .Lttekst33 h3{
-  font-size: 3.3vw;
+  font-size: 5vw;
   margin-top: 7vh;
 }
 .Lttekst33 p{
-  font-size: 2.5vw;
+  font-size: 3vw;
 }
-.Lttekst4{
-  font-size: 2.7vw;
+.Lttekst4 {
+  font-size: 3vw;
 }
 .Lttekst44{
-  font-size: 2.7vw;
+  font-size: 3vw;
 }
 .Lttlinje{
-  margin-left: 5vw;
-  margin-top: 2vh;
+  width: 54vw;
 }
 .Lpunkterbilde{
   margin-top: -45vh;
   margin-left: 25vw;
   margin-right: 0;
 }
-.Lteksover{
-  margin-left: 5vw;
-  margin-top: 2vh;
-}
+
+
 /*-------------------------------App pad----------------------*/
 .Atablet {
   display: none;
