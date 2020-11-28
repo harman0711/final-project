@@ -1167,19 +1167,19 @@ float: left;
 .Lttekst{
   font-size: 3vw;
   line-height: 1.4;
-  margin-left: 15vw;
+  margin-left: 10vw;
   margin-top: 3vh;
 }
 .Ltpunkter{
   font-size: 3vw;
   margin-top: 7vw;
-  margin-left: 18vw;
+  margin-left: 15vw;
 }
 .Ltteekst h2{
 
 }
 .Lteksover{
-  margin-left:11vw;
+  margin-left:0;
   margin-bottom: 1vh;
 
 
@@ -1200,8 +1200,9 @@ float: left;
 .Ltteekst{
   font-size: 3vw;
   line-height: 1.4;
-  margin-left: 15vw;
+  margin-left: 10vw;
   margin-top: 3vh;
+  text-align: center;
 }
 
 .Lttekst2 img{
@@ -1217,6 +1218,7 @@ float: none;
   float: none;
   font-size: 3vw;
   line-height: 1.4;
+  text-align: center;
 }
 .Lnedelinjek2{}
 
@@ -1239,7 +1241,7 @@ float: none;
   display: none;
 }
 .Lttekst33{
-  margin-left: 15vw;
+  margin-left: 10vw;
   margin-top: 6vw;
 }
 .Lttekst33 h3{
@@ -1247,24 +1249,27 @@ float: none;
   font-size: 4.5vw;
 }
 .Lttlinje{
-  margin-left:20vw;
+  margin-left:23vw;
   margin-top: 2vh;
   margin-bottom: 2vh;
 }
-.Lttekst33 h4{
+.Lttekst33 p{
   font-size: 3vw;
   line-height: 1.4;
+  text-align: center;
 }
 .Lttekst4 {
   font-size: 3vw;
-  margin-left: 18vw;
+  margin-left: 16vw;
   margin-top: 5vw;
+
 }
 .Lttekst44{
   margin-top: 5vw;
-  margin-left: 15vw;
+  margin-left: 10vw;
+  text-align: center;
 }
-.Lttekst44 h4{
+.Lttekst44 p{
   font-size: 3vw;
   line-height: 1.4;
 }
@@ -1588,7 +1593,7 @@ font-size: 6vw;
   font-size: 3.3vw;
   margin-top: 7vh;
 }
-.Lttekst33 h4{
+.Lttekst33 p{
   font-size: 2.5vw;
 }
 .Lttekst4{
