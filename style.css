@@ -15,7 +15,7 @@ h1,h2,h3{
   font-style: : black;
 }
 
-p,li{
+p,li,a{
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-style:normal;
@@ -542,7 +542,7 @@ background-color:#53D3D1 ;
   margin-bottom: 8vh;
 }
 .Ptekst3 h3{
-  font-size: 1.8vw; 
+  font-size: 1.8vw;
 }
 .Pkilde2{
   color: #FEB249;
@@ -557,14 +557,11 @@ background-color:#53D3D1 ;
 /*-----------------------------LØSNIIIIIIIIIIIING!!!!!!-----------------------*/
 .Lslagord{
   margin-top: 45vh;
-  
+
   margin-left: 18vw;
 }
 .Lslagord h1{
   font-size: 4vw;
-  
-  font-family: Monosame;
-
 }
 .Lslagordknapp{
   display: inline-block;
@@ -634,8 +631,6 @@ background-color:#53D3D1 ;
   margin-left: 13vw;
   margin-top: 8vh;
   font-size: 2vw;
-  font-family: 'Roboto', sans-serif;
-
 }
 .Ltpunkter li{
   margin: 2.2vh 0;
@@ -684,7 +679,6 @@ background-color:#53D3D1 ;
   margin-top: 19vh;
   margin-left: 10vw;
   font-size: 2vw;
-  font-family: 'Noto Sans', sans-serif;
 }
 .Lteksover{
   height: 2px;
@@ -752,7 +746,6 @@ float: left;
   margin-left: 10vw;
   margin-top: 5vw;
   font-size: 2vw;
-  font-family: 'Noto Sans', sans-serif;
 }
 
 .Lttlinje{
@@ -769,7 +762,6 @@ float: left;
   margin-left: 13vw;
   margin-top: 3vw;
   font-size: 2vw;
-  font-family: 'Roboto', sans-serif;
 }
 .Lttekst4 li{
   margin: 1.5vh 0;
@@ -778,7 +770,6 @@ float: left;
   margin-left: 10vw;
   margin-top: 3vw;
   font-size: 2vw;
-  font-family: 'Noto Sans', sans-serif;
 }
 
 /*-----------------------------APPEN--------------------------------------*/
@@ -1078,12 +1069,12 @@ float: left;
 .Pslagord{
   margin-left: 6vw;
   margin-top: 40vh;
-  
+
 }
 .Pslagord h1{
   padding-left:0;
   font-size: 7vw;
-  
+
 }
 .Pkilde{
   font-size: 3vw;
@@ -1101,7 +1092,7 @@ float: left;
 .Ptittel h1{
   font-size: 10vw;
   padding-left: 4vw;
- 
+
 
 }
 .Pnedelinjek{
@@ -1110,7 +1101,7 @@ float: left;
 }
 .Ptekst{
   font-size: 4vw;
-  text-align: 
+  text-align:
 }
 .P12{
   margin-left: 5vw;
@@ -1127,7 +1118,7 @@ float: left;
   margin-left: 5vw;
 }
 .Ptekst3 h3{
-  text-align:center; 
+  text-align:center;
   font-size: 4vw;
 }
 .Pkilde2{
@@ -1146,7 +1137,7 @@ float: left;
 }
 .Pborderhøyre{
   height: 25vh;
-  
+
 }
 
 
@@ -1418,7 +1409,7 @@ float: none;
 }
 .ttekst{
   padding-top: 4vh;
-  
+
 }
 .knapptboks{
   margin-left: 30vw;
@@ -1469,7 +1460,7 @@ font-size: 6vw;
 }
 .Pslagordknapp{
   font-size: 4vw;
-  margin-left:35vw; 
+  margin-left:35vw;
 
 }
 .Ptittel{
@@ -1479,7 +1470,7 @@ font-size: 6vw;
 .Ptittel h1{
   font-size: 8vw;
   padding-left: 3vw;
- 
+
 }
 .Pnedelinjek{
   width: 30vw;
@@ -1490,7 +1481,7 @@ font-size: 6vw;
 }
 .P12{
   margin-left: 10vw;
-  
+
 }
 .P13{
   margin-right: 10vw;
