@@ -511,7 +511,7 @@ background-color:#53D3D1 ;
 .Lslagord h1{
   font-size: 4vw;
   padding-left: 1vw;
-  font-family: Monosame;
+
 
 }
 .Lslagordknapp{
@@ -582,7 +582,7 @@ background-color:#53D3D1 ;
   margin-left: 13vw;
   margin-top: 8vh;
   font-size: 2vw;
-  font-family: 'Roboto', sans-serif;
+
 
 }
 .Ltpunkter li{
@@ -632,7 +632,6 @@ background-color:#53D3D1 ;
   margin-top: 19vh;
   margin-left: 10vw;
   font-size: 2vw;
-  font-family: 'Noto Sans', sans-serif;
 }
 .Lteksover{
   height: 2px;
@@ -700,7 +699,6 @@ float: left;
   margin-left: 10vw;
   margin-top: 5vw;
   font-size: 2vw;
-  font-family: 'Noto Sans', sans-serif;
 }
 
 .Lttlinje{
@@ -717,7 +715,6 @@ float: left;
   margin-left: 13vw;
   margin-top: 3vw;
   font-size: 2vw;
-  font-family: 'Roboto', sans-serif;
 }
 .Lttekst4 li{
   margin: 1.5vh 0;
@@ -726,7 +723,6 @@ float: left;
   margin-left: 10vw;
   margin-top: 3vw;
   font-size: 2vw;
-  font-family: 'Noto Sans', sans-serif;
 }
 
 /*-------------------------------Responsiv----------------------*/
