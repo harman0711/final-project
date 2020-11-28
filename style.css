@@ -9,13 +9,13 @@ body{
 html {
   scroll-behavior: smooth;
 }
-h1,h2,h3{
+h1,h2,h3,mark{
   font-family: 'Lato', sans-serif;
   font-weight: 900;
   font-style: : black;
 }
 
-p,li{
+p,li,a{
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-style:normal;
@@ -388,7 +388,6 @@ background-color:#53D3D1 ;
 .Pslagord h1{
   font-size: 4vw;
   padding-left: 1vw;
-  font-family: Monosame;
 
 }
 .Pmarkering{
@@ -435,12 +434,14 @@ background-color:#53D3D1 ;
   margin-left:2vw;
 
 }
-.Ptekst{
+.Ptekst {
   text-align: center;
   margin-left: 10vw;
   margin-top: 6vh;
+  
+}
+.Ptekst p{
   font-size: 1.8vw;
-
 }
 
 .Pstorquote{
@@ -549,8 +550,6 @@ background-color:#53D3D1 ;
   background-color: transparent;
   text-decoration: underline ;
   font-size: 2vw;
-  font-family: 'Cormorant Garamond', serif;
-
 }
 
 
@@ -563,8 +562,6 @@ background-color:#53D3D1 ;
 .Lslagord h1{
   font-size: 4vw;
   
-  font-family: Monosame;
-
 }
 .Lslagordknapp{
   display: inline-block;
@@ -1108,7 +1105,7 @@ float: left;
   width: 35vw;
   margin-left: 8vw;
 }
-.Ptekst{
+.Ptekst p{
   font-size: 4vw;
   text-align: 
 }
@@ -1126,7 +1123,7 @@ float: left;
   width: 70vw;
   margin-left: 5vw;
 }
-.Ptekst3 h3{
+.Ptekst3 p{
   text-align:center; 
   font-size: 4vw;
 }
