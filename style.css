@@ -15,7 +15,7 @@ h1,h2,h3{
   font-style: : black;
 }
 
-p,li{
+p,li,a{
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-style:normal;
@@ -798,7 +798,6 @@ float: left;
 .Aslagord h1{
   font-size: 4vw;
   padding-left: 1vw;
-  font-family: Monosame;
 }
 
 #Amarkering{
@@ -823,7 +822,6 @@ float: left;
   background-color:#53D3D1;
   border: 1px solid ;
 }
-
 
 .Atablet{
   float: right;
@@ -910,6 +908,9 @@ float: left;
 }
 .Atekstboks2 p{
   padding-right: 6vw;
+}
+.Abildeboks3{
+  display: none;
 }
 
 /*-------------------------------Responsiv----------------------*/
