@@ -1270,12 +1270,6 @@ float: none;
 }
 /*-------------------------------App mobil----------------------*/
 
-
-
-
-
-
-=======
 .Atablet {
   display: none;
 }
@@ -1616,5 +1610,66 @@ font-size: 6vw;
   margin-left: 5vw;
   margin-top: 2vh;
 }
-
+/*-------------------------------App pad----------------------*/
+.Atablet {
+  display: none;
+}
+.Atekstboks1{
+  font-size: 3.5vw;
+  padding-left: 0;
+  margin-left: 4.5vw;
+}
+.Atekstboks1 h1{
+  font-size: 7vw;
+}
+.Atekstboks2 h1{
+  font-size: 7vw;
+}
+.Atekstboks2{
+  font-size: 3.5vw;
+  margin-left: 4.5vw;
+  padding-left: 0vw;
+}
+.Abildeboks1{
+  margin-left: 4.5vw;
+}
+.Abildeboks1 img{
+  width: 100%;
+}
+.Abildeboks2{
+  margin-left: 35vw;
+  display: none;
+}
+.Abildeboks2 img{
+  width: 50%;
+}
+.Aappstore{
+  position: absolute;
+  top: 70vh;
+  left: 30vw;
+  z-index: 10;
+}
+.Aappstore img{
+  margin-left: 2.5vw;
+  width: 35vw;
+}
+.Aslagord{
+  text-align: center;
+  padding-left: 0;
+}
+.Aslagord h1{
+  font-size: 6vw;
+  padding-left: 0;
+}
+.Aslagordknapp{
+  font-size: 3vw;
+}
+.Abildeboks3{
+  display: block;
+  margin-left: 3.5vw;
+}
+.Abildeboks3 img{
+  height: 70vw;
+  padding-top: 4vh;
+}
 }
