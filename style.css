@@ -5,11 +5,29 @@
 }
 body{
   background-color:#fbeceb;
-  font-family: Fira Sans Condensed;
 }
 html {
   scroll-behavior: smooth;
 }
+h1,h2,h3{
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-style: : black;
+}
+
+p,li{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-style:normal;
+
+}
+h4{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+
+}
+
 
 /*--------------vindu1-------------*/
 .vindu1{
@@ -83,7 +101,6 @@ html {
 .slagord h1{
   font-size: 4vw;
   padding-left: 1vw;
-  font-family: Monosame;
 }
 
 #matsvinn{
