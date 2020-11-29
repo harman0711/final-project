@@ -34,6 +34,53 @@ h4,.Pkilde2 {
 }
 
 
+/*-------------kilder--------------*/
+.Khovedboks{
+  padding-top:8vw;
+}
+.Khovedboks h1{
+  font-size: 4vw;
+}
+.Kpunkter{
+  padding-left: 5vw;
+}
+.Kpunkter li{
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 40px;
+  margin: 0;
+  padding: 16px 0 16px 84px;
+  list-style: none;
+  background-image: url('punkt.png');
+  font-size:1.8vw;
+}
+
+  .Ktittel{
+    text-align: center;
+  }
+  .Knedelinje{
+  height: 4px;
+  width: 20vw;
+  background: #FEB249;
+  display: inline-block;
+  }
+  .Kbilder{
+    padding-left: 5vw;
+  }
+  .Kbilder li{
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 40px;
+  margin: 0;
+  padding: 16px 0 16px 84px;
+  list-style: none;
+  background-image: url('punkt.png');
+  font-size:1.8vw;
+}
+.KtittelB{
+    text-align: center;
+  }
+
 
 /*--------------vindu1-------------*/
 .vindu1{
