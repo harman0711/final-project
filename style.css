@@ -62,6 +62,11 @@ h4,.Pkilde2 {
   margin-bottom: 1vh;
 
 }
+.logo img:hover{
+
+  opacity: 0.3;
+
+}
 .logo img{
   float: left;
  width: 100%;
@@ -711,7 +716,7 @@ float: left;
 }
 .Lbildetekst{
   margin-left: 5vw;
-  margin-top: 10vh;
+  margin-top: 7vh;
   float: left;
   font-size: 2vw;
 }
@@ -720,7 +725,7 @@ float: left;
   width: 70vw;
   background: #FEB249;
   display: inline-block;
-  margin-left:7vw;
+  margin-left:10vw;
   margin-top: 5vw;
 }
 .Lbordervenstre{
@@ -729,7 +734,7 @@ float: left;
   background: #FEB249;
   display: inline-block;
   float: left;
-  margin-top: 15vh;
+  margin-top: 13vh;
   margin-left: 5vw;
 
 }
@@ -739,7 +744,7 @@ float: left;
   background: #FEB249;
   display: inline-block;
   float: left;
-  margin-top: -30vh;
+  margin-top: -27vh;
   margin-left: 90vw;
 }
 .Lnedelinjekk2{
@@ -747,8 +752,8 @@ float: left;
   width: 70vw;
   background: #FEB249;
   display: inline-block;
-  margin-left:12vw;
-  margin-top: 5vh;
+  margin-left:15vw;
+  margin-top: 6vh;
 }
 
 .Lttekst3{
@@ -925,7 +930,7 @@ float: left;
 
 
 [class*="col-"]{
-  border: black solid px;
+  border: black solid 0px;
 
 }
 
