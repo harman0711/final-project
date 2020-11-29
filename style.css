@@ -1358,6 +1358,9 @@ float: none;
   font-size: 4vw;
   line-height: 1.4;
 }
+.Lnedelinjekk2{
+  margin-top: 0;
+}
 /*-------------------------------App mobil----------------------*/
 
 .Atablet {
@@ -1452,6 +1455,9 @@ float: none;
   .nav{
     margin-top: 5vh;
   }
+
+
+    
   .slagord h1{
     font-size: 6vw;
   }
