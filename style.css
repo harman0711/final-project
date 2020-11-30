@@ -1797,12 +1797,74 @@ font-size: 6vw;
 
 
 @media only screen and (min-width: 790px) and (max-width: 960px){
-  .nav a{
+
+ /*-----------------HOVEDSIDE---------------*/ 
+.nav a{
   padding-right: 2vw;
   font-size: 2.5vw;
 
 }
-  .Pslagord h1{
+.slagord h1{
+  font-size: 4.5vw;
+}
+
+.slagordknapp{
+  font-size: 3vw;
+}
+
+
+.ttekst h2{
+  font-size: 3.3vw;
+}
+.ttekst p{
+  font-size: 2vw;
+}
+
+.knapptboks{
+  font-size: 2vw;
+  margin-left: 6vw;
+}
+
+#myBtn {
+  font-size: 4.5vw;
+}
+
+
+
+.nedelinje{
+  height: 2px;
+  width: 40vw;
+  background: #FEB249 ;
+  display: inline-block;
+  margin-left:30vw;
+}
+.nedelinjek{
+  height: 1px;
+  width: 20vw;
+  background: white;
+  display: inline-block;
+  margin-left:40vw;
+
+}
+.tittel1{
+  margin-top: 10vh;
+}
+
+.tittel1 h1{
+  font-size: 10.5vw;
+
+}
+.tittel1 h3{
+  font-size: 4.5vw;
+}
+.tittel1 h2{
+  font-size: 5.5vw;
+
+}
+
+
+ /*-----------------Problemet---------------*/ 
+.Pslagord h1{
   font-size: 4.5vw;
   padding-left: 1vw;
 
@@ -1894,7 +1956,6 @@ font-size: 6vw;
   background-color: #FEB249;
 }
 .knapptboks3b{
-
   display: inline-block;
   padding:10px 20px;
   margin-left: 10vw;
@@ -1907,6 +1968,7 @@ font-size: 6vw;
   border-radius: 3vw;
   background-color: #FEB249;
 }
+
 
 /*-----------------------------LØSNIIIIIIIIIIIING!!!!!!-----------------------*/
 
@@ -1928,6 +1990,46 @@ font-size: 6vw;
 
 .Lttekst p{
   font-size: 2.1vw;
+
+/*------------------------------- APP BREAKPOINT ----------------------------*/
+.Atekstboks1 {
+  font-size: 2vw;
+}
+.Atekstboks1 h1{
+  font-size: 4.5vw;
+}
+.Atekstboks1 p{
+  font-size: 2.5vw;
+}
+.Atekstboks1 li{
+  font-size: 2.2vw;
+}
+.Atekstboks2{
+  font-size: 2.2vw;
+}
+.Atekstboks2 h1{
+  font-size: 4vw;
+}
+.Abildeboks1 {
+  margin-top: 25vh;
+}
+.Abildeboks1 img{
+  width: 50vw;
+}
+.Abildeboks2 {
+  margin-top: 18vh;
+}
+.Abildeboks2 img{
+  width: 25vw;
+}
+.Aappstore{
+  margin-top: 4vh;
+}
+.Aappstore img{
+  width: 20vw;
+  margin-right: 3vw; 
+}
+
 }
 
 .Ltpunkter{
