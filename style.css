@@ -498,7 +498,7 @@ background-color:#53D3D1 ;
   text-align: center;
   margin-left: 10vw;
   margin-top: 6vh;
-  
+
 }
 .Ptekst p{
   font-size: 1.8vw;
@@ -615,12 +615,12 @@ background-color:#53D3D1 ;
 /*-----------------------------LØSNIIIIIIIIIIIING!!!!!!-----------------------*/
 .Lslagord{
   margin-top: 45vh;
-  
+
   margin-left: 18vw;
 }
 .Lslagord h1{
   font-size: 4vw;
-  
+
 }
 .Lslagordknapp{
   display: inline-block;
@@ -773,7 +773,7 @@ float: left;
   background: #FEB249;
   display: inline-block;
   margin-left:10vw;
-  margin-top: 5vw;
+  margin-top: 5vh;
 }
 .Lbordervenstre{
  height: 30vh;
@@ -799,7 +799,7 @@ float: left;
   width: 70vw;
   background: #FEB249;
   display: inline-block;
-  margin-left:15vw;
+  margin-left:10vw;
   margin-top: 6vh;
 }
 
@@ -902,7 +902,7 @@ float: left;
 .Aappstore img{
   width: 15vw;
   float: right;
-  margin-right: 6.5vw; 
+  margin-right: 6.5vw;
 }
 
 .Avindu2{
@@ -1072,7 +1072,7 @@ float: left;
   padding-left: 0;
 }
 .slagordknapp{
-  display:none; 
+  display:none;
 }
 .knapptboks{
   font-size: 4vw;
@@ -1122,15 +1122,18 @@ float: left;
 
 }
 .knapptboks3a{
-  float: left;
-  margin-left: 0vw;
+
+  margin-left: -2vw;
   margin-top: 0vh;
+  margin-bottom: 3vh;
   font-size: 2vw;
 }
 .knapptboks3b{
   float: right;
-  margin-left: 0;
-  margin-top: 0;
+  margin-left: 0vw;
+  margin-right: -4vw;
+  margin-top: 0vh;
+  margin-bottom: 0vh;
   font-size: 2vw;
 
 }
@@ -1142,12 +1145,12 @@ float: left;
 .Pslagord{
   margin-left: 6vw;
   margin-top: 40vh;
-  
+
 }
 .Pslagord h1{
   padding-left:0;
   font-size: 7vw;
-  
+
 }
 .Pkilde{
   font-size: 2.9vw;
@@ -1164,7 +1167,7 @@ float: left;
 .Ptittel h1{
   font-size: 10vw;
   padding-left: 4vw;
- 
+
 }
 .Pnedelinjek{
   width: 40vw;
@@ -1172,7 +1175,7 @@ float: left;
 }
 .Ptekst p{
   font-size: 4vw;
-  text-align: 
+  text-align:
 }
 .P12{
   margin-left: 5vw;
@@ -1189,7 +1192,7 @@ float: left;
   margin-left: 4vw;
 }
 .Ptekst3 p{
-  text-align:center; 
+  text-align:center;
   font-size: 4vw;
 }
 .Pkilde2{
@@ -1208,7 +1211,7 @@ float: left;
 }
 .Pborderhøyre{
   height: 25vh;
-  
+
 }
 
 
@@ -1278,7 +1281,7 @@ float: left;
   display: none;
 }
 .Ltteekst{
- 
+
   line-height: 1.4;
   margin-left: 10vw;
   margin-top: 3vh;
@@ -1337,11 +1340,11 @@ float: none;
 }
 .Lttekst33 p{
   font-size: 4vw;
- 
+
 }
 .Lttekst33 h3{
   font-size: 5.2vw;
-  
+
 }
 .Lttekst4 {
   font-size: 4vw;
@@ -1381,7 +1384,7 @@ float: none;
 .Aslagordknapp{
   display: none;}
 .Aappstore{
-  margin-left: 36vw; 
+  margin-left: 36vw;
 }
 .Aappstore img{
   width: 40vw;
@@ -1457,7 +1460,7 @@ float: none;
   }
 
 
-    
+
   .slagord h1{
     font-size: 6vw;
   }
@@ -1498,7 +1501,7 @@ float: none;
 }
 .ttekst{
   padding-top: 4vh;
-  
+
 }
 .knapptboks{
   margin-left: 28.7vw;
@@ -1549,7 +1552,7 @@ font-size: 6vw;
 }
 .Pslagordknapp{
   font-size: 3vw;
-  margin-left:35vw; 
+  margin-left:35vw;
 
 }
 .Ptittel{
@@ -1558,7 +1561,7 @@ font-size: 6vw;
 }
 .Ptittel h1{
   font-size: 5.5vw;
- 
+
 }
 .Pnedelinjek{
   width: 23vw;
@@ -1569,7 +1572,7 @@ font-size: 6vw;
 }
 .P12{
   margin-left: 10vw;
-  
+
 }
 .P13{
   margin-right: 10vw;
@@ -1652,7 +1655,7 @@ font-size: 6vw;
 
 }
 .Ltteekst{
-  
+
   margin-top: -3vh;
 }
 .Ltteekst h2{
@@ -1667,6 +1670,7 @@ font-size: 6vw;
 .Lteksover{
   width: 50vw;
   margin-left: 3vw;
+  margin-top: 0.5vh;
 
 }
 .Lv3knapp{
@@ -1763,7 +1767,7 @@ font-size: 6vw;
   width: 50%;
 }
 .Aappstore{
-  margin-left: -2vw; 
+  margin-left: -2vw;
 }
 .Aappstore img{
   margin-left: 2vw;
@@ -1796,74 +1800,12 @@ font-size: 6vw;
 
 
 @media only screen and (min-width: 790px) and (max-width: 960px){
-
- /*-----------------HOVEDSIDE---------------*/ 
-.nav a{
+  .nav a{
   padding-right: 2vw;
   font-size: 2.5vw;
 
 }
-.slagord h1{
-  font-size: 4.5vw;
-}
-
-.slagordknapp{
-  font-size: 3vw;
-}
-
-
-.ttekst h2{
-  font-size: 3.3vw;
-}
-.ttekst p{
-  font-size: 2vw;
-}
-
-.knapptboks{
-  font-size: 2vw;
-  margin-left: 6vw;
-}
-
-#myBtn {
-  font-size: 4.5vw;
-}
-
-
-
-.nedelinje{
-  height: 2px;
-  width: 40vw;
-  background: #FEB249 ;
-  display: inline-block;
-  margin-left:30vw;
-}
-.nedelinjek{
-  height: 1px;
-  width: 20vw;
-  background: white;
-  display: inline-block;
-  margin-left:40vw;
-
-}
-.tittel1{
-  margin-top: 10vh;
-}
-
-.tittel1 h1{
-  font-size: 10.5vw;
-
-}
-.tittel1 h3{
-  font-size: 4.5vw;
-}
-.tittel1 h2{
-  font-size: 5.5vw;
-
-}
-
-
- /*-----------------Problemet---------------*/ 
-.Pslagord h1{
+  .Pslagord h1{
   font-size: 4.5vw;
   padding-left: 1vw;
 
@@ -1955,6 +1897,7 @@ font-size: 6vw;
   background-color: #FEB249;
 }
 .knapptboks3b{
+
   display: inline-block;
   padding:10px 20px;
   margin-left: 10vw;
@@ -1968,43 +1911,117 @@ font-size: 6vw;
   background-color: #FEB249;
 }
 
-/*------------------------------- APP BREAKPOINT ----------------------------*/
-.Atekstboks1 {
-  font-size: 2vw;
-}
-.Atekstboks1 h1{
+/*-----------------------------LØSNIIIIIIIIIIIING!!!!!!-----------------------*/
+
+.Lslagord h1{
   font-size: 4.5vw;
+
 }
-.Atekstboks1 p{
-  font-size: 2.5vw;
-}
-.Atekstboks1 li{
-  font-size: 2.2vw;
-}
-.Atekstboks2{
-  font-size: 2.2vw;
-}
-.Atekstboks2 h1{
-  font-size: 4vw;
-}
-.Abildeboks1 {
-  margin-top: 25vh;
-}
-.Abildeboks1 img{
-  width: 50vw;
-}
-.Abildeboks2 {
-  margin-top: 18vh;
-}
-.Abildeboks2 img{
-  width: 25vw;
-}
-.Aappstore{
-  margin-top: 4vh;
-}
-.Aappstore img{
-  width: 20vw;
-  margin-right: 3vw; 
-}
+.Lslagordknapp{
+
+  font-size: 3vw;
+
 }
 
+
+
+.Ltittel{
+  font-size: 3.1vw;
+
+}
+
+
+.Lttekst p{
+  font-size: 2.1vw;
+}
+
+.Ltpunkter{
+  font-size: 2.5vw;
+
+}
+
+
+.Lv2knapp{
+  font-size: 2.5vw;
+
+}
+
+.Ltteekst h2{
+  font-size: 3.5vw;
+}
+.Ltteekst p{
+  font-size: 2.1vw;
+}
+.Lteksover{
+  margin-left:2vw;
+  margin-bottom: 2vh;
+  width: 35vw;
+}
+
+
+
+.Lbildetekst{
+  margin-left: 5vw;
+  margin-top: 7vh;
+  float: left;
+  font-size: 2vw;
+}
+.Lnedelinjek2{
+  height: 2px;
+  width: 70vw;
+  background: #FEB249;
+  display: inline-block;
+  margin-left:9vw;
+  margin-top: 5vh;
+}
+.Lbordervenstre{
+ height: 30vh;
+  width: 2px;
+  background: #FEB249;
+  display: inline-block;
+  float: left;
+  margin-top: 13vh;
+  margin-left: 5vw;
+
+}
+.Lborderhøyre{
+ height: 30vh;
+  width: 2px;
+
+  margin-top: -27vh;
+  margin-left: 90vw;
+}
+.Lnedelinjekk2{
+  height: 2px;
+  width: 70vw;
+  margin-left:9vw;
+  margin-top: 6vh;
+}
+
+.Lttekst3{
+  font-size: 2.5vw;
+}
+
+
+.Lttekst33 h3{
+  font-size: 3.5vw;
+}
+.Lttekst33 p{
+  font-size: 2.2vw;
+}
+
+.Lttlinje{
+  width: 37vw;
+}
+
+.Lttekst4{
+
+  font-size: 2.5vw;
+}
+.Lttekst4 li{
+  margin: 1.5vh 0;
+}
+.Lttekst44{
+
+  font-size: 2.5vw;
+}
