@@ -135,7 +135,6 @@ h4,.Pkilde2 {
 }
 
 .nav a:hover{
-
   color: #FEB249;
 }
 .nav{
@@ -149,6 +148,49 @@ h4,.Pkilde2 {
 
 }
 
+/*--------------------------Nav bar css ----------------------*/
+/*-----------------------------------------------------------*/
+.cssnav{
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+}
+.menu{
+  margin: 2vh 3vw 0 0;
+
+}
+.menu a{
+  clear: right;
+  text-decoration: none;
+  color: grey;
+  margin: 0 10px;
+  line-height: 70px;
+  font-size: 2vw;
+  color: rgb(6,26,38);
+  text-align: center;
+  padding-right: 2vw;
+
+
+}
+.menu a.active{
+  color: #FEB249;
+}
+.menu a:hover{
+  color: #FEB249;
+  transition: 0.2s ease;
+}
+
+label{
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float:  right;
+}
+#toggle{
+  display: none;
+}
 
 
 .slagord{
@@ -1056,9 +1098,49 @@ float: left;
 
 }
 
+/*-----------------------------------------*/
+
+label{
+  display: block;
+  cursor: pointer;
+  position: absolute;
+  top: 2vh;
+  right: 7vw;
+  z-index: 100;
+}
+.menu{
+  position: absolute;
+  top: -2vh;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  background-color: #002447;
+  z-index: 50;
+
+}
+.menu a{
+  display: block;
+  width: 100%;
+  color: white;
+  font-size: 6vw;
+  margin-top: 10vh;
+  margin-bottom: 2vh;
+  float: left;
+}
+.menu a:hover{
+  color: #FEB249;
+}
+.menu a.active{
+  color: #FEB249;
+}
+#toggle:checked +.menu{
+  display: block;
+}
 
 
 
+
+/*----------------------------------------------*/
 
 .iphone{
   display: none;
