@@ -13,20 +13,20 @@
     <body>
         <div class="main col-">
 <!----------------- Nav bar ----------->
-            <div class="bar col-small100 " >
+            <div class="bar col-small100" >
                 <div class="logo col-small20 col-mob40 col-pad30">
                     <a href= "index.html"><img  src="spreco123.png" alt="Bedriftslogo"></a>
                 </div>
-                <div class="nav col-small50 col-pad60" id="nav">
-                    <a href="index.html">Hjem</a>
-                    <a href="problemet.html">Problemet </a>
-                    <a href="losning.html">Løsningen</a>
-                    <a href="app.html">Appen</a>
-                    <a href="#vindu3"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                </div>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-                </a>
+                <div class="cssnav ">
+                   <input id="toggle" type="checkbox"><label for="toggle">&#9776;</label>
+                    <div class="menu">
+                      <a href="index.html">Hjem</a>
+                      <a href="problemet.html">Problemet </a>
+                      <a href="losning.html">Løsningen</a>
+                      <a  class="active" href="app.html">Appen</a>
+                      <a href="#vindu3" id="envelope"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    </div>
+                 </div>
             </div>
 
 <!----------------- Generelle-kilder ----------->

@@ -72,57 +72,25 @@ h4,.Pkilde2 {
  width: 100%;
 
 }
-.nav a{
-  float: left;
-  text-decoration: none;
-  transition: 0.5s ease;
-  text-align: center;
-  color: rgb(6,26,38);
-  padding-right: 3vw;
-  font-size: 2vw;
 
-}
-.nav a.active {
-
-  color: #FEB249;
-}
-
-.nav a:hover{
-  color: #FEB249;
-}
-.nav{
-  float: right;
-  overflow: hidden;
-  margin-top: 3vw;
-  color: rgb(6,26,38);
-}
-.bar a.icon {
-  display: none;
-
-}
 
 /*--------------------------Nav bar css ----------------------*/
-/*-----------------------------------------------------------*/
 .cssnav{
   text-align: right;
-  height: 70px;
   line-height: 70px;
 }
 .menu{
   margin: 2vh 3vw 0 0;
-
 }
 .menu a{
   clear: right;
   text-decoration: none;
-  color: grey;
   margin: 0 10px;
   line-height: 70px;
   font-size: 2vw;
   color: rgb(6,26,38);
   text-align: center;
   padding-right: 2vw;
-
 
 }
 .menu a.active{
@@ -139,10 +107,6 @@ label{
 #toggle{
   display: none;
 }
-#tggle{
-  display: none;
-}
-
 .slagord{
   margin-top: 45vh;
   padding-left: 5vw;
@@ -1095,37 +1059,8 @@ float: left;
  width: 100%;
 
 }
-
 #envelope{
   display: none;
-}
-
-.bar a.icon {
-  display: block;
-  position: absolute;
-  top: 4vh;
-  right: 3vw;
-  font-size: 6vw;
-  color: black;
-
-}
-#nav{
-  display:none;
-  position: absolute;
-  top: -5vh;
-  left: -5px;
-  height: 105vh;
-  width: 102%;
-  background-color: #002447;
-  text-align: center;
-}
-.nav a{
-  display: block;
-  width: 100%;
-  padding-top: 15vh;
-  color: white;
-  font-size: 5vw;
-
 }
 
 /*-----------------------------------------*/
@@ -1143,14 +1078,13 @@ label{
   z-index: 100;
   color: black;
 }
-#tggle{
-  display: none;
-}
+
 .menu{
   position: absolute;
-  top: -2vh;
-  width: 100vw;
-  height: 100vh;
+  top: -3vh;
+  left: -2vw;
+  width: 102vw;
+  height: 102vh;
   display: none;
   background-color: #002447;
   z-index: 50;
@@ -1175,13 +1109,9 @@ label{
   display: block;
 
 }
-#tggle:checked + label +.menu{
-  display: block;
-
-}
 
 input[type="checkbox"]:checked + label {
-  display: none;
+  color: white;
 }
 
 
@@ -1603,51 +1533,51 @@ float: none;
 .col-pad90{width: 90%;}
 .col-pad100{width: 100%;}
 
-  .nav a{
-    font-size: 3vw;
-    padding-right: 2vw;
-  }
-  .nav{
-    margin-top: 5vh;
-  }
+
+.cssnav{
+  text-align: right;
+  line-height: 0;
+  margin-top: 5vh;
+}
+.menu{
+  margin: 0vh 0vw 0 0;
+}
 .menu a{
-  font-size: 2.8vw;
-  padding-right: 0vw;
+  margin: 0 0px;
+  line-height: 0px;
+  font-size: 3vw;
+  padding-right: 2vw;
 }
 
 
 
-
-
-  .slagord h1{
-    font-size: 6vw;
-  }
-  .slagordknapp{
-    font-size: 3vw;
-  }
-  .iphone{
-    top: 35vh;
-  }
- .iphone img{
-  width: 90%;
- 
-
+.slagord h1{
+  font-size: 6vw;
+}
+.slagordknapp{
+  font-size: 3vw;
+}
+.iphone{
+  top: 35vh;
+}
+.iphone img{
+width: 90%;
 }
 
-  .ttekst{
-    float: right;
-  }
-  .ttekst h2{
-    font-size: 4.5vw;
+.ttekst{
+  float: right;
+}
+.ttekst h2{
+  font-size: 4.5vw;
 
-  }
-  .ttekst p{
-    font-size: 2.5vw;
+}
+.ttekst p{
+  font-size: 2.5vw;
 
-  }
-  .tboks{
-    margin-left: 5vw;
-  }
+}
+.tboks{
+  margin-left: 5vw;
+}
 
 .tlogo{
   float: left;
