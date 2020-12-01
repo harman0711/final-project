@@ -2156,8 +2156,11 @@ font-size: 6vw;
 .Atekstboks1 li{
   font-size: 2.2vw;
 }
-.Atekstboks2 {
-  font-size: 4vw;
+.Atekstboks2 h1{r
+  font-size: 4.5vw;
+}
+.Atekstboks2 p{
+  font-size: 2.5vw;
 }
 .Abildeboks1{
   margin-top: 25vh;
