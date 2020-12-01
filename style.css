@@ -77,20 +77,18 @@ h4,.Pkilde2 {
 /*--------------------------Nav bar css ----------------------*/
 .cssnav{
   text-align: right;
-  line-height: 70px;
 }
 .menu{
-  margin: 2vh 3vw 0 0;
+  float: right;
+  margin-top:5vh; 
 }
 .menu a{
   clear: right;
   text-decoration: none;
-  margin: 0 10px;
-  line-height: 70px;
   font-size: 2vw;
   color: rgb(6,26,38);
   text-align: center;
-  padding-right: 2vw;
+  padding-right: 3vw;
 
 }
 .menu a.active{
@@ -576,7 +574,7 @@ background-color:#53D3D1 ;
 .Lslagordknapp{
   display: inline-block;
   padding:6px 18px;
-  margin-left: 27vw;
+  margin-left: 25vw;
   margin-top: 7vh;
   text-decoration: none;
   text-transform: uppercase;
@@ -683,6 +681,45 @@ background-color:#53D3D1 ;
   background-color: #FEB249;
 }
 
+.Lstor{
+  float: left;
+   margin-top: 10vh;
+  margin-bottom: 10vh;
+
+}
+.Lquote{
+  float: left;
+  margin-left: 10vw;
+
+}
+.Lquote img{
+  float: left;
+ width: 20vw;
+}
+.Lbildetekst{
+  float: right;
+  font-size: 2vw;
+}
+.Llinjeoppe{
+  height: 2px;
+  width: 80vw;
+  background-color: #FEB249;
+  float:left;
+  margin-left: 10vw;
+  margin-bottom: 6vh;
+}
+.Llinjenede{
+  height: 2px;
+  width: 80vw;
+  margin-left: 10vw;
+  background-color: #FEB249;
+  float:left;
+  margin-top: 6vh;
+}
+
+
+
+
 .Lms{
   margin-left: 50vw;
 
@@ -712,47 +749,8 @@ margin-left: 5vw;
 margin-top: 5vw;
 float: left;
 }
-.Lbildetekst{
-  margin-left: 5vw;
-  margin-top: 7vh;
-  float: left;
-  font-size: 2vw;
-}
-.Lnedelinjek2{
-  height: 2px;
-  width: 70vw;
-  background: #FEB249;
-  display: inline-block;
-  margin-left:10vw;
-  margin-top: 5vh;
-}
-.Lbordervenstre{
- height: 30vh;
-  width: 2px;
-  background: #FEB249;
-  display: inline-block;
-  float: left;
-  margin-top: 13vh;
-  margin-left: 5vw;
 
-}
-.Lborderhøyre{
- height: 30vh;
-  width: 2px;
-  background: #FEB249;
-  display: inline-block;
-  float: left;
-  margin-top: -27vh;
-  margin-left: 90vw;
-}
-.Lnedelinjekk2{
-  height: 2px;
-  width: 70vw;
-  background: #FEB249;
-  display: inline-block;
-  margin-left:10vw;
-  margin-top: 6vh;
-}
+
 
 .Lttekst3{
   margin-left: 10vw;
@@ -1073,15 +1071,15 @@ label{
   cursor: pointer;
   position: absolute;
   font-size: 6vw;
-  right: 8vw;
-  top: 1vh;
+  right: 6vw;
+  top: 3vh;
   z-index: 100;
   color: black;
 }
 
 .menu{
   position: absolute;
-  top: -3vh;
+  top: -6vh;
   left: -2vw;
   width: 102vw;
   height: 102vh;
@@ -1356,31 +1354,23 @@ margin-top: 2vh;
 float: none;
 }
 
+
+.Llinjeoppe{
+ 
+  margin-bottom: 0vh;
+}
+.Lquote img{
+ width: 35vw;
+ margin-left: 25vw;
+ padding-top: 5vh;
+ padding-bottom: 5vh;
+}
 .Lbildetekst{
-  margin-left: 23vw;
-  margin-top: 6vh;
-  float: none;
-  font-size: 3.5vw;
-  line-height: 1.4;
   text-align: center;
-}
-.Lnedelinjek2{
-  margin-top: 7vh;
-}
-
-.Lbordervenstre{
-  height: 30vh;
-  width: 2px;
-  background: rgb(253,235,235);
-  display: inline-block;
   float: left;
-  margin-top: 13vh;
-  margin-left: 5vw;
+  font-size: 4vw;
+  margin-left: 15vw;
 }
-.Lborderhøyre{
-  background: rgb(253,235,235);
-}
-
 .Lv3knapp{
   display: none;
 }
@@ -1534,22 +1524,14 @@ float: none;
 .col-pad100{width: 100%;}
 
 
-.cssnav{
-  text-align: right;
-  line-height: 0;
-  margin-top: 5vh;
-}
 .menu{
-  margin: 0vh 0vw 0 0;
+  margin-top: 4.3vh;
 }
+
 .menu a{
-  margin: 0 0px;
-  line-height: 0px;
-  font-size: 3vw;
+  font-size: 3.1vw;
   padding-right: 2vw;
 }
-
-
 
 .slagord h1{
   font-size: 6vw;
@@ -1766,17 +1748,14 @@ font-size: 6vw;
 .Lv3knapp{
   display: none;
 }
-.Lnedelinjek2{
-  margin-left: 11vw;
-  margin-top: 5vw;
+
+.Lquote img{
+ width: 30vw;
+ padding-top: 8vh;
 }
-.Lbordervenstre{
-  display: none;
-}
-.Lborderhøyre{
-  display: none;
-}
-.Lnedelinjekk2{
+.Lbildetekst{
+  float: right;
+  font-size: 3vw;
 }
 
 .Lttekst2 img{
@@ -1917,10 +1896,15 @@ font-size: 6vw;
 
 
 @media only screen and (min-width: 790px) and (max-width: 960px){
-.menu a{
-  font-size: 2.5vw;
-
+.menu{
+  margin-top: 3.7vh;
 }
+
+.menu a{
+  font-size: 2.8vw;
+  padding-right: 3vw;
+}
+
 .slagord h1{
   font-size: 4.5vw;
 }
@@ -2116,33 +2100,19 @@ font-size: 6vw;
 .Lbildetekst{
   margin-left: 5vw;
   margin-top: 7vh;
+  font-size: 2.5vw;
+}
+.Llinjeoppe{
+ 
+  margin-bottom: 0vh;
+}
+.Lquote img{
+ width: 25vw;
+ padding-top: 5vh;
+}
+.Lbildetekst{
+  float: right;
   font-size: 2vw;
-}
-.Lnedelinjek2{
-  height: 2px;
-  width: 70vw;
-  margin-left:9vw;
-  margin-top: 5vh;
-}
-.Lbordervenstre{
- height: 30vh;
-  width: 2px;
-  margin-top: 13vh;
-  margin-left: 5vw;
-
-}
-.Lborderhøyre{
- height: 30vh;
-  width: 2px;
-´
-  margin-top: -27vh;
-  margin-left: 90vw;
-}
-.Lnedelinjekk2{
-  height: 2px;
-  width: 70vw;
-  margin-left:9vw;
-  margin-top: 6vh;
 }
 
 .Lttekst3{
@@ -2179,115 +2149,40 @@ font-size: 6vw;
 }
 .Atekstboks1 h1{r
   font-size: 4.5vw;
-
 }
-.Lslagordknapp{
-
-  font-size: 3vw;
-
-}
-
-
-
-.Ltittel{
-  font-size: 3.1vw;
-
-}
-
-
-.Lttekst p{
-  font-size: 2.1vw;
-}
-
-.Ltpunkter{
-  font-size: 2.5vw;
-
-}
-
-
-.Lv2knapp{
-  font-size: 2.5vw;
-
-}
-
-.Ltteekst h2{
-  font-size: 3.5vw;
-}
-.Ltteekst p{
-  font-size: 2.1vw;
-}
-.Lteksover{
-  margin-left:2vw;
-  margin-bottom: 2vh;
-  width: 35vw;
-}
-
-
-
-.Lbildetekst{
-  margin-left: 5vw;
-  margin-top: 7vh;
-  float: left;
-  font-size: 2vw;
-}
-.Lnedelinjek2{
-  height: 2px;
-  width: 70vw;
-  background: #FEB249;
-  display: inline-block;
-  margin-left:9vw;
-  margin-top: 5vh;
-}
-.Lbordervenstre{
- height: 30vh;
-  width: 2px;
-  background: #FEB249;
-  display: inline-block;
-  float: left;
-  margin-top: 13vh;
-  margin-left: 5vw;
-
-}
-.Lborderhøyre{
- height: 30vh;
-  width: 2px;
-
-  margin-top: -27vh;
-  margin-left: 90vw;
-}
-.Lnedelinjekk2{
-  height: 2px;
-  width: 70vw;
-  margin-left:9vw;
-  margin-top: 6vh;
-}
-
-.Lttekst3{
+.Atekstboks1 p{
   font-size: 2.5vw;
 }
-
-
-.Lttekst33 h3{
-  font-size: 3.5vw;
-}
-.Lttekst33 p{
+.Atekstboks1 li{
   font-size: 2.2vw;
 }
-
-.Lttlinje{
-  width: 37vw;
+.Atekstboks2 {
+  font-size: 4vw;
+}
+.Abildeboks1{
+  margin-top: 25vh;
+}
+.Abildeboks1 img{
+  width:50vw;
+}
+.Abildeboks2{
+  margin-top: 18vh;
+}
+.Abildeboks2 img{
+  width:25vw;
+}
+.Aappstore{
+  margin-top: 4vh;
+}
+.Aappstore img{
+  width: 20vw;
+  margin-right: 3vw;
 }
 
-.Lttekst4{
 
-  font-size: 2.5vw;
-}
-.Lttekst4 li{
-  margin: 1.5vh 0;
-}
-.Lttekst44{
 
-  font-size: 2.5vw;
+
+
 /*------------------------------- Kilder ----------------------------*/
 .Khovedboks h1{
   font-size: 5vw;
