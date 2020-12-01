@@ -789,7 +789,7 @@ float: left;
 .Lttekst44{
   margin-left: 10vw;
   margin-top: 3vw;
-  font-size: 2vw;
+  font-size: 1.8vw;
 }
 
 /*-----------------------------APPEN--------------------------------------*/
@@ -1330,22 +1330,18 @@ input[type="checkbox"]:checked + label {
 }
 .Llinjek2{
   margin-top: 5vw;
-
 }
 
 .Lv2knapp{
   display: none;
 }
 .Ltteekst{
-
-  line-height: 1.4;
   margin-left: 10vw;
   margin-top: 3vh;
   text-align: center;
 }
 .Ltteekst p{
    font-size: 4vw;
-   margin-top: ;
 }
 .Lttekst2 img{
 width: 40vw;
@@ -1407,7 +1403,6 @@ float: none;
 }
 .Lttekst44 p{
   font-size: 4vw;
-  line-height: 1.4;
 }
 .Lnedelinjekk2{
   margin-top: 0;
@@ -1704,7 +1699,6 @@ font-size: 6vw;
 
 
 .Lttekst{
-  line-height: 1.4;
   margin-left: 10vw;
   margin-top: 3vh;
 }
