@@ -35,7 +35,6 @@ h4,.Pkilde2 {
 
 
 
-
 /*--------------vindu1-------------*/
 .vindu1{
   background-image:linear-gradient(rgba(255,255,255,0.7),rgba(83, 211, 209,0.7)), url(./white.jpg);
@@ -280,13 +279,7 @@ background-color:#53D3D1 ;
   font-size: 2vw;
 
 }
-/*.nedelinjek{
-  height: 1px;
-  width: 30vw;
-  background: #FFF ;
-  display: inline-block;
-  margin-left:35vw;
-}*/
+
 .kontaktboks1{
   float: left;
   margin-left:5vw;
@@ -936,13 +929,12 @@ float: left;
   font-size: 4vw;
 }
 .Kpunkter{
-  padding-left: 5vw;
+  margin-left:5vw;
 }
 .Kpunkter li{
   background-repeat: no-repeat;
   background-position: left center;
   background-size: 40px;
-  margin: 0;
   padding: 16px 0 16px 84px;
   list-style: none;
   background-image: url('punkt.png');
@@ -1470,7 +1462,7 @@ float: none;
 }
 
 .Kpunkter li{
-  font-size:4.8vw;
+  font-size:4vw;
 }
 
 .Kkildebilde li{
@@ -1867,6 +1859,7 @@ font-size: 6vw;
 .Kpunkter li{
   font-size:3.8vw;
 }
+
 
 .Kkildebilde li{
  

@@ -1,163 +1,146 @@
 <!DOCTYPE html>
 <html lang="nb">
-<head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,300&display=swap" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<title>Spreco</title>
-	<link rel="icon" type="image/gif/png" href="punkt.png"> 
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,300&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Spreco</title>
+        <link rel="icon" type="image/gif/png" href="punkt.png">
+    </head>
+    <body>
+        <div class="main col-">
 
-</head>
-<body>
-	<div class="main col-">
+<!----------------- Nav bar ----------->
+            <div class="bar col-small100" >
+                <div class="logo col-small20 col-mob40 col-pad30">
+                    <a href= "index.html"><img  src="spreco123.png" alt="Bedriftslogo"></a>
+                </div>
+                <div class="nav col-small50 col-pad60" id="nav">
+                    <a href="index.html">Hjem</a>
+                    <a href="problemet.html">Problemet </a>
+                    <a href="losning.html">Løsningen</a>
+                    <a class="active" href="app.html">Appen</a>
+                    <a id="envelope" href="#vindu3"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                </div>
+                <a href="javascript:void(0);" id="b" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+            </div>
 
-			<div class="bar col-small100" >
-				<div class="logo col-small20 col-mob40 col-pad30">
-					<a href= "index.html"><img  src="spreco123.png" alt="Bedriftslogo"></a>
-				</div>
-
-				<div class="nav col-small50 col-pad60" id="nav">
-				<a href="index.html">Hjem</a>
-	            <a href="problemet.html">Problemet </a>
-	            <a href="losning.html">Løsningen</a>
-	            <a class="active" href="app.html">Appen</a>
-	            <a id="envelope" href="#vindu3"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-				</div>
-
-				<a href="javascript:void(0);" id="b" class="icon" onclick="myFunction()">
-				 <i class="fa fa-bars"></i>
-				 </a>
-			</div>
 <!----------------- Vindu 1 ----------->
-		<div class="Avindu1 col-small100 col-pad100" id="Avindu1">
-			<div class="Aslagord col-small40 col-mob90 col-pad100">
-				<h1>Appen som bekjemper<mark id="Amarkering"> matsvinn!</mark></h1>
-				<a href="#Avindu2" class="Aslagordknapp">Les mer</a>
-			</div>
-			<div class="Atablet col-small40">
-			<img src="tablet.png" alt="Eksempel ipad mockup">
-		</div>
-		
-			<div class="Aappstore col-small100 col-mob40 col-pad100">
-			<a href="https://play.google.com/store?hl=NO"><img src="google.png" alt="Google Play logo"></a>
-			<a href="https://www.apple.com/no/ios/app-store/"><img src="apple.png" alt="App Store logo"></a>
-		</div>
-		</div>
-		
+            <div class="Avindu1 col-small100 col-pad100" id="Avindu1">
+                <div class="Aslagord col-small40 col-mob90 col-pad100">
+                    <h1>Appen som bekjemper<mark id="Amarkering"> matsvinn!</mark></h1>
+                    <a href="#Avindu2" class="Aslagordknapp">Les mer</a>
+                </div>
+                <div class="Atablet col-small40">
+                    <img src="tablet.png" alt="Eksempel ipad mockup">
+                </div>
+                <div class="Aappstore col-small100 col-mob40 col-pad100">
+                    <a href="https://play.google.com/store?hl=NO"><img src="google.png" alt="Google Play logo"></a>
+                    <a href="https://www.apple.com/no/ios/app-store/"><img src="apple.png" alt="App Store logo"></a>
+                </div>
+            </div>
+
 <!---------------- Vindu 2 ---------->
+            <div class="Avindu2 col-small100" id="Avindu2">
+                <div class="Abildeboks col-mob100 col-pad90">
+                    <img src="ikoner.png" alt="Diverse ikoner knyttet til appen">
+                </div>
+                <div class="Abildeboks1 col-small45">
+                    <img src="ikoner1.png" alt="Diverse ikoner knyttet til appen">
+                </div>
+                <div class="Atekstboks1 col-small50 col-mob90 col-pad90">
+                    <h1>Funksjoner</h1>
+                    <ul>
+                        <p>Spreco gir deg tilgang til en rekke unike funksjoner. Dette ved hjelp av ny revolusjonerende teknologi aldri sett før.</p>
+                        <li>Ved hjelp av appens nedtelling funksjon, får brukeren full oversikt over antall dager igjen til en matvare utløper.</li>
+                        <li>På siden over oppskrifter, vil Spreco anbefale en rekke ulike oppskrifter utifra varer registrert i appen.</li>
+                        <li>Med en unik bruker kan du gjennom appen skanne alle varer du vil legge til under "Mine varer".</li>
+                        <li>Matvarer kan også registreres på tvers av brukere, hvis brukeren velger å legge til et familiekjøleskap i appen. Her velger man da et kjøleskap og alle familiemedlemer dette skal knyttes til.</li>
+                        <li>Er du Coop-medlem? Med et Coop-medlemskap vil appen automatisk registrere alle varer etter en handletur. Dette fjerner bryet ved å skanne alle varene manuelt.</li>
+                    </ul>
+                </div>
+                <div class="Atekstboks2 col-small70 col-mob90 col-pad90">
+                    <h1>Hvordan bruke Spreco?</h1>
+                    <p>Appen består av tre ulike deler.</p>
+                    <h2>Mine varer</h2>
+                    <p>Mine varer siden er appens hovedside, og siden hvor du har oversikt over alle varene du har lagt til i appen. Her kan du legge til varer ved hjelp av mobilkamera ditt, i tilegg til å fjerne varer ved hjelp av et enkelt trykk. Her har du også oversikt over holdbarhetsdatoen på alle varene og en klokke som teller ned antall dager til utløpsdatoen.</p>
+                    <h2>Brukerkonto</h2>
+                    <p>Brukerkonto siden er siden hvor du kan endre på brukerinfo. Her kan du endre instillinger som navn på konto og navn på kjøleskap. Her har du også en oversikt over alle kjøleskap din bruker er koblet til, i tillegg til andre brukere knyttet til samme kjøleskap. Hvis du er Coop-medlem kan du også velge å legge til medlemskapet ditt her.</p>
+                    <h2>Hjem</h2>
+                    <p>Hjem-siden er hvor du får opp varsler og annen relevant informasjon. Her kommer det opp endringer i appfunksjoner etter oppdateringer, og en liste over oppskrifter for eventuelle varer registrert i appen. Her får man også opp alle endringer familie medlemmer har gjort med varene i dine delte kjøleskap.</p>
+                </div>
+                <div class="Abildeboks2 col-small20 col-mob100 col-pad90">
+                    <img src="mockupMobil.png" alt="Eksempel mockup mobil av appen">
+                </div>
+                <div class="Abildeboks3 col-pad90 col-pad90">
+                    <img src="tablet2.png" alt="ipad mockup app">
+                </div>
+            </div>
 
-		<div class="Avindu2 col-small100" id="Avindu2">
-			<div class="Abildeboks col-mob100 col-pad90">
-				<img src="ikoner.png" alt="Diverse ikoner knyttet til appen">
-			</div>
-			<div class="Abildeboks1 col-small45">
-				<img src="ikoner1.png" alt="Diverse ikoner knyttet til appen">
-			</div>
-			<div class="Atekstboks1 col-small50 col-mob90 col-pad90">
-				<h1>Funksjoner</h1>
-				<ul>
-					<p>Spreco gir deg tilgang til en rekke unike funksjoner. Dette ved hjelp av ny revolusjonerende teknologi aldri sett før.</p>
-					<li>Ved hjelp av appens nedtelling funksjon, får brukeren full oversikt over antall dager igjen til en matvare utløper.</li>
-					<li>På siden over oppskrifter, vil Spreco anbefale en rekke ulike oppskrifter utifra varer registrert i appen.</li>
-					<li>Med en unik bruker kan du gjennom appen skanne alle varer du vil legge til under "Mine varer".</li>
-					<li>Matvarer kan også registreres på tvers av brukere, hvis brukeren velger å legge til et familiekjøleskap i appen. Her velger man da et kjøleskap og alle familiemedlemer dette skal knyttes til.</li>
-					<li>Er du Coop-medlem? Med et Coop-medlemskap vil appen automatisk registrere alle varer etter en handletur. Dette fjerner bryet ved å skanne alle varene manuelt.</li>
-				</ul>
-			</div>
-			<div class="Atekstboks2 col-small70 col-mob90 col-pad90">
-				<h1>Hvordan bruke Spreco?</h1>
-				<p>Appen består av tre ulike deler.</p>
-				<h2>Mine varer</h2>
-				<p>Mine varer siden er appens hovedside, og siden hvor du har oversikt over alle varene du har lagt til i appen. Her kan du legge til varer ved hjelp av mobilkamera ditt, i tilegg til å fjerne varer ved hjelp av et enkelt trykk. Her har du også oversikt over holdbarhetsdatoen på alle varene og en klokke som teller ned antall dager til utløpsdatoen.</p>
-				<h2>Brukerkonto</h2>
-				<p>Brukerkonto siden er siden hvor du kan endre på brukerinfo. Her kan du endre instillinger som navn på konto og navn på kjøleskap. Her har du også en oversikt over alle kjøleskap din bruker er koblet til, i tillegg til andre brukere knyttet til samme kjøleskap. Hvis du er Coop-medlem kan du også velge å legge til medlemskapet ditt her.</p>
-				<h2>Hjem</h2>
-				<p>Hjem siden er hvor du får opp varsler og annen relevant informasjon. Her kommer det opp endringer i appfunksjoner etter oppdateringer, og en liste over oppskrifter for eventuelle varer registrert i appen. Her får man også opp alle endringer familie medlemmer har gjort med varene i dine delte kjøleskap.</p>
-			</div>
-			<div class="Abildeboks2 col-small20 col-mob100 col-pad90">
-				<img src="mockupMobil.png" alt="Eksempel mockup mobil av appen">
-			</div>
-			<div class="Abildeboks3 col-pad90 col-pad90">
-				<img src="tablet2.png" alt="ipad mockup app">
-			</div>
-<!---------------- Vindu 3 ------------->
-		</div>
-			<div class="vindu3 col-small100" id="vindu3">
-			<div class="tittelk col-small100">
-				<h1 align="center">Kontakt oss</h1>
-				<div class="nedelinjek col-"></div>
-				</div>
+<!----------------- Kontakt oss vindu----------->
+            <div class="vindu3 col-small100" id="vindu3">
+                <div class="tittelk col-small100">
+                    <h1 align="center">Kontakt oss</h1>
+                    <div class="nedelinjek col-"></div>
+                </div>
+                <div class="kontaktboks1 col-small30 col-mob40">
+                    <a href="https://www.facebook.com/" class="fa fa-facebook-official" target="_blank" style="text-decoration:none"> Facebook</a>
+                    <a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank" style="text-decoration:none">  Instagram</a>
+                    <a href="https://www.twitter.com/" class="fa fa-twitter-square" target="_blank" style="text-decoration:none">  Twitter</a>
+                </div>
+                <div class="borderhøyre"></div>
+                <div class="kontaktboks2 col-small30 col-mob40">
+                    <a href="tel:47000000001" class="fa fa-phone" style="text-decoration:none"> <br> + 47 00 00 00 00</a>
+                    <h3>
+                    <a href="mailto:SPRECO@diCibo.no" class="fa fa-envelope" style="text-decoration:none"><br>spreco@dicibo.no</a>
+                    <h3>
+                    <a href="https://g.page/OsloMet-storbyuniversitetet" target="_blank" class="fa fa-map-pin" style="text-decoration:none"><br>OsloMet <br> 0167 Oslo </a>
+                </div>
+                <div class="bordervenstre"></div>
+                <div class="kontaktboks3 col-small30 col-mob50">
+                    <a href="https://www.un.org/sustainabledevelopment/sustainable-consumption-production/" target="_blank" class="knapptboks3a" >FN Mål</a>
+                    <a href="kilder.html" class="knapptboks3b" >Kilder</a>
+                </div>
+            </div>
+            <a onclick="topFunction()" id="myBtn" title="Go to top" href=" #vindu1"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+        </div>
 
-
-				<div class="kontaktboks1 col-small30 col-mob40">
-					<a href="https://www.facebook.com/" class="fa fa-facebook-official" target="_blank" style="text-decoration:none"> Facebook</a>
-					<a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank" style="text-decoration:none">  Instagram</a>
-					<a href="https://www.twitter.com/" class="fa fa-twitter-square" target="_blank" style="text-decoration:none">  Twitter</a>
-				</div>
-				<div class="borderhøyre"></div>
-				<div class="kontaktboks2 col-small30 col-mob40">
-					<a href="tel:47000000001" class="fa fa-phone" style="text-decoration:none"> <br> + 47 00 00 00 00</a>
-					<h3> <a href="mailto:SPRECO@diCibo.no" class="fa fa-envelope" style="text-decoration:none"><br>spreco@dicibo.no</a>
-					<h3><a href="https://g.page/OsloMet-storbyuniversitetet" target="_blank" class="fa fa-map-pin" style="text-decoration:none"><br>OsloMet <br> 0167 Oslo </a>
-
-				</div>
-				<div class="bordervenstre"></div>
-
-				<div class="kontaktboks3 col-small30 col-mob50">
-					<a href="https://www.un.org/sustainabledevelopment/sustainable-consumption-production/" target="_blank" class="knapptboks3a" >FN Mål</a>
-					<a href="kilder.html" class="knapptboks3b" >Kilder</a>
-
-				</div>
-
-
-
-
-		</div>
-		<a onclick="topFunction()" id="myBtn" title="Go to top" href=" #vindu1"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
-
-	</div>
-
-	<script type="text/javascript">
-
-
-
-			function myFunction() {
-			var b=document.getElementById("b")	
-		  var x = document.getElementById("nav");
-		  if (x.style.display === "block") {
-		    x.style.display = "none";
-		    b.style.color="black";
-		  } else {
-		    x.style.display = "block";
-		    b.style.color="white";
-
-		  }
-}
-
-//scroll up btn code did we get from "w3schools.com" the url is("https://www.w3schools.com/howto/howto_js_scroll_to_top.asp")
-		mybutton = document.getElementById("myBtn");
-		window.onscroll = function() {scrollFunction()};
-
-		function scrollFunction() {
-		  if (document.body.scrollTop > 590 || document.documentElement.scrollTop > 590) {
-		    mybutton.style.display = "block";
-		  } else {
-		    mybutton.style.display = "none";
-		  }
-		}
-
-
-		function topFunction() {
-		  document.body.scrollTop = 0;
-		  document.documentElement.scrollTop = 0;
-		}
-	</script>
-
-
-
-
-</body>
+        <script type="text/javascript">
+            function myFunction() {
+            var b=document.getElementById("b")	
+             var x = document.getElementById("nav");
+             if (x.style.display === "block") {
+               x.style.display = "none";
+               b.style.color="black";
+             } else {
+               x.style.display = "block";
+               b.style.color="white";
+            
+             }
+            }
+            
+            //scroll up btn code did we get from "w3schools.com" the url is("https://www.w3schools.com/howto/howto_js_scroll_to_top.asp")
+            mybutton = document.getElementById("myBtn");
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+             if (document.body.scrollTop > 590 || document.documentElement.scrollTop > 590) {
+               mybutton.style.display = "block";
+             } else {
+               mybutton.style.display = "none";
+             }
+            }
+            
+            
+            function topFunction() {
+             document.body.scrollTop = 0;
+             document.documentElement.scrollTop = 0;
+            }
+        </script>
+    </body>
 </html>
