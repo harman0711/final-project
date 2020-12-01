@@ -1,2207 +1,1753 @@
-*{
-  margin: 0;
-  padding: 0;
+/*-------------------------------------------- Generell Kode--------------------------------------------*/
+* {
+margin:0;
+padding:0;
+}
 
+body {
+background-color:#fbeceb;
 }
-body{
-  background-color:#fbeceb;
-}
+
 html {
-  scroll-behavior: smooth;
-}
-h1{
-  font-family: 'Lato', sans-serif;
-  font-weight: 900;
-  font-style: : black;
-}
-h2,h3,mark{
-  font-family: 'Lato', sans-serif;
-  font-weight:700;
-  font-style: : black;
+scroll-behavior:smooth;
 }
 
-p,li,a{
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  font-style:normal;
-
+h1 {
+font-family:Lato, sans-serif;
+font-weight:900;
+font-style:: #000;
 }
+
+h2,h3,mark {
+font-family:Lato, sans-serif;
+font-weight:700;
+font-style:: #000;
+}
+
+p,li,a {
+font-family:Lato, sans-serif;
+font-weight:400;
+font-style:normal;
+}
+
 h4,.Pkilde2 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-style: italic;
-
+font-family:Lato, sans-serif;
+font-weight:300;
+font-style:italic;
+}
+/*--------------------------------------------Nav bar--------------------------------------------*/
+.bar {
+background-color:rgba(251,236,235,.9);
+position:fixed;
+top:0;
+width:100vw;
+z-index:15;
+border-style:outset;
 }
 
-
-
-/*--------------vindu1-------------*/
-.vindu1{
-  background-image:linear-gradient(rgba(255,255,255,0.7),rgba(83, 211, 209,0.7)), url(./white.jpg);
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  overflow: auto;
-  border-radius : 0% 0% 50% 0%;
-  z-index: -1;
-}
-.bar{
-
-  background-color: rgba(251, 236, 235,.9);
-  position: fixed;
-  top: 0;
-  width: 100vw;
-  z-index: 15;
-  border-style: outset;
+.logo {
+float:left;
+margin-top:2vh;
+margin-left:3vw;
+margin-bottom:1vh;
 }
 
-.logo{
-  float: left;
-  margin-top: 2vh;
-  margin-left: 3vw;
-  margin-bottom: 1vh;
-
-}
-.logo img:hover{
-
-  opacity: 0.3;
-
-}
-.logo img{
-  float: left;
- width: 100%;
-
+.logo img:hover {
+opacity:0.3;
 }
 
-
-/*--------------------------Nav bar css ----------------------*/
-.cssnav{
-  text-align: right;
-}
-.menu{
-  float: right;
-  margin-top:5vh; 
-}
-.menu a{
-  clear: right;
-  text-decoration: none;
-  font-size: 2vw;
-  color: rgb(6,26,38);
-  text-align: center;
-  padding-right: 3vw;
-
-}
-.menu a.active{
-  color: #FEB249;
-}
-.menu a:hover{
-  color: #FEB249;
-  transition: 0.2s ease;
+.logo img {
+float:left;
+width:100%;
 }
 
-label{
-  display: none;
-}
-#toggle{
-  display: none;
-}
-.slagord{
-  margin-top: 45vh;
-  padding-left: 5vw;
+.cssnav {
+text-align:right;
 }
 
-.slagord h1{
-  font-size: 4vw;
-  padding-left: 1vw;
+.menu {
+float:right;
+margin-top:5vh;
 }
 
-#matsvinn{
-  color: #FEB249;
-  background-color: transparent;
+.menu a {
+clear:right;
+text-decoration:none;
+font-size:2vw;
+color:#061a26;
+text-align:center;
+padding-right:3vw;
 }
 
-.slagordknapp{
-  display: inline-block;
-  padding:6px 18px;
-  margin-left: 1vw;
-  margin-top: 7vh;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: black;
-  font-size: 2.5vw;
-  letter-spacing: 2px;
-  border-radius: 3vw;
-  background-color: #FEB249;
-}
-.slagordknapp:hover{
-  background-color:#53D3D1;
-  border: 1px solid ;
+.menu a:hover {
+color:#FEB249;
+transition:.2s ease;
 }
 
-
-.iphone{
-  float: right;
-  position: absolute;
-  top: 35vh;
-  left: 70%;
-  z-index: 10;
-
-
-
-}
-.iphone img{
-  float: right;
-  width: 60%;
-  padding-right: 7vw;
-
-
+/*--------------------------------------------Index 1--------------------------------------------*/
+.vindu1 {
+background-image:linear-gradient(rgba(255,255,255,0.7),rgba(83,211,209,0.7)), url(./white.jpg);
+height:100vh;
+background-size:cover;
+background-position:center;
+overflow:auto;
+border-radius:0 0 50% 0;
+z-index:-1;
 }
 
-/*--------------vindu2-------------*/
-.vindu2{
-
-  float: left;
-  background-size: cover;
-  background-position: center;
-}
-.tboks{
-  height: ;
-  float: left;
-  margin-left: 6.2vw;
-  margin-top: 20vh;
-  border-style: outset;
-  background-image:linear-gradient(rgba(83, 211, 209,0.7),rgba(255,255,255,0.7)), url(./white.jpg);
-}
-.ttekst h2{
-  font-size: 2.8vw;
-  padding-left: 1vw;
+.slagord {
+margin-top:45vh;
+padding-left:5vw;
 }
 
-
-.tlogo img{
-  height: 20vh;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  padding-top: 2vw;
-}
-.ttekst{
-  padding-top: 3vh;
-  padding: 1vh;
-}
-.ttekst p{
-  font-size: 1.5vw;
+.iphone {
+float:right;
+position:absolute;
+top:35vh;
+left:70%;
+z-index:10;
 }
 
-.knapptboks{
-  display: inline-block;
-  padding:6px 18px;
-  margin-left: 7.2vw;
-  margin-top: 7vh;
-  margin-bottom: 3vh;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: black;
-  font-size: 1.5vw;
-  letter-spacing: 2px;
-  border-radius: 3vw;
-  background-color: #FEB249;
+.iphone img {
+float:right;
+width:60%;
+padding-right:7vw;
 }
-.knapptboks:hover{
-color: #fff;
-background-color:#53D3D1 ;
+/*--------------------------------------------Index 2--------------------------------------------*/
+.tboks {
+float:left;
+margin-left:6.2vw;
+margin-top:20vh;
+background-image:linear-gradient(rgba(83,211,209,0.7),rgba(255,255,255,0.7)), url(./white.jpg);
+border-style:outset;
 }
+
+.ttekst h2 {
+font-size:2.8vw;
+padding-left:1vw;
+}
+
+.tlogo img {
+height:20vh;
+margin-left:auto;
+margin-right:auto;
+display:block;
+padding-top:2vw;
+}
+
+.ttekst {
+padding:1vh;
+}
+
+.ttekst p {
+font-size:1.5vw;
+}
+
+.knapptboks {
+display:inline-block;
+margin-left:7.2vw;
+margin-top:7vh;
+margin-bottom:3vh;
+text-decoration:none;
+text-transform:uppercase;
+color:#000;
+font-size:1.5vw;
+letter-spacing:2px;
+border-radius:3vw;
+background-color:#FEB249;
+padding:6px 18px;
+}
+
 #myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  border: none;
-  outline: none;
-  background-color: transparent ;
-  color: #FEB249;
-  cursor: pointer;
-  font-size: 4vw;
+display:none;
+position:fixed;
+bottom:20px;
+right:30px;
+z-index:99;
+border:none;
+outline:none;
+background-color:transparent;
+color:#FEB249;
+cursor:pointer;
+font-size:4vw;
 }
 
-
-.oppelinje{
-  height: 2px;
-  width: 70vw;
-  background: #FEB249 ;
-  display: inline-block;
-  margin-left:15vw;
-}
-.nedelinje{
-  height: 2px;
-  width: 40vw;
-  background: #FEB249 ;
-  display: inline-block;
-  margin-left:30vw;
-}
-.nedelinjek{
-  height: 1px;
-  width: 20vw;
-  background: white;
-  display: inline-block;
-  margin-left:40vw;
-
-}
-.tittel1{
-  float: left;
-  margin-top: 10vh;
+.oppelinje {
+height:2px;
+width:70vw;
+background:#FEB249;
+display:inline-block;
+margin-left:15vw;
 }
 
-.tittel1 h1{
-  font-size: 10vw;
-
-}
-.tittel1 h3{
-  color: #FEB249;
-  font-size: 4vw;
-}
-.tittel1 h2{
-  font-size: 5vw;
-
+.nedelinje {
+height:2px;
+width:40vw;
+background:#FEB249;
+display:inline-block;
+margin-left:30vw;
 }
 
-
-/*--------------vindu3-------------*/
-.vindu3{
-  float: left;
-  background-color: #002447;
-  margin-top: 20vh;
-  padding: 0;
-
-}
-.tittelk{
-  color: white;
-  font-size: 2vw;
-
+.nedelinjek {
+height:1px;
+width:20vw;
+background:#FFF;
+display:inline-block;
+margin-left:40vw;
 }
 
-.kontaktboks1{
-  float: left;
-  margin-left:5vw;
-  text-align: center;
+.tittel1 {
+float:left;
+margin-top:10vh;
 }
 
-.kontaktboks1 a{
-  font-size: 3vw;
-  display: block;
-  margin: 3vw 0;
-  color: white;
-  padding-top: 0.5vw;
-}
-.kontaktboks1 a:hover{
-color: #FEB249;
-
+.tittel1 h1 {
+font-size:10vw;
 }
 
-.borderhøyre{
-  height: 30vh;
-  width: 1px;
-  background: #FFF ;
-  display: inline-block;
-  float: left;
-  margin-top: 6vh;
-
-
-}
-.kontaktboks2{
-  float: left;
-
-}
-.kontaktboks2 a{
-  text-align: center;
-  font-size: 2vw;
-  display: block;
-  color: white;
-  padding-top: 3vh;
-
-}
-.kontaktboks2 a:hover{
-color: #FEB249;
-
-}
-.kontaktboks2 h3{
-  position: center;
-  padding: 1vw;
-  text-align: center;
-  color: white;
-  font-size: 1vw;
+.tittel1 h3 {
+color:#FEB249;
+font-size:4vw;
 }
 
-.kontaktboks3{
-  float: left;
-}
-.bordervenstre{
- height: 30vh;
-  width: 1px;
-  background: #FFF ;
-  display: inline-block;
-  float: left;
-  margin-top: 6vh;
-
-}
-.knapptboks3a{
-  display: inline-block;
-  padding:10px 20px;
-  margin-left: 10vw;
-  margin-top: 10vh;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;
-  font-size: 1.5vw;
-  letter-spacing: 2px;
-  border-radius: 3vw;
-  background-color: #FEB249;
-}
-.knapptboks3b{
-
-  display: inline-block;
-  padding:10px 20px;
-  margin-left: 10vw;
-  margin-top: 10vh;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;
-  font-size: 1.5vw;
-  letter-spacing: 2px;
-  border-radius: 3vw;
-  background-color: #FEB249;
-}
-.kontaktboks3 a:hover{
-color: #fff;
-background-color:#53D3D1 ;
+.tittel1 h2 {
+font-size:5vw;
 }
 
-
-/*-----------------------------Problemet--------------------------------------*/
-.Pvindu1{
-  background-image:linear-gradient(rgba(255,255,255,0.7),rgba(83, 211, 209,0.7)), url(./white.jpg);
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  overflow: auto;
-  background-color: black;
-  z-index: -1;
-}
-.Pslagord{
-  margin-top: 45vh;
-  margin-left: 16vw;
-}
-.Pslagord h1{
-  font-size: 4vw;
-  padding-left: 1vw;
-
-}
-.Pmarkering{
-  color: #FEB249;
-  background-color: transparent;
-}
-.Pkilde{
-  color: black;
-  background-color: transparent;
-  font-size: 1.5vw;
-  float: right;
-  margin-right: 7vw;
-  margin-top: 2vh;
-}
-.Pslagordknapp{
-  display: inline-block;
-  padding:6px 18px;
-  margin-left: 25vw;
-  margin-top: 7vh;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: black;
-  font-size: 2.5vw;
-  letter-spacing: 2px;
-  border-radius: 3vw;
-  background-color: #FEB249;
-}
-.Pslagordknapp:hover{
-  background-color:#53D3D1;
-  border: 1px solid ;
+/*--------------------------------------------Kontakt oss--------------------------------------------*/
+.vindu3 {
+float:left;
+background-color:#002447;
+margin-top:20vh;
+padding:0;
 }
 
-.Pvindu2{
-  float: left;
+.tittelk {
+color:#FFF;
+font-size:2vw;
 }
 
-.Ptittel{
-  font-size: 2.8vw;
-  text-align: center;
-  margin-top: 13vh;
+.kontaktboks1 {
+float:left;
+margin-left:5vw;
+text-align:center;
 }
-.Pnedelinjek{
-  height: 2.7px;
-  width: 20vw;
-  background: #FEB249;
-  display: inline-block;
 
+.kontaktboks1 a {
+font-size:3vw;
+display:block;
+color:#FFF;
+padding-top:.5vw;
+margin:3vw 0;
 }
+
+.kontaktboks2 a {
+text-align:center;
+font-size:2vw;
+display:block;
+color:#FFF;
+padding-top:3vh;
+}
+
+.kontaktboks2 h3 {
+position:center;
+text-align:center;
+color:#FFF;
+font-size:1vw;
+padding:1vw;
+}
+
+/*--------------------------------------------Problemet--------------------------------------------*/
+.Pslagord {
+margin-top:45vh;
+margin-left:16vw;
+}
+
+.Pkilde {
+color:#000;
+background-color:transparent;
+font-size:1.5vw;
+float:right;
+margin-right:7vw;
+margin-top:2vh;
+}
+
+.Ptittel {
+font-size:2.8vw;
+text-align:center;
+margin-top:13vh;
+}
+
 .Ptekst {
-  text-align: center;
-  margin-left: 10vw;
-  margin-top: 6vh;
-
-}
-.Ptekst p{
-  font-size: 1.8vw;
+text-align:center;
+margin-left:10vw;
+margin-top:6vh;
 }
 
-.Pstorquote{
-  float: left;
-}
-.Pborderoppe{
-  float: left;
-  margin-bottom: 5vh;
-  width: 60vw;
-  height: 2px;
-  margin-left: 7vw;
-  background-color: #FEB249;
-}
-.Pbordervenstre{
-  margin-top: 10vh;
-  width: 2px;
-  height: 15vh;
-  margin-left:13vw;
-  background-color: #FEB249;
-  float: left;
-
-
-}
-.Pquote{
-  float: left;
-  margin-left: 2vw;
-  margin-right: 2vw;
-
-}
-.Pquote h2{
-  font-size: 4vw;
-  text-align: center;
-}
-.Pquote h3{
-  padding-right: 2.5vw;
-}
-.Pborderhøyre{
-  margin-top: 5vh;
-  width: 2px;
-  height: 15vh;
-  background-color: #FEB249;
-  float: left;
-
-}
-.Pbordernede{
-  width: 60vw;
-  height: 2px;
-  margin-left: 20vw;
-  margin-top: 5vh;
-  background-color: #FEB249;
-  float: left;
-
-}
-.Ptekst2{
- float: left;
- margin-bottom: 5vh;
- margin-top: 6vh;
-}
-.P12{
-  float: left;
-  margin-left: 20vw;
-
-}
-.P12 img{
-  width: 100%;
-
-}
-.P13{
-  float: right;
-  margin-right: 20vw;
-  }
-
-.P13 img{
-  width: 100%;
-
-}
-.Ptittel3{
-  float: left;
-  margin-top: 8vh;
-  margin-left: 10vw;
-}
-.Ptittel3 h1{
-  font-size: 3vw;
-}
-.Plittnedelinje{
-  height: 2px;
-  width: 40vw;
-  background: #FEB249;
-  display: inline-block;
-  margin-left:2.5vw;
-  margin-bottom: 1vh;
-  float: left;
-
-}
-.Ptekst3{
-  float: left;
-  margin-top: 5vh;
-  margin-left: 10vw;
-  margin-bottom: 8vh;
-  font-size: 1.8vw;
+.Pborderoppe {
+float:left;
+margin-bottom:5vh;
+width:60vw;
+height:2px;
+margin-left:7vw;
+background-color:#FEB249;
 }
 
-.Pkilde2{
-  color: #FEB249;
-  background-color: transparent;
-  text-decoration: underline ;
-  font-size: 1.8vw;
+.Pbordervenstre {
+margin-top:10vh;
+width:2px;
+height:15vh;
+margin-left:13vw;
+background-color:#FEB249;
+float:left;
 }
 
-
-/*-----------------------------LØSNIIIIIIIIIIIING!!!!!!-----------------------*/
-.Lslagord{
-  margin-top: 45vh;
-
-  margin-left: 18vw;
-}
-.Lslagord h1{
-  font-size: 4vw;
-
-}
-.Lslagordknapp{
-  display: inline-block;
-  padding:6px 18px;
-  margin-left: 25vw;
-  margin-top: 7vh;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: black;
-  font-size: 2.5vw;
-  letter-spacing: 2px;
-  border-radius: 3vw;
-  background-color: #FEB249;
-}
-.Lslagordknapp:hover{
-  background-color:#53D3D1;
-  border: 1px solid ;
-}
-.Lmarkinger{
-  color: #FEB249;
-  background-color: transparent;
+.Pquote {
+float:left;
+margin-left:2vw;
+margin-right:2vw;
 }
 
-.Lvindu1{
-  background-image:linear-gradient(rgba(255,255,255,0.7),rgba(83, 211, 209,0.7)), url(./white.jpg);
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  overflow: auto;
-  background-color: black;
-  z-index: -1;
+.Pquote h2 {
+font-size:4vw;
+text-align:center;
 }
 
-.Lvindu2{
-  background-color: rgb(253, 235, 235);
-  background-size: cover;
-  background-position: center;
-  overflow: auto;
-  z-index: -1;
-  float: left;
+.Pquote h3 {
+padding-right:2.5vw;
 }
 
-.Ltittel{
-  font-size: 2.8vw;
-  margin-top: 13vh;
-  text-align: center;
-}
-.Lnedelinjek{
-  height: 2.7px;
-  width: 20vw;
-  background: #FEB249;
-  display: inline-block;
-
+.Pborderhøyre {
+margin-top:5vh;
+width:2px;
+height:15vh;
+background-color:#FEB249;
+float:left;
 }
 
-
-.Lttekst{
-  text-align: center;
-  margin-left: 10vw;
-  margin-top: 2vh;
-
-}
-.Lttekst p{
-  font-size: 1.8vw;
+.Pbordernede {
+width:60vw;
+height:2px;
+margin-left:20vw;
+margin-top:5vh;
+background-color:#FEB249;
+float:left;
 }
 
-.Ltpunkter{
-  margin-left: 13vw;
-  margin-top: 8vh;
-  font-size: 2vw;
-
-}
-.Ltpunkter li{
-  margin: 2.2vh 0;
+.Ptekst2 {
+float:left;
+margin-bottom:5vh;
+margin-top:6vh;
 }
 
-.Lpunkterbilde{
-  float: right;
-  margin-top: -18vw;
-  margin-right: 5vw;
-}
-.Lpunkterbilde img{
-  width: 90%;
-  height: auto;
-
-
-
-}
-.Llinjek2{
-  height: 2.7px;
-  width: 30vw;
-  background: rgb(255,235,235);
-  display: inline-block;
-  margin-left:35vw;
-  margin-top: 0vw;
-
-}
-.Lv2knapp{
-  display: inline-block;
-  padding: 3px 8px;
-  margin-top: 9vh;
-  margin-left: 44vw;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: black;
-  font-size: 2vw;
-  letter-spacing: 2px;
-  border-radius: 3vw;
-  background-color: #FEB249;
+.P12 {
+float:left;
+margin-left:20vw;
 }
 
-.Lstor{
-  float: left;
-   margin-top: 10vh;
-  margin-bottom: 10vh;
-
-}
-.Lquote{
-  float: left;
-  margin-left: 10vw;
-
-}
-.Lquote img{
-  float: left;
- width: 20vw;
-}
-.Lbildetekst{
-  float: right;
-  font-size: 2vw;
-}
-.Llinjeoppe{
-  height: 2px;
-  width: 80vw;
-  background-color: #FEB249;
-  float:left;
-  margin-left: 10vw;
-  margin-bottom: 6vh;
-}
-.Llinjenede{
-  height: 2px;
-  width: 80vw;
-  margin-left: 10vw;
-  background-color: #FEB249;
-  float:left;
-  margin-top: 6vh;
+.P13 {
+float:right;
+margin-right:20vw;
 }
 
-
-
-
-.Lms{
-  margin-left: 50vw;
-
+.Ptittel3 {
+float:left;
+margin-top:8vh;
+margin-left:10vw;
 }
+
+.Plittnedelinje {
+height:2px;
+width:40vw;
+background:#FEB249;
+display:inline-block;
+margin-left:2.5vw;
+margin-bottom:1vh;
+float:left;
+}
+
+.Ptekst3 {
+float:left;
+margin-top:5vh;
+margin-left:10vw;
+margin-bottom:8vh;
+font-size:1.8vw;
+}
+
+.Pkilde2 {
+color:#FEB249;
+background-color:transparent;
+text-decoration:underline;
+font-size:1.8vw;
+}
+/*--------------------------------------------Løsning--------------------------------------------*/
+.Lslagord {
+margin-top:45vh;
+margin-left:18vw;
+}
+
+.Lvindu2 {
+background-color:#fdebeb;
+background-size:cover;
+background-position:center;
+overflow:auto;
+z-index:-1;
+float:left;
+}
+
+.Ltittel {
+font-size:2.8vw;
+margin-top:13vh;
+text-align:center;
+}
+
+.Lttekst {
+text-align:center;
+margin-left:10vw;
+margin-top:2vh;
+}
+
+.Ltpunkter {
+margin-left:13vw;
+margin-top:8vh;
+font-size:2vw;
+}
+
+.Ltpunkter li {
+margin:2.2vh 0;
+}
+
+.Lpunkterbilde {
+float:right;
+margin-top:-18vw;
+margin-right:5vw;
+}
+
+.Lpunkterbilde img {
+width:90%;
+height:auto;
+}
+
+.Llinjek2 {
+height:2.7px;
+width:30vw;
+background:#ffebeb;
+display:inline-block;
+margin-left:35vw;
+margin-top:0;
+}
+
+.Lv2knapp {
+display:inline-block;
+margin-top:9vh;
+margin-left:44vw;
+text-decoration:none;
+text-transform:uppercase;
+color:#000;
+font-size:2vw;
+letter-spacing:2px;
+border-radius:3vw;
+background-color:#FEB249;
+padding:3px 8px;
+}
+
+.Lstor {
+float:left;
+margin-top:10vh;
+margin-bottom:10vh;
+}
+
+.Lquote {
+float:left;
+margin-left:10vw;
+}
+
+.Lquote img {
+float:left;
+width:20vw;
+}
+
+.Lbildetekst {
+float:right;
+font-size:2vw;
+}
+
+.Llinjeoppe {
+height:2px;
+width:80vw;
+background-color:#FEB249;
+float:left;
+margin-left:10vw;
+margin-bottom:6vh;
+}
+
+.Llinjenede {
+height:2px;
+width:80vw;
+margin-left:10vw;
+background-color:#FEB249;
+float:left;
+margin-top:6vh;
+}
+
+.Lms {
+margin-left:50vw;
+}
+
 .Ltteekst {
-  margin-top: 19vh;
-  margin-left: 10vw;
-}
-.Ltteekst h2{
-  font-size: 3vw;
-}
-.Ltteekst p{
-  font-size: 1.8vw;
-}
-.Lteksover{
-  height: 2px;
-  width: 30vw;
-  background: #FEB249;
-  display: inline-block;
-  margin-left:2vw;
-  margin-bottom: 2vh;
+margin-top:19vh;
+margin-left:10vw;
 }
 
-.Lttekst2 img{
-width: 20vw;
-margin-left: 5vw;
-margin-top: 5vw;
-float: left;
+.Lteksover {
+height:2px;
+width:30vw;
+background:#FEB249;
+display:inline-block;
+margin-left:2vw;
+margin-bottom:2vh;
 }
 
-
-
-.Lttekst3{
-  margin-left: 10vw;
-  margin-top: 5vw;
-  font-size: 2vw;
-}
-.Lttekst33{
-  margin-left: 10vw;
-  margin-top: 5vw;
-}
-.Lttekst33 h3{
-  font-size: 3vw;
-}
-.Lttekst33 p{
-  font-size: 1.8vw;
+.Lttekst2 img {
+width:20vw;
+margin-left:5vw;
+margin-top:5vw;
+float:left;
 }
 
-.Lttlinje{
-  height: 2px;
-  width: 31vw;
-  background: #FEB249;
-  display: inline-block;
-  margin-left:2vw;
-  margin-bottom: 2vh;
-
+.Lttekst3 {
+margin-left:10vw;
+margin-top:5vw;
+font-size:2vw;
 }
 
-.Lttekst4{
-  margin-left: 13vw;
-  margin-top: 3vw;
-  font-size: 2vw;
-}
-.Lttekst4 li{
-  margin: 1.5vh 0;
-}
-.Lttekst44{
-  margin-left: 10vw;
-  margin-top: 3vw;
-  font-size: 1.8vw;
+.Lttekst33 {
+margin-left:10vw;
+margin-top:5vw;
 }
 
-/*-----------------------------APPEN--------------------------------------*/
-.Avindu1{
-  background-image:linear-gradient(rgba(255,255,255,0.7),rgba(83, 211, 209,0.7)), url(./white.jpg);
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  overflow: auto;
-  z-index: -1;
-}
-.Aslagord{
-  float: left;
-  margin-top: 45vh;
-  padding-left: 5vw;
+.Lttlinje {
+height:2px;
+width:31vw;
+background:#FEB249;
+display:inline-block;
+margin-left:2vw;
+margin-bottom:2vh;
 }
 
-.Aslagord h1{
-  font-size: 4vw;
-  padding-left: 1vw;
+.Lttekst4 {
+margin-left:13vw;
+margin-top:3vw;
+font-size:2vw;
 }
 
-#Amarkering{
-  color: #FEB249;
-  background-color: transparent;
+.Lttekst4 li {
+margin:1.5vh 0;
 }
 
-.Aslagordknapp{
-  display: inline-block;
-  padding:6px 18px;
-  margin-left: 1vw;
-  margin-top: 7vh;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: black;
-  font-size: 2.5vw;
-  letter-spacing: 2px;
-  border-radius: 3vw;
-  background-color: #FEB249;
-}
-.Aslagordknapp:hover{
-  background-color:#53D3D1;
-  border: 1px solid ;
+.Lttekst44 {
+margin-left:10vw;
+margin-top:3vw;
+font-size:1.8vw;
 }
 
-.Atablet{
-  float: right;
-  margin-top: 25vh;
-  margin-right: 5vw;
-
-}
-.Atablet img{
-  width: 100%;
-}
-.Aappstore{
-  float: left;
-  margin-top: 4vh;
-}
-.Aappstore img{
-  width: 15vw;
-  float: right;
-  margin-right: 6.5vw;
+/*--------------------------------------------Appen--------------------------------------------*/
+.Avindu1 {
+background-image:linear-gradient(rgba(255,255,255,0.7),rgba(83,211,209,0.7)), url(./white.jpg);
+height:100vh;
+background-size:cover;
+background-position:center;
+overflow:auto;
+z-index:-1;
 }
 
-.Avindu2{
-  float: left;
-  background-size: cover;
-  background-position: center;
+.Aslagord {
+float:left;
+margin-top:45vh;
+padding-left:5vw;
 }
-.Abildeboks{
-    display: none;
+
+.Atablet {
+float:right;
+margin-top:25vh;
+margin-right:5vw;
 }
+
+.Aappstore {
+float:left;
+margin-top:4vh;
+}
+
+.Aappstore img {
+width:15vw;
+float:right;
+margin-right:6.5vw;
+}
+
 .Abildeboks1 {
-  margin-top: 20vh;
-  float: left;
+margin-top:20vh;
+float:left;
 }
-.Abildeboks1 img{
-  width: 40vw;
+
+.Abildeboks1 img {
+width:40vw;
 }
+
 .Atekstboks1 {
-  margin-top: 12.5vh;
-  float: left;
-  font-size: 1.5vw;
+margin-top:12.5vh;
+float:left;
+font-size:1.5vw;
 }
-.Atekstboks1 h1{
-  font-size: 4vw;
+
+.Atekstboks1 p {
+margin-top:1vh;
+margin-bottom:2vh;
+font-size:2vw;
 }
-.Atekstboks1 p{
-  margin-top: 1vh;
-  margin-bottom: 2vh;
-  font-size: 2vw;
+
+.Atekstboks1 li {
+background-repeat:no-repeat;
+background-position:left center;
+background-size:40px;
+list-style:none;
+background-image:url(punkt.png);
+font-size:1.7vw;
+margin:0;
+padding:16px 0 16px 84px;
 }
-.Atekstboks1 li{
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-size: 40px;
-  margin: 0;
-  padding: 16px 0 16px 84px;
-  list-style: none;
-  background-image: url('punkt.png');
-  font-size: 1.7vw;
-}
+
 .Abildeboks2 {
-  margin-top: 10vh;
-  float: left;
-}
-.Abildeboks2 img{
-  width: 20vw;
-}
-.Atekstboks2{
-  margin-top: 1.1vw;
-  float: left;
-  font-size: 1.7vw;
-  padding-left: 3vw;
-}
-.Atekstboks2 h1{
-  font-size: 4vw;
-}
-.Atekstboks2 p{
-  margin-top: 1vh;
-  margin-bottom: 2vh;
-}
-.Atekstboks2 h2{
-  color: orange;
-  margin-top: 2vh;
-}
-.Atekstboks2 p{
-  padding-right: 6vw;
-}
-.Abildeboks3{
-  display: none;
-}
-/*-------------kilder--------------*/
-.Khovedboks{
-  margin-top: 15vh;
-}
-.Khovedboks h1{
-  font-size: 4vw;
-}
-.Kpunkter{
-  margin-left:5vw;
-}
-.Kpunkter li{
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-size: 40px;
-  padding: 16px 0 16px 84px;
-  list-style: none;
-  background-image: url('punkt.png');
-  font-size:1.8vw;
+margin-top:10vh;
+float:left;
 }
 
-  .Ktittel{
-    text-align: center;
-  }
-  .Knedelinje{
-  height: 4px;
-  width: 20vw;
-  background: #FEB249;
-  display: inline-block;
-  }
-
-  .Ktittel2{
-    text-align: center;
-    float: left;
-    margin-top: 3vh;
-  }
-  .Kkildebilde{
-    background-image:linear-gradient(rgba(83, 211, 209,0.7),rgba(255,255,255,0.7)), url(./white.jpg);
-    margin-left: 15vw;
-    margin-top: 5vh;
-    float: left;
-    padding-left: 1vw;
-    border-radius: 10px 10px 10px 10px;
-  }
- .Kkildebilde li{
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-size: 40px;
-  margin-top: 5vh;
-  padding: 16px 0 16px 84px;
-  list-style: none;
-  background-image: url('punkt.png');
-  font-size:1.8vw;
-  float: left;
-}
-  .Kkildebilde img{
-    float: right;
-    width: 10vw;
-  }
-.Kkildeikoner{
-    background-image:linear-gradient(rgba(83, 211, 209,0.7),rgba(255,255,255,0.7)), url(./white.jpg);
-    margin-left: 15vw;
-    margin-top: 5vh;
-    float: left;
-    padding-left: 1vw;
-    border-radius: 10px 10px 10px 10px;
-}
- .Kkildeikoner li{
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-size: 40px;
-  margin-top: 2vh;
-  padding: 16px 0 16px 84px;
-  list-style: none;
-  background-image: url('punkt.png');
-  font-size:1.8vw;
-  float: left;
+.Abildeboks2 img {
+width:20vw;
 }
 
-
-  .Kkildeikoner i{
-  float: right;
-  font-size: 4vw;
-  padding-top: 4vh;
+.Atekstboks2 {
+margin-top:1.1vw;
+float:left;
+font-size:1.7vw;
+padding-left:3vw;
 }
 
-
-/*-------------------------------Responsiv----------------------*/
-
-
-[class*="col-"]{
-  border: black solid px;
-
+.Atekstboks2 p {
+margin-top:1vh;
+margin-bottom:2vh;
+padding-right:6vw;
 }
 
-.row::after{
-  content: "";
-  clear: both;
-  display: table;
+.Atekstboks2 h2 {
+color:orange;
+margin-top:2vh;
 }
-.col-small10{width: 10%;}
-.col-small15{width: 15%;}
-.col-small20{width: 20%;}
-.col-small25{width: 25%;}
-.col-small30{width: 30%;}
-.col-small40{width: 40%;}
-.col-small50{width: 50%;}
-.col-small60{width: 60%;}
-.col-small70{width: 70%;}
-.col-small80{width: 80%;}
-.col-small90{width: 90%;}
-.col-small100{width: 100%;}
 
+/*--------------------------------------------Kilder--------------------------------------------*/
+.Khovedboks {
+margin-top:15vh;
+}
+
+.Kpunkter {
+margin-left:5vw;
+}
+
+.Kpunkter li {
+background-repeat:no-repeat;
+background-position:left center;
+background-size:40px;
+list-style:none;
+background-image:url(punkt.png);
+font-size:1.8vw;
+padding:16px 0 16px 84px;
+}
+
+.Ktittel {
+text-align:center;
+}
+
+.Knedelinje {
+height:4px;
+width:20vw;
+background:#FEB249;
+display:inline-block;
+}
+
+.Ktittel2 {
+text-align:center;
+float:left;
+margin-top:3vh;
+}
+
+.Kkildebilde li {
+background-repeat:no-repeat;
+background-position:left center;
+background-size:40px;
+margin-top:5vh;
+list-style:none;
+background-image:url(punkt.png);
+font-size:1.8vw;
+float:left;
+padding:16px 0 16px 84px;
+}
+
+.Kkildebilde img {
+float:right;
+width:10vw;
+}
+
+.Kkildeikoner li {
+background-repeat:no-repeat;
+background-position:left center;
+background-size:40px;
+margin-top:2vh;
+list-style:none;
+background-image:url(punkt.png);
+font-size:1.8vw;
+float:left;
+padding:16px 0 16px 84px;
+}
+
+.Kkildeikoner i {
+float:right;
+font-size:4vw;
+padding-top:4vh;
+}
+
+/*--------------------------------------------Like verdier--------------------------------------------*/
+.menu a.active,.kontaktboks1 a:hover,.kontaktboks2 a:hover {
+color:#FEB249;
+}
+
+label,#toggle,.Abildeboks,.Abildeboks3 {
+display:none;
+}
+
+.slagord h1,.Pslagord h1,.Aslagord h1 {
+font-size:4vw;
+padding-left:1vw;
+}
+
+#matsvinn,.Pmarkering,.Lmarkinger,#Amarkering {
+color:#FEB249;
+background-color:transparent;
+}
+
+.slagordknapp,.Aslagordknapp {
+display:inline-block;
+margin-left:1vw;
+margin-top:7vh;
+text-decoration:none;
+text-transform:uppercase;
+color:#000;
+font-size:2.5vw;
+letter-spacing:2px;
+border-radius:3vw;
+background-color:#FEB249;
+padding:6px 18px;
+}
+
+.slagordknapp:hover,.Pslagordknapp:hover,.Lslagordknapp:hover,.Aslagordknapp:hover {
+background-color:#53D3D1;
+border:1px solid;
+}
+
+.vindu2,.Avindu2 {
+float:left;
+background-size:cover;
+background-position:center;
+}
+
+.knapptboks:hover,.kontaktboks3 a:hover {
+color:#fff;
+background-color:#53D3D1;
+}
+
+.borderhøyre,.bordervenstre {
+height:30vh;
+width:1px;
+background:#FFF;
+display:inline-block;
+float:left;
+margin-top:6vh;
+}
+
+.kontaktboks2,.kontaktboks3,.Pvindu2,.Pstorquote {
+float:left;
+}
+
+.knapptboks3a,.knapptboks3b {
+display:inline-block;
+margin-left:10vw;
+margin-top:10vh;
+text-decoration:none;
+text-transform:uppercase;
+color:#FFF;
+font-size:1.5vw;
+letter-spacing:2px;
+border-radius:3vw;
+background-color:#FEB249;
+padding:10px 20px;
+}
+
+.Pvindu1,.Lvindu1 {
+background-image:linear-gradient(rgba(255,255,255,0.7),rgba(83,211,209,0.7)), url(./white.jpg);
+height:100vh;
+background-size:cover;
+background-position:center;
+overflow:auto;
+background-color:#000;
+z-index:-1;
+}
+
+.Pslagordknapp,.Lslagordknapp {
+display:inline-block;
+margin-left:25vw;
+margin-top:7vh;
+text-decoration:none;
+text-transform:uppercase;
+color:#000;
+font-size:2.5vw;
+letter-spacing:2px;
+border-radius:3vw;
+background-color:#FEB249;
+padding:6px 18px;
+}
+
+.Pnedelinjek,.Lnedelinjek {
+height:2.7px;
+width:20vw;
+background:#FEB249;
+display:inline-block;
+}
+
+.Ptekst p,.Lttekst p,.Ltteekst p,.Lttekst33 p {
+font-size:1.8vw;
+}
+
+.P12 img,.P13 img,.Atablet img {
+width:100%;
+}
+
+.Ptittel3 h1,.Ltteekst h2,.Lttekst33 h3 {
+font-size:3vw;
+}
+
+.Lslagord h1,.Atekstboks1 h1,.Atekstboks2 h1,.Khovedboks h1 {
+font-size:4vw;
+}
+
+.Kkildebilde,.Kkildeikoner {
+background-image:linear-gradient(rgba(83,211,209,0.7),rgba(255,255,255,0.7)), url(./white.jpg);
+margin-left:15vw;
+margin-top:5vh;
+float:left;
+padding-left:1vw;
+border-radius:10px 10px 10px 10px;
+}
+
+[class*="col-"] {
+border:#000 solid px;
+}
+
+.row::after {
+content:"";
+clear:both;
+display:table;
+}
+
+.col-small10 {width:10%;}
+.col-small15 {width:15%;}
+.col-small20 {width:20%;}
+.col-small25 {width:25%;}
+.col-small30 {width:30%;}
+.col-small40 {width:40%;}
+.col-small50 {width:50%;}
+.col-small60 {width:60%;}
+.col-small70 {width:70%;}
+.col-small80 {width:80%;}
+.col-small90 {width:90%;}
+.col-small100 {width:100%;}
+/*-------------------------------------------------------------Mobil breakpoint--------------------------------------------------------------------*/
 @media only screen and (max-width: 600px){
-.col-mob10{width: 10%;}
-.col-mob15{width: 15%;}
-.col-mob25{width: 25%;}
-.col-mob30{width: 30%;}
-.col-mob40{width: 40%;}
-.col-mob50{width: 50%;}
-.col-mob60{width: 60%;}
-.col-mob65{width: 65%;}
-.col-mob70{width: 70%;}
-.col-mob90{width: 90%;}
+.col-mob10 {width:10%;}
+.col-mob15 {width:15%;}
+.col-mob25 {width:25%;}
+.col-mob30 {width:30%;}
+.col-mob40 {width:40%;}
+.col-mob50 {width:50%;}
+.col-mob60 {width:60%;}
+.col-mob65 {width:65%;}
+.col-mob70 {width:70%;}
+.col-mob90 {width:90%;}
 .col-mob100{width: 100%;}
-
-.logo{
-  float: left;
-  margin-left: 30vw;
-  margin-top: 2vh;
-}
-.logo img{
-  float: left;
- width: 100%;
-
-}
-#envelope{
-  display: none;
+/*--------------------------------------------Nav-bar--------------------------------------------*/
+.logo {
+float:left;
+margin-left:30vw;
+margin-top:2vh;
 }
 
-/*-----------------------------------------*/
-input[type="checkbox"] {
-  display: none;
+.logo img {
+float:left;
+width:100%;
 }
 
-label{
-  display: block;
-  cursor: pointer;
-  position: absolute;
-  font-size: 6vw;
-  right: 6vw;
-  top: 3vh;
-  z-index: 100;
-  color: black;
+label {
+display:block;
+cursor:pointer;
+position:absolute;
+font-size:6vw;
+right:6vw;
+top:3vh;
+z-index:100;
+color:#000;
 }
 
-.menu{
-  position: absolute;
-  top: -6vh;
-  left: -2vw;
-  width: 102vw;
-  height: 102vh;
-  display: none;
-  background-color: #002447;
-  z-index: 50;
+.menu {
+position:absolute;
+top:-6vh;
+left:-2vw;
+width:102vw;
+height:102vh;
+display:none;
+background-color:#002447;
+z-index:50;
+}
 
-}
-.menu a{
-  display: block;
-  width: 100%;
-  color: white;
-  font-size: 6vw;
-  margin-top: 10vh;
-  margin-bottom: 2vh;
-  float: left;
-}
-.menu a:hover{
-  color: #FEB249;
-}
-.menu a.active{
-  color: #FEB249;
-}
-#toggle:checked + label +.menu{
-  display: block;
-
+.menu a {
+display:block;
+width:100%;
+color:#FFF;
+font-size:6vw;
+margin-top:10vh;
+margin-bottom:2vh;
+float:left;
 }
 
 input[type="checkbox"]:checked + label {
-  color: white;
+color:#FFF;
 }
 
-
-
-/*----------------------------------------------*/
-
-.iphone{
-  display: none;
-}
-.slagord{
-  text-align: center;
-  padding-left: 0;
-}
-.slagord h1{
-  font-size: 7vw;
-  padding-left: 0;
-}
-.slagordknapp{
-  display:none;
-}
-.knapptboks{
-  font-size: 4vw;
-  margin-left: 32.6vw;
-
-}
-.tboks{
-  margin-top: 15vh;
-  margin-left: 5vw;
-}
-.ttekst h2{
-
-  font-size: 6vw;
-}
-.ttekst p{
-  padding-left:2vw ;
-  padding-right:2vw ;
-  font-size: 4vw;
-}
-.tittelk{
-  font-size: 4vw;
-}
-.vindu3{
-  margin-top: 10vh;
-}
-.kontaktboks1{
-  margin-left: 10vw;
-}
-.kontaktboks1 a{
-  font-size: 6vw;
-  margin: 5vh 0;
-}
-.kontaktboks2 a{
-  font-size: 4vw;
-}
-.kontaktboks2 h3{
-  font-size: 4vw;
-}
-.bordervenstre{
-  display: none;
-}
-.kontaktboks3{
-  height: 15vh;
-  margin-left: 25vw;
-  align-items: center;
-  justify-content: center;
-
-}
-.knapptboks3a{
-
-  margin-left: -2vw;
-  margin-top: 0vh;
-  margin-bottom: 3vh;
-  font-size: 2vw;
-}
-.knapptboks3b{
-  float: right;
-  margin-left: 0vw;
-  margin-right: -4vw;
-  margin-top: 0vh;
-  margin-bottom: 0vh;
-  font-size: 2vw;
-
-}
-#myBtn i{
-  display: none;
+/*--------------------------------------------Index mobil--------------------------------------------*/
+.slagord {
+text-align:center;
+padding-left:0;
 }
 
-/*-----------------------------Problemet--------------------------------------*/
-.Pslagord{
-  margin-left: 6vw;
-  margin-top: 40vh;
-
-}
-.Pslagord h1{
-  padding-left:0;
-  font-size: 7vw;
-
-}
-.Pkilde{
-  font-size: 2.9vw;
-  float: left;
-  margin-top: 2vh;
-}
-.Pslagordknapp{
- display: none;
-}
-.Ptittel{
-  text-align: center;
-
-}
-.Ptittel h1{
-  font-size: 10vw;
-  padding-left: 4vw;
-
-}
-.Pnedelinjek{
-  width: 40vw;
-  margin-left: 5vw;
-}
-.Ptekst p{
-  font-size: 4vw;
-  text-align:
-}
-.P12{
-  margin-left: 5vw;
-}
-.P13{
-  margin-right:  5vw;
-}
-.Ptittel3 h1{
-  font-size: 5.2vw;
-
-}
-.Plittnedelinje{
-  width: 70vw;
-  margin-left: 4vw;
-}
-.Ptekst3 p{
-  text-align:center;
-  font-size: 4vw;
-}
-.Pkilde2{
-  font-size: 4vw;
+.knapptboks {
+font-size:4vw;
+margin-left:32.6vw;
 }
 
-.Pquote h2{
-  font-size: 7vw;
-}
-.Pquote h3{
-  padding-right: 0vw;
-}
-.Pbordervenstre{
-  height: 25vh;
-
-}
-.Pborderhøyre{
-  height: 25vh;
-
+.tboks {
+margin-top:15vh;
+margin-left:5vw;
 }
 
+.ttekst h2 {
+font-size:6vw;
+}
 
-/*---------------------------------------------------------------------------------*/
-/*-------------------------------Responsiv Løsning----------------------------------*/
-/*---------------------------------------------------------------------------------*/
+.ttekst p {
+padding-left:2vw;
+padding-right:2vw;
+font-size:4vw;
+}
 
-                        /*---------Mobil-----------*/
+.vindu3 {
+margin-top:10vh;
+}
+
+/*--------------------------------------------Kontakt mobil--------------------------------------------*/
+.kontaktboks1 {
+margin-left:10vw;
+}
+
+.kontaktboks1 a {
+font-size:6vw;
+margin:5vh 0;
+}
+
+.kontaktboks3 {
+height:15vh;
+margin-left:25vw;
+align-items:center;
+justify-content:center;
+}
+
+.knapptboks3a {
+margin-left:-2vw;
+margin-top:0;
+margin-bottom:3vh;
+font-size:2vw;
+}
+
+.knapptboks3b {
+float:right;
+font-size:2vw;
+margin:0 -4vw 0 0;
+}
+
+/*--------------------------------------------Problem mobil--------------------------------------------*/
+.Pslagord {
+margin-left:6vw;
+margin-top:40vh;
+}
+
+.Pslagord h1 {
+padding-left:0;
+font-size:7vw;
+}
+
+.Pkilde {
+font-size:2.9vw;
+float:left;
+margin-top:2vh;
+}
+
+.Ptittel {
+text-align:center;
+}
+
+.Ptittel h1 {
+font-size:10vw;
+padding-left:4vw;
+}
+
+.Pnedelinjek {
+width:40vw;
+margin-left:5vw;
+}
+
+.P12 {
+margin-left:5vw;
+}
+
+.P13 {
+margin-right:5vw;
+}
+
+.Plittnedelinje {
+width:70vw;
+margin-left:4vw;
+}
+
+.Ptekst3 p {
+text-align:center;
+font-size:4vw;
+}
+
+.Pquote h3 {
+padding-right:0;
+}
+
+/*--------------------------------------------Løsning mobil--------------------------------------------*/
 .Lslagord {
-  text-align: center;
-  padding-left: 0;
-  margin-top: 40vh;
-  margin-left: 5vw;
-
-}
-.Lslagord h1{
-  font-size: 7vw;
-}
-.Lslagordknapp{
- display: none;
-}
-.Ltittel{
-  font-size: 5.4vw;
-  margin-top: 13vh;
-}
-.Lnedelinjek{
-  height: 2.7px;
-  width: 40vw;
-  background: #FEB249;
-  display: inline-block;
-  margin-left: 0;
-}
-.Lttekst{
-  margin-left: 10vw;
-  margin-top: 3vh;
-}
-.Lttekst p{
-   font-size: 4vw;
-}
-.Ltpunkter{
-  font-size: 4vw;
-  margin-top: 7vw;
-  margin-left: 15vw;
-}
-.Ltteekst h2{
-  font-size: 5.2vw;
-
-}
-.Lteksover{
-  margin-left:0;
-  margin-bottom: 2vh;
-  width: 50vw;
-
-
-}
-.Lpunkterbilde{
-  margin-top: 3vh;
-  margin-right: 40vw;
-  display: none;
-}
-.Llinjek2{
-  margin-top: 5vw;
+text-align:center;
+padding-left:0;
+margin-top:40vh;
+margin-left:5vw;
 }
 
-.Lv2knapp{
-  display: none;
-}
-.Ltteekst{
-  margin-left: 10vw;
-  margin-top: 3vh;
-  text-align: center;
-}
-.Ltteekst p{
-   font-size: 4vw;
-}
-.Lttekst2 img{
-width: 40vw;
-margin-left: 23vw;
-margin-top: 2vh;
-float: none;
+.Ltittel {
+font-size:5.4vw;
+margin-top:13vh;
 }
 
-
-.Llinjeoppe{
- 
-  margin-bottom: 0vh;
-}
-.Lquote img{
- width: 35vw;
- margin-left: 25vw;
- padding-top: 5vh;
- padding-bottom: 5vh;
-}
-.Lbildetekst{
-  text-align: center;
-  float: left;
-  font-size: 4vw;
-  margin-left: 15vw;
-}
-.Lv3knapp{
-  display: none;
-}
-.Lttekst33{
-  margin-left: 10vw;
-  margin-top: 6vw;
-  text-align: center;
+.Lnedelinjek {
+height:2.7px;
+width:40vw;
+background:#FEB249;
+display:inline-block;
+margin-left:0;
 }
 
-.Lttlinje{
-  margin-left:0;
-  margin-top: 0;
-  margin-bottom: 2vh;
-  width: 50vw;
+.Lttekst {
+margin-left:10vw;
+margin-top:3vh;
 }
-.Lttekst33 p{
-  font-size: 4vw;
 
+.Ltpunkter {
+font-size:4vw;
+margin-top:7vw;
+margin-left:15vw;
 }
-.Lttekst33 h3{
-  font-size: 5.2vw;
 
+.Lteksover {
+margin-left:0;
+margin-bottom:2vh;
+width:50vw;
 }
+
+.Lpunkterbilde {
+margin-top:3vh;
+margin-right:40vw;
+display:none;
+}
+
+.Llinjek2 {
+margin-top:5vw;
+}
+
+.Ltteekst {
+margin-left:10vw;
+margin-top:3vh;
+text-align:center;
+}
+
+.Lttekst2 img {
+width:40vw;
+margin-left:23vw;
+margin-top:2vh;
+float:none;
+}
+
+.Llinjeoppe {
+margin-bottom:0;
+}
+
+.Lquote img {
+width:35vw;
+margin-left:25vw;
+padding-top:5vh;
+padding-bottom:5vh;
+}
+
+.Lbildetekst {
+text-align:center;
+float:left;
+font-size:4vw;
+margin-left:15vw;
+}
+
+.Lttekst33 {
+margin-left:10vw;
+margin-top:6vw;
+text-align:center;
+}
+
+.Lttlinje {
+margin-left:0;
+margin-top:0;
+margin-bottom:2vh;
+width:50vw;
+}
+
 .Lttekst4 {
-  font-size: 4vw;
-  margin-left: 16vw;
-  margin-top: 5vw;
-
-}
-.Lttekst44{
-  margin-top: 5vw;
-  margin-left: 10vw;
-  text-align: center;
-}
-.Lttekst44 p{
-  font-size: 4vw;
-}
-.Lnedelinjekk2{
-  margin-top: 0;
-}
-/*-------------------------------App mobil----------------------*/
-
-.Atablet {
-  display: none;
-}
-.Aappstore{
-  left: 1;
-}
-.Aslagord{
-  text-align: center;
-  padding-left: 0;
-  margin-left: 5vw;
-}
-.Aslagord h1{
-  font-size: 7vw;
-  padding-left: 0;
-}
-.Aslagordknapp{
-  display: none;}
-.Aappstore{
-  margin-left: 36vw;
-}
-.Aappstore img{
-  width: 40vw;
-}
-.Atekstboks1{
-  font-size: 3.5vw;
-  padding-left: 0;
-  margin-left: 3.5vw;
-}
-.Atekstboks1 li{
-  font-size: 3.5vw;
-
-}
-.Atekstboks1 p{
-  font-size: 3.8vw;
-
-}
-.Atekstboks1 h1{
-  font-size: 7vw;
-
-}
-.Atekstboks2{
-  font-size: 3.5vw;
-  margin-left: 3.5vw;
-}
-.Atekstboks2 h1{
-  font-size: 7vw;
-}
-.Abildeboks{
-    display: block;
-}
-.Abildeboks img{
-  width: 100%;
-}
-.Abildeboks1{
-  display: none;
-}
-
-.Abildeboks2 img{
-  display: none;
-}
-/*---------------kilder-----------*/
-.Khovedboks h1{
-  font-size: 7vw;
-}
-
-.Kpunkter li{
-  font-size:4vw;
-}
-
-.Kkildebilde li{
- 
-  font-size:4.8vw;
-}
-
- .Kkildeikoner li{
-  font-size: 4.8vw;
-}
-  .Kkildeikoner i{
- font-size: 11vw;
-}
-.Kkildebilde img{
-    width: 30vw;
-  }
-
-}
-
-
-
-
-
-
-
-@media only screen and (min-width: 600px) and (max-width: 790px){
-.col-pad10{width: 10%;}
-.col-pad15{width: 15%;}
-.col-pad20{width: 20%;}
-.col-pad25{width: 25%;}
-.col-pad30{width: 30%;}
-.col-pad35{width: 35%;}
-.col-pad40{width: 40%;}
-.col-pad50{width: 50%;}
-.col-pad60{width: 60%;}
-.col-pad65{width: 65%;}
-.col-pad70{width: 70%;}
-.col-pad80{width: 80%;}
-.col-pad85{width: 85%;}
-.col-pad90{width: 90%;}
-.col-pad100{width: 100%;}
-
-
-.menu{
-  margin-top: 4.3vh;
-}
-
-.menu a{
-  font-size: 3.1vw;
-  padding-right: 2vw;
-}
-
-.slagord h1{
-  font-size: 6vw;
-}
-.slagordknapp{
-  font-size: 3vw;
-}
-.iphone{
-  top: 35vh;
-}
-.iphone img{
-width: 90%;
-}
-
-.ttekst{
-  float: right;
-}
-.ttekst h2{
-  font-size: 4.5vw;
-
-}
-.ttekst p{
-  font-size: 2.5vw;
-
-}
-.tboks{
-  margin-left: 5vw;
-}
-
-.tlogo{
-  float: left;
-  margin-top: 7vh;
-  margin-left: 3vw;
-  padding-bottom: 5vh;
-}
-.tlogo img{
-  height: 20vh;
-
-}
-.ttekst{
-  padding-top: 4vh;
-
-}
-.knapptboks{
-  margin-left: 28.7vw;
-  font-size: 2.5vw;
-
-}
-.vindu3{
-  margin-top: 10vh;
-}
-.kontaktboks1 a{
-  font-size: 4vw;
-  margin: 3vw 0;
-  padding-top: 2.5vw;
-}
-
-.kontaktboks2 a{
-  font-size: 3vw;
-  margin: 1.4vw 0;
-  padding-top: 2vh;
-}
-
-
-.tittelk h1{
-font-size: 6vw;
-}
-
-.kontaktboks3 a{
-  font-size: 2.6vw;
-  margin-top: 9vh;
-
-
-}
-#myBtn{
-  font-size: 6vw;
-}
-/*-----------------------------Problemet--------------------------------------*/
-.Pslagord{
-  margin-left: 5vw;
-}
-.Pslagord h1{
-  padding-left: 0;
-  font-size:5.4vw;
-}
-.Pkilde{
-  margin-top: 2vh;
-  font-size: 2.5vw;
-  float: right;
-}
-.Pslagordknapp{
-  font-size: 3vw;
-  margin-left:35vw;
-
-}
-.Ptittel{
-  text-align: center;
-
-}
-.Ptittel h1{
-  font-size: 5.5vw;
-
-}
-.Pnedelinjek{
-  width: 23vw;
-}
-
-.Ptekst p{
-  font-size: 3vw;
-}
-.P12{
-  margin-left: 10vw;
-
-}
-.P13{
-  margin-right: 10vw;
-
-}
-.Ptittel3 h1{
-  font-size: 5vw;
-}
-.Plittnedelinje{
-  width: 69vw;
-
-}
-.Ptekst3 p{
-  font-size: 3vw;
-}
-.Pkilde2{
-  font-size: 3vw;
-}
-.Pquote h2{
-  font-size: 5vw;
-
-}
-.Pquote h3{
-  font-size: 3vw;
-
-}
-.Pborderhøyre{
-  height: 20vw;
-}
-
-.Pbordervenstre{
-  height:20vw;
-}
-
-/*-----------------------------------------LØSNINGGGG------------------------*/
-
-.Lslagord {
-  text-align: center;
-  padding-left: 0;
-  margin-top: 45vh;
-  margin-left: 5vw;
-
-}
-.Lslagord h1{
-  font-size: 5vw;
-}
-.Lslagordknapp{
-  font-size: 3vw;
-  margin-right: 25vw;
-}
-.Ltittel{
-  margin-top: 15vh;
-}
-.Ltittel h1{
- font-size: 5.5vw;
-}
-
-
-.Lttekst{
-  margin-left: 10vw;
-  margin-top: 3vh;
-}
-.Lttekst p{
-  font-size: 3vw;
-}
-.Lnedelinjek{
-  width: 20vw;
-}
-.Ltpunkter{
-  font-size: 3.5vw;
-  margin-bottom: 15vh;
-  margin-top: 8vh;
-}
-.Lv2knapp{
-  display: none;
-}
-.Llinjek2{
-  display: none;
-
-}
-.Ltteekst{
-
-  margin-top: -3vh;
-}
-.Ltteekst h2{
-  font-size: 5vw;
-  float: left;
-
-}
-.Ltteekst p{
-  font-size: 3vw;
-
-}
-.Lteksover{
-  width: 50vw;
-  margin-left: 3vw;
-  margin-top: 0.5vh;
-
-}
-.Lv3knapp{
-  display: none;
-}
-
-.Lquote img{
- width: 30vw;
- padding-top: 8vh;
-}
-.Lbildetekst{
-  float: right;
-  font-size: 3vw;
-}
-
-.Lttekst2 img{
-  width: 20vw;
-  margin-left: 10vw;
-  margin-top: 10vw;
-  float: 0;
-  width: 25%;
-
-}
-.Lbildetekst{
-  margin-left: 10vw;
-  margin-top: 5vh;
-  float: 0;
-  font-size: 2.5vw;
-}
-.Lttekst33 h3{
-  font-size: 5vw;
-  margin-top: 7vh;
-}
-.Lttekst33 p{
-  font-size: 3vw;
-}
-.Lttekst4 {
-  font-size: 3.5vw;
-}
-.Lttekst44{
-  font-size: 3vw;
-}
-.Lttlinje{
-  width: 54vw;
-}
-.Lpunkterbilde{
-  margin-top: -50vh;
-  margin-left: 25vw;
-  margin-right: 0;
-}
-
-
-/*-------------------------------App pad----------------------*/
-.Atablet {
-  display: none;
-}
-.Atekstboks1{
-  padding-left: 0;
-  margin-left: 4.5vw;
-}
-.Atekstboks1 h1{
-  font-size: 7vw;
-}
-.Atekstboks1 li{
-  font-size: 3.5vw;
-}
-.Atekstboks1 p{
-  font-size: 3.5vw;
-}
-
-.Atekstboks2 h1{
-  font-size: 7vw;
-}
-.Atekstboks2{
-  font-size: 3.5vw;
-  margin-left: 4.5vw;
-  padding-left: 0vw;
-}
-.Abildeboks{
-  margin-left: 4.5vw;
-  display: block;
-}
-.Abildeboks img{
-  width: 100%;
-}
-.Abildeboks2{
-  margin-left: 35vw;
-  display: none;
-}
-.Abildeboks2 img{
-  width: 50%;
-}
-.Aappstore{
-  margin-left: -2vw;
-}
-.Aappstore img{
-  margin-left: 2vw;
-  width: 35vw;
-}
-.Aslagord{
-  text-align: center;
-  padding-left: 0;
-}
-.Aslagord h1{
-  font-size: 6vw;
-  padding-left: 0;
-}
-.Aslagordknapp{
-  font-size: 3vw;
-}
-.Abildeboks3{
-  display: block;
-  margin-left: 3.5vw;
-}
-.Abildeboks3 img{
-  height: 70vw;
-  padding-top: 4vh;
-}
-.Abildeboks1{
-    display: none;
-}
-/*---------------Kilder-------------*/
-.Khovedboks h1{
-  font-size: 6vw;
-}
-
-.Kpunkter li{
-  font-size:3.8vw;
-}
-
-
-.Kkildebilde li{
- 
-  font-size:3.8vw;
-}
-.Kkildebilde img{
-  width:40vw;
-}
-
- .Kkildeikoner li{
-  font-size: 3.8vw;
-}
-  .Kkildeikoner i{
- font-size: 10vw;
-}
-.Kkildebilde img{
-    width: 20vw;
-  }
-
-}
-
-
-@media only screen and (min-width: 790px) and (max-width: 960px){
-.menu{
-  margin-top: 3.7vh;
-}
-
-.menu a{
-  font-size: 2.8vw;
-  padding-right: 3vw;
-}
-
-.slagord h1{
-  font-size: 4.5vw;
-}
-
-.slagordknapp{
-  font-size: 3vw;
-}
- .iphone{
-    top: 35vh;
-  }
- .iphone img{
-  width: 80%;
- 
-
-}
-
-.ttekst h2{
-  font-size: 3.3vw;
-}
-.ttekst p{
-  font-size: 2vw;
-}
-
-.knapptboks{
-  font-size: 2vw;
-  margin-left: 6vw;
-}
-
-#myBtn {
-  font-size: 4.5vw;
-
-}
-
-  .nav a{
-  padding-right: 2vw;
-  font-size: 2.5vw;
-
-}
-  .Pslagord h1{
-  font-size: 4.5vw;
-  padding-left: 1vw;
-
-}
-
-.Pkilde{
-  font-size: 2vw;
-}
-.Pslagordknapp{
-  font-size: 3vw;
-}
-
-.Ptittel{
-  font-size: 3.3vw;
-}
-
-.Ptekst p{
-  font-size: 2.3vw;
-}
-
-.Pbordervenstre{
-  margin-top: 10vh;
-  width: 2px;
-  height: 30vh;
-  background-color: #FEB249;
-  float: left;
-
-}
-
-.Pquote h2{
-  font-size: 4.5vw;
-}
-.Pquote h3{
-  padding-right: 3vw;
-}
-.Pborderhøyre{
-  margin-top: 5vh;
-  width: 2px;
-  height: 30vh;
-  background-color: #FEB249;
-  float: left;
-
-}
-
-.Ptittel3 h1{
-  font-size: 3.5vw;
-}
-.Plittnedelinje{
-  width:45vw;
-  margin-left: 3vw;
-}
-
-.Ptekst3{
-  font-size: 2.3vw;
-}
-
-.Pkilde2{
-  font-size: 2.3vw;
-}
-
-
-
-
-
-.tittelk{
-  font-size: 2.5vw;
-}
-
-.kontaktboks1 a{
-  font-size: 3.5vw;
-  padding-top: 2.5vh;
-}
-
-.kontaktboks2 a{
-  font-size: 3vw;
-}
-
-.knapptboks3a{
-  display: inline-block;
-  padding:10px 20px;
-  margin-left: 10vw;
-  margin-top: 10vh;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;
-  font-size: 2vw;
-  letter-spacing: 2px;
-  border-radius: 3vw;
-  background-color: #FEB249;
-}
-.knapptboks3b{
-
-  display: inline-block;
-  padding:10px 20px;
-  margin-left: 10vw;
-  margin-top: 10vh;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;
-  font-size: 2vw;
-  letter-spacing: 2px;
-  border-radius: 3vw;
-  background-color: #FEB249;
-}
-
-
-
-/*-----------------------------LØSNIIIIIIIIIIIING!!!!!!-----------------------*/
-
-.Lslagord h1{
-  font-size: 4.5vw;
-
-}
-.Lslagordknapp{
-
-  font-size: 3vw;
-
-}
-
-.Ltittel{
-  font-size: 3.1vw;
-
-}
-
-
-.Lttekst p{
-  font-size: 2.1vw;}
-
-.Ltpunkter{
-  font-size: 2.5vw;
-
-}
-
-
-.Lv2knapp{
-  font-size: 2.5vw;
-
-}
-
-.Ltteekst h2{
-  font-size: 3.5vw;
-}
-.Ltteekst p{
-  font-size: 2.1vw;
-}
-.Lteksover{
-  margin-left:2vw;
-  margin-bottom: 2vh;
-  width: 35vw;
+font-size:4vw;
+margin-left:16vw;
+margin-top:5vw;
 }
 
-
-
-.Lbildetekst{
-  margin-left: 5vw;
-  margin-top: 7vh;
-  font-size: 2.5vw;
-}
-.Llinjeoppe{
- 
-  margin-bottom: 0vh;
-}
-.Lquote img{
- width: 25vw;
- padding-top: 5vh;
+.Lttekst44 {
+margin-top:5vw;
+margin-left:10vw;
+text-align:center;
 }
-.Lbildetekst{
-  float: right;
-  font-size: 2vw;
-}
 
-.Lttekst3{
-  font-size: 2.5vw;
+.Lnedelinjekk2 {
+margin-top:0;
 }
-
 
-.Lttekst33 h3{
-  font-size: 3.5vw;
+/*--------------------------------------------App mobil--------------------------------------------*/
+.Aappstore {
+left:1px;
+margin-left:36vw;
 }
-.Lttekst33 p{
-  font-size: 2.2vw;
-}
 
-.Lttlinje{
-  width: 37vw;
+.Aslagord {
+text-align:center;
+padding-left:0;
+margin-left:5vw;
 }
 
-.Lttekst4{
-
-  font-size: 2.5vw;
-}
-.Lttekst4 li{
-  margin: 1.5vh 0;
+.Aappstore img {
+width:40vw;
 }
-.Lttekst44{
 
-  font-size: 2.5vw;
+.Abildeboks img {
+width:100%;
 }
 
-/*------------------------------- APP BREAKPOINT ----------------------------*/
 .Atekstboks1 {
-  font-size: 2vw;
-}
-.Atekstboks1 h1{r
-  font-size: 4.5vw;
-}
-.Atekstboks1 p{
-  font-size: 2.5vw;
-}
-.Atekstboks1 li{
-  font-size: 2.2vw;
-}
-.Atekstboks2 h1{r
-  font-size: 4.5vw;
-}
-.Atekstboks2 p{
-  font-size: 2.5vw;
-}
-.Abildeboks1{
-  margin-top: 25vh;
-}
-.Abildeboks1 img{
-  width:50vw;
-}
-.Abildeboks2{
-  margin-top: 18vh;
-}
-.Abildeboks2 img{
-  width:25vw;
-}
-.Aappstore{
-  margin-top: 4vh;
-}
-.Aappstore img{
-  width: 20vw;
-  margin-right: 3vw;
+font-size:3.5vw;
+padding-left:0;
+margin-left:3.5vw;
 }
 
-
-
-
-
-/*------------------------------- Kilder ----------------------------*/
-.Khovedboks h1{
-  font-size: 5vw;
+.Atekstboks1 li {
+font-size:3.5vw;
 }
 
-.Kpunkter li{
-  font-size:2.8vw;
+.Atekstboks1 p {
+font-size:3.8vw;
 }
 
-.Kkildebilde li{
- 
-  font-size:2.8vw;
+.Atekstboks2 {
+font-size:3.5vw;
+margin-left:3.5vw;
 }
 
- .Kkildeikoner li{
-  font-size: 2.8vw;
+/*--------------------------------------------Kilder mobil--------------------------------------------*/
+.Kkildeikoner i {
+font-size:11vw;
 }
-  .Kkildeikoner i{
- font-size: 9vw;
-}
-.Kkildebilde img{
-    width: 15vw;
-  }
 
+.Kkildebilde img {
+width:30vw;
+}
+
+/*--------------------------------------------Felles-verdi mobil--------------------------------------------*/
+
+#envelope,input[type="checkbox"],.iphone,.slagordknapp,.bordervenstre,#myBtn i,.Pslagordknapp,.Lslagordknapp,.Lv2knapp,.Lv3knapp,.Atablet,.Aslagordknapp,.Abildeboks1,.Abildeboks2 img {
+display:none;
+}
+
+.menu a:hover,.menu a.active {
+color:#FEB249;
+}
+
+#toggle:checked + label +.menu,.Abildeboks {
+display:block;
+}
+
+.slagord h1,.Aslagord h1 {
+font-size:7vw;
+padding-left:0;
+}
+
+.tittelk,.kontaktboks2 a,.kontaktboks2 h3,.Ptekst p,.Pkilde2,.Lttekst p,.Ltteekst p,.Lttekst33 p,.Lttekst44 p,.Kpunkter li {
+font-size:4vw;
+}
+
+.Ptittel3 h1,.Ltteekst h2,.Lttekst33 h3 {
+font-size:5.2vw;
+}
+
+.Pquote h2,.Lslagord h1,.Atekstboks1 h1,.Atekstboks2 h1,.Khovedboks h1 {
+font-size:7vw;
+}
+
+.Pbordervenstre,.Pborderhøyre {
+height:25vh;
+}
+
+.Kkildebilde li,.Kkildeikoner li {
+font-size:4.8vw;
+}
+}
+
+/*-------------------------------------------------------------Tablet breakpoint--------------------------------------------------------------------*/
+@media only screen and (min-width: 600px) and (max-width:790px){
+.col-pad10 {width:10%;}
+.col-pad15 {width:15%;}
+.col-pad20 {width:20%;}
+.col-pad25 {width:25%;}
+.col-pad30 {width:30%;}
+.col-pad35 {width:35%;}
+.col-pad40 {width:40%;}
+.col-pad50 {width:50%;}
+.col-pad60 {width:60%;}
+.col-pad65 {width:65%;}
+.col-pad70 {width:70%;}
+.col-pad80 {width:80%;}
+.col-pad85 {width:85%;}
+.col-pad90 {width:90%;}
+.col-pad100{width:100%;}
+
+/*--------------------------------------------Nav-bar tablet--------------------------------------------*/
+.menu {
+margin-top:4.3vh;
+}
+
+.menu a {
+font-size:3.1vw;
+padding-right:2vw;
+}
+
+/*--------------------------------------------Index tablet--------------------------------------------*/
+.iphone {
+top:35vh;
+}
+
+.iphone img {
+width:90%;
+}
+
+.ttekst {
+float:right;
+padding-top:4vh;
+}
+
+.ttekst h2 {
+font-size:4.5vw;
+}
+
+.ttekst p {
+font-size:2.5vw;
+}
+
+.tlogo {
+float:left;
+margin-top:7vh;
+margin-left:3vw;
+padding-bottom:5vh;
+}
+
+.tlogo img {
+height:20vh;
+}
+
+.knapptboks {
+margin-left:28.7vw;
+font-size:2.5vw;
+}
+/*-------------------------------------------Kontakt oss tablet--------------------------------------------*/
+.vindu3 {
+margin-top:10vh;
+}
+
+.kontaktboks1 a {
+font-size:4vw;
+padding-top:2.5vw;
+margin:3vw 0;
+}
+
+.kontaktboks2 a {
+font-size:3vw;
+padding-top:2vh;
+margin:1.4vw 0;
+}
+
+.kontaktboks3 a {
+font-size:2.6vw;
+margin-top:9vh;
+}
+
+/*---------------------------------------------Problem tablet--------------------------------------------*/
+.Pslagord h1 {
+padding-left:0;
+font-size:5.4vw;
+}
+
+.Pkilde {
+margin-top:2vh;
+font-size:2.5vw;
+float:right;
+}
+
+.Pslagordknapp {
+font-size:3vw;
+margin-left:35vw;
+}
+
+.Ptittel {
+text-align:center;
+}
+
+.Pnedelinjek {
+width:23vw;
+}
+
+.P12 {
+margin-left:10vw;
+}
+
+.P13 {
+margin-right:10vw;
+}
+
+.Plittnedelinje {
+width:69vw;
+}
+
+/*--------------------------------------------Løsning tablet--------------------------------------------*/
+.Lslagord {
+text-align:center;
+padding-left:0;
+margin-top:45vh;
+margin-left:5vw;
+}
+
+.Lslagordknapp {
+font-size:3vw;
+margin-right:25vw;
+}
+
+.Ltittel {
+margin-top:15vh;
+}
+
+.Lttekst {
+margin-left:10vw;
+margin-top:3vh;
+}
+
+.Ltpunkter {
+font-size:3.5vw;
+margin-bottom:15vh;
+margin-top:8vh;
+}
+
+.Ltteekst {
+margin-top:-3vh;
+}
+
+.Ltteekst h2 {
+font-size:5vw;
+float:left;
+}
+
+.Lteksover {
+width:50vw;
+margin-left:3vw;
+margin-top:.5vh;
+}
+
+.Lquote img {
+width:30vw;
+padding-top:8vh;
+}
+
+.Lbildetekst {
+margin-left:10vw;
+margin-top:5vh;
+float:0;
+font-size:2.5vw;
+}
+
+.Lttekst2 img {
+margin-left:10vw;
+margin-top:10vw;
+float:0;
+width:25%;
+}
+
+.Lttekst33 h3 {
+font-size:5vw;
+margin-top:7vh;
+}
+
+.Lttlinje {
+width:54vw;
+}
+
+.Lpunkterbilde {
+margin-top:-50vh;
+margin-left:25vw;
+margin-right:0;
+}
+
+/*--------------------------------------------App tablet--------------------------------------------*/
+.Atekstboks1 {
+padding-left:0;
+margin-left:4.5vw;
+}
+
+.Atekstboks2 {
+font-size:3.5vw;
+margin-left:4.5vw;
+padding-left:0;
+}
+
+.Abildeboks {
+margin-left:4.5vw;
+display:block;
+}
+
+.Abildeboks2 {
+margin-left:35vw;
+display:none;
+}
+
+.Abildeboks2 img {
+width:50%;
+}
+
+.Aappstore {
+margin-left:-2vw;
+}
+
+.Aappstore img {
+margin-left:2vw;
+width:35vw;
+}
+
+.Aslagord {
+text-align:center;
+padding-left:0;
+}
+
+.Aslagord h1 {
+font-size:6vw;
+padding-left:0;
+}
+
+.Abildeboks3 {
+display:block;
+margin-left:3.5vw;
+}
+
+.Abildeboks3 img {
+height:70vw;
+padding-top:4vh;
+}
+
+.Abildeboks img {
+width:100%;
+}
+
+/*--------------------------------------------Kilder tablet--------------------------------------------*/
+.Kkildeikoner i {
+font-size:10vw;
+}
+
+/*--------------------------------------------Felles verdier tablet--------------------------------------------*/
+.slagord h1,.tittelk h1,#myBtn,.Khovedboks h1 {
+font-size:6vw;
+}
+
+.slagordknapp,.Ptekst p,.Ptekst3 p,.Pkilde2,.Pquote h3,.Lttekst p,.Ltteekst p,.Lttekst33 p,.Lttekst44,.Aslagordknapp {
+font-size:3vw;
+}
+
+.tboks,.Pslagord {
+margin-left:5vw;
+}
+
+.Ptittel h1,.Ltittel h1 {
+font-size:5.5vw;
+}
+
+.Ptittel3 h1,.Pquote h2,.Lslagord h1 {
+font-size:5vw;
+}
+
+.Pborderhøyre,.Pbordervenstre {
+height:20vw;
+}
+
+.Lnedelinjek,.Kkildebilde img {
+width:20vw;
+}
+
+.Lv2knapp,.Llinjek2,.Lv3knapp,.Atablet,.Abildeboks1 {
+display:none;
+}
+
+.Lttekst4,.Atekstboks1 li,.Atekstboks1 p {
+font-size:3.5vw;
+}
+
+.Atekstboks1 h1,.Atekstboks2 h1 {
+font-size:7vw;
+}
+
+.Kpunkter li,.Kkildebilde li,.Kkildeikoner li {
+font-size:3.8vw;
+}
+}
+
+/*-------------------------------------------------------------Ekstra breakpoint--------------------------------------------------------------------*/
+@media only screen and (min-width: 790px) and (max-width: 960px){
+
+  /*--------------------------------------------Nav-bar Ekstra--------------------------------------------*/
+.menu {
+margin-top:3.7vh;
+}
+
+.menu a {
+font-size:2.8vw;
+padding-right:3vw;
+}
+
+.nav a {
+padding-right:2vw;
+font-size:2.5vw;
+}
+
+/*--------------------------------------------Index Ekstra--------------------------------------------*/
+.iphone {
+top:35vh;
+}
+
+.iphone img {
+width:80%;
+}
+
+.knapptboks {
+font-size:2vw;
+margin-left:6vw;
+}
+
+.kontaktboks1 a {
+font-size:3.5vw;
+padding-top:2.5vh;
+}
+
+/*--------------------------------------------Problem Ekstra--------------------------------------------*/
+.Pslagord h1 {
+font-size:4.5vw;
+padding-left:1vw;
+}
+
+.Pbordervenstre {
+margin-top:10vh;
+width:2px;
+height:30vh;
+background-color:#FEB249;
+float:left;
+}
+
+.Pquote h3 {
+padding-right:3vw;
+}
+
+.Pborderhøyre {
+margin-top:5vh;
+width:2px;
+height:30vh;
+background-color:#FEB249;
+float:left;
+}
+
+.Plittnedelinje {
+width:45vw;
+margin-left:3vw;
+}
+
+/*--------------------------------------------Løsning Ekstra--------------------------------------------*/
+.Ltittel {
+font-size:3.1vw;
+}
+
+.Lteksover {
+margin-left:2vw;
+margin-bottom:2vh;
+width:35vw;
+}
+
+.Lbildetekst {
+margin-left:5vw;
+margin-top:7vh;
+float:right;
+font-size:2vw;
+}
+
+.Llinjeoppe {
+margin-bottom:0;
+}
+
+.Lquote img {
+width:25vw;
+padding-top:5vh;
+}
+
+.Lttlinje {
+width:37vw;
+}
+
+.Lttekst4 li {
+margin:1.5vh 0;
+}
+
+/*--------------------------------------------App Ekstra--------------------------------------------*/
+.Abildeboks1 {
+margin-top:25vh;
+}
+
+.Abildeboks1 img {
+width:50vw;
+}
+
+.Abildeboks2 {
+margin-top:18vh;
+}
+
+.Abildeboks2 img {
+width:25vw;
+}
+
+.Aappstore {
+margin-top:4vh;
+}
+
+.Aappstore img {
+width:20vw;
+margin-right:3vw;
+}
+
+/*--------------------------------------------Kilder Ekstra--------------------------------------------*/
+.Khovedboks h1 {
+font-size:5vw;
+}
+
+.Kkildeikoner i {
+font-size:9vw;
+}
+
+.Kkildebilde img {
+width:15vw;
+}
+
+/*--------------------------------------------Felles-verdier Ekstra--------------------------------------------*/
+
+.slagord h1,#myBtn,.Pquote h2,.Lslagord h1 {
+font-size:4.5vw;
+}
+
+.slagordknapp,.Pslagordknapp,.kontaktboks2 a,.Lslagordknapp {
+font-size:3vw;
+}
+
+.ttekst h2,.Ptittel {
+font-size:3.3vw;
+}
+
+.ttekst p,.Pkilde,.Atekstboks1 {
+font-size:2vw;
+}
+
+.Ptekst p,.Ptekst3,.Pkilde2 {
+font-size:2.3vw;
+}
+
+.Ptittel3 h1,.Ltteekst h2,.Lttekst33 h3 {
+font-size:3.5vw;
+}
+
+.tittelk,.Ltpunkter,.Lv2knapp,.Lttekst3,.Lttekst4,.Lttekst44,.Atekstboks1 p,.Atekstboks2 p {
+font-size:2.5vw;
+}
+
+.knapptboks3a,.knapptboks3b {
+display:inline-block;
+margin-left:10vw;
+margin-top:10vh;
+text-decoration:none;
+text-transform:uppercase;
+color:#FFF;
+font-size:2vw;
+letter-spacing:2px;
+border-radius:3vw;
+background-color:#FEB249;
+padding:10px 20px;
+}
+
+.Lttekst p,.Ltteekst p {
+font-size:2.1vw;
+}
+
+.Lttekst33 p,.Atekstboks1 li {
+font-size:2.2vw;
+}
+
+.Atekstboks1 h1,.Atekstboks2 h1 {
+font-size:4.5vw;
+}
+
+.Kpunkter li,.Kkildebilde li,.Kkildeikoner li {
+font-size:2.8vw;
+}
 }
