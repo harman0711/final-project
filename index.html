@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Spreco</title>
-	<link rel="icon" type="image/gif/png" href="punkt.png"> 
+	<link rel="icon" type="image/gif/png" href="punkt.png">
 </head>
 <body>
 	<div class="main col-">
@@ -18,17 +18,16 @@
 					<a href= "index.html"><img  src="spreco123.png" alt="Bedriftslogo"></a>
 					</div>
 
-				<div class="nav col-small50 col-pad60" id="nav">
-				<a class="active" href="index.html">Hjem</a>
+					<div class="cssnav ">
+	         <input id="toggle" type="checkbox"><label for="toggle">&#9776;</label>
+	          <div class="menu">
+	            <a class="active" href="index.html">Hjem</a>
 	            <a href="problemet.html">Problemet </a>
 	            <a href="losning.html">Løsningen</a>
 	            <a href="app.html">Appen</a>
 	            <a href="#vindu3" id="envelope"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-				</div>
-
-				<a href="javascript:void(0);" class="icon" id="b" onclick="myFunction()">
-				 <i class="fa fa-bars"></i>
-				 </a>
+	          </div>
+	        </div>
 			</div>
 
 		<div class="vindu1 col-small100 " id="vindu1">
@@ -138,7 +137,7 @@
 
 
 			function myFunction() {
-			var b=document.getElementById("b")	
+			var b=document.getElementById("b")
 		  var x = document.getElementById("nav");
 		  if (x.style.display === "block") {
 		    x.style.display = "none";

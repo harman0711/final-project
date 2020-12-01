@@ -181,17 +181,14 @@ h4,.Pkilde2 {
 }
 
 label{
-  margin: 0 40px 0 0;
-  font-size: 26px;
-  line-height: 70px;
   display: none;
-  width: 26px;
-  float:  right;
 }
 #toggle{
   display: none;
 }
-
+#tggle{
+  display: none;
+}
 
 .slagord{
   margin-top: 45vh;
@@ -1107,12 +1104,14 @@ label{
   display: block;
   cursor: pointer;
   position: absolute;
-  top: 2vh;
-  right: 7vw;
+  font-size: 6vw;
+  right: 8vw;
+  top: 1vh;
   z-index: 100;
   color: black;
-  padding: 10px;
-  margin: 3px;
+}
+#tggle{
+  display: none;
 }
 .menu{
   position: absolute;
@@ -1141,11 +1140,15 @@ label{
 }
 #toggle:checked + label +.menu{
   display: block;
-  
+
+}
+#tggle:checked + label +.menu{
+  display: block;
+
 }
 
 input[type="checkbox"]:checked + label {
-  color: white;
+  display: none;
 }
 
 
@@ -1550,6 +1553,10 @@ float: none;
   .nav{
     margin-top: 5vh;
   }
+.menu a{
+  font-size: 2.8vw;
+  padding-right: 0vw;
+}
 
 
 
@@ -1892,6 +1899,10 @@ font-size: 6vw;
 
 
 @media only screen and (min-width: 790px) and (max-width: 960px){
+.menu a{
+  font-size: 2.5vw;
+}
+
   .nav a{
   padding-right: 2vw;
   font-size: 2.5vw;
