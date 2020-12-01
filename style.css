@@ -1099,6 +1099,9 @@ float: left;
 }
 
 /*-----------------------------------------*/
+input[type="checkbox"] {
+  display: none;
+}
 
 label{
   display: block;
@@ -1107,6 +1110,9 @@ label{
   top: 2vh;
   right: 7vw;
   z-index: 100;
+  color: black;
+  padding: 10px;
+  margin: 3px;
 }
 .menu{
   position: absolute;
@@ -1133,10 +1139,14 @@ label{
 .menu a.active{
   color: #FEB249;
 }
-#toggle:checked +.menu{
+#toggle:checked + label +.menu{
   display: block;
+  
 }
 
+input[type="checkbox"]:checked + label {
+  color: white;
+}
 
 
 
