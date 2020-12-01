@@ -88,7 +88,6 @@ h4,.Pkilde2 {
 }
 
 .nav a:hover{
-
   color: #FEB249;
 }
 .nav{
@@ -102,7 +101,47 @@ h4,.Pkilde2 {
 
 }
 
+/*--------------------------Nav bar css ----------------------*/
+/*-----------------------------------------------------------*/
+.cssnav{
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+}
+.menu{
+  margin: 2vh 3vw 0 0;
 
+}
+.menu a{
+  clear: right;
+  text-decoration: none;
+  color: grey;
+  margin: 0 10px;
+  line-height: 70px;
+  font-size: 2vw;
+  color: rgb(6,26,38);
+  text-align: center;
+  padding-right: 2vw;
+
+
+}
+.menu a.active{
+  color: #FEB249;
+}
+.menu a:hover{
+  color: #FEB249;
+  transition: 0.2s ease;
+}
+
+label{
+  display: none;
+}
+#toggle{
+  display: none;
+}
+#tggle{
+  display: none;
+}
 
 .slagord{
   margin-top: 45vh;
@@ -1089,9 +1128,65 @@ float: left;
 
 }
 
+/*-----------------------------------------*/
+input[type="checkbox"] {
+  display: none;
+}
+
+label{
+  display: block;
+  cursor: pointer;
+  position: absolute;
+  font-size: 6vw;
+  right: 8vw;
+  top: 1vh;
+  z-index: 100;
+  color: black;
+}
+#tggle{
+  display: none;
+}
+.menu{
+  position: absolute;
+  top: -2vh;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  background-color: #002447;
+  z-index: 50;
+
+}
+.menu a{
+  display: block;
+  width: 100%;
+  color: white;
+  font-size: 6vw;
+  margin-top: 10vh;
+  margin-bottom: 2vh;
+  float: left;
+}
+.menu a:hover{
+  color: #FEB249;
+}
+.menu a.active{
+  color: #FEB249;
+}
+#toggle:checked + label +.menu{
+  display: block;
+
+}
+#tggle:checked + label +.menu{
+  display: block;
+
+}
+
+input[type="checkbox"]:checked + label {
+  display: none;
+}
 
 
 
+/*----------------------------------------------*/
 
 .iphone{
   display: none;
@@ -1155,15 +1250,18 @@ float: left;
 
 }
 .knapptboks3a{
-  float: left;
-  margin-left: 0vw;
+
+  margin-left: -2vw;
   margin-top: 0vh;
+  margin-bottom: 3vh;
   font-size: 2vw;
 }
 .knapptboks3b{
   float: right;
-  margin-left: 0;
-  margin-top: 0;
+  margin-left: 0vw;
+  margin-right: -4vw;
+  margin-top: 0vh;
+  margin-bottom: 0vh;
   font-size: 2vw;
 
 }
@@ -1512,6 +1610,12 @@ float: none;
   .nav{
     margin-top: 5vh;
   }
+.menu a{
+  font-size: 2.8vw;
+  padding-right: 0vw;
+}
+
+
 
 
 
@@ -1883,10 +1987,7 @@ font-size: 6vw;
 
 
 @media only screen and (min-width: 790px) and (max-width: 960px){
-
- /*-----------------HOVEDSIDE---------------*/ 
-.nav a{
-  padding-right: 2vw;
+.menu a{
   font-size: 2.5vw;
 
 }
@@ -1920,44 +2021,15 @@ font-size: 6vw;
 
 #myBtn {
   font-size: 4.5vw;
-}
-
-
-
-.nedelinje{
-  height: 2px;
-  width: 40vw;
-  background: #FEB249 ;
-  display: inline-block;
-  margin-left:30vw;
-}
-.nedelinjek{
-  height: 1px;
-  width: 20vw;
-  background: white;
-  display: inline-block;
-  margin-left:40vw;
-
-}
-.tittel1{
-  margin-top: 10vh;
-}
-
-.tittel1 h1{
-  font-size: 10.5vw;
-
-}
-.tittel1 h3{
-  font-size: 4.5vw;
-}
-.tittel1 h2{
-  font-size: 5.5vw;
 
 }
 
+  .nav a{
+  padding-right: 2vw;
+  font-size: 2.5vw;
 
- /*-----------------Problemet---------------*/ 
-.Pslagord h1{
+}
+  .Pslagord h1{
   font-size: 4.5vw;
   padding-left: 1vw;
 
@@ -2049,6 +2121,7 @@ font-size: 6vw;
   background-color: #FEB249;
 }
 .knapptboks3b{
+
   display: inline-block;
   padding:10px 20px;
   margin-left: 10vw;
@@ -2061,6 +2134,7 @@ font-size: 6vw;
   border-radius: 3vw;
   background-color: #FEB249;
 }
+
 
 
 /*-----------------------------LØSNIIIIIIIIIIIING!!!!!!-----------------------*/
@@ -2173,40 +2247,117 @@ font-size: 6vw;
 .Atekstboks1 {
   font-size: 2vw;
 }
-.Atekstboks1 h1{
+.Atekstboks1 h1{r
   font-size: 4.5vw;
+
 }
-.Atekstboks1 p{
+.Lslagordknapp{
+
+  font-size: 3vw;
+
+}
+
+
+
+.Ltittel{
+  font-size: 3.1vw;
+
+}
+
+
+.Lttekst p{
+  font-size: 2.1vw;
+}
+
+.Ltpunkter{
+  font-size: 2.5vw;
+
+}
+
+
+.Lv2knapp{
+  font-size: 2.5vw;
+
+}
+
+.Ltteekst h2{
+  font-size: 3.5vw;
+}
+.Ltteekst p{
+  font-size: 2.1vw;
+}
+.Lteksover{
+  margin-left:2vw;
+  margin-bottom: 2vh;
+  width: 35vw;
+}
+
+
+
+.Lbildetekst{
+  margin-left: 5vw;
+  margin-top: 7vh;
+  float: left;
+  font-size: 2vw;
+}
+.Lnedelinjek2{
+  height: 2px;
+  width: 70vw;
+  background: #FEB249;
+  display: inline-block;
+  margin-left:9vw;
+  margin-top: 5vh;
+}
+.Lbordervenstre{
+ height: 30vh;
+  width: 2px;
+  background: #FEB249;
+  display: inline-block;
+  float: left;
+  margin-top: 13vh;
+  margin-left: 5vw;
+
+}
+.Lborderhøyre{
+ height: 30vh;
+  width: 2px;
+
+  margin-top: -27vh;
+  margin-left: 90vw;
+}
+.Lnedelinjekk2{
+  height: 2px;
+  width: 70vw;
+  margin-left:9vw;
+  margin-top: 6vh;
+}
+
+.Lttekst3{
   font-size: 2.5vw;
 }
-.Atekstboks1 li{
+
+
+.Lttekst33 h3{
+  font-size: 3.5vw;
+}
+.Lttekst33 p{
   font-size: 2.2vw;
 }
-.Atekstboks2{
-  font-size: 2.2vw;
+
+.Lttlinje{
+  width: 37vw;
 }
-.Atekstboks2 h1{
-  font-size: 4vw;
+
+.Lttekst4{
+
+  font-size: 2.5vw;
 }
-.Abildeboks1 {
-  margin-top: 25vh;
+.Lttekst4 li{
+  margin: 1.5vh 0;
 }
-.Abildeboks1 img{
-  width: 50vw;
-}
-.Abildeboks2 {
-  margin-top: 18vh;
-}
-.Abildeboks2 img{
-  width: 25vw;
-}
-.Aappstore{
-  margin-top: 4vh;
-}
-.Aappstore img{
-  width: 20vw;
-  margin-right: 3vw; 
-}
+.Lttekst44{
+
+  font-size: 2.5vw;
 /*------------------------------- Kilder ----------------------------*/
 .Khovedboks h1{
   font-size: 5vw;
@@ -2230,6 +2381,5 @@ font-size: 6vw;
 .Kkildebilde img{
     width: 15vw;
   }
-
 
 }
