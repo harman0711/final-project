@@ -34,53 +34,6 @@ h4,.Pkilde2 {
 }
 
 
-/*-------------kilder--------------*/
-.Khovedboks{
-  padding-top:8vw;
-}
-.Khovedboks h1{
-  font-size: 4vw;
-}
-.Kpunkter{
-  padding-left: 5vw;
-}
-.Kpunkter li{
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-size: 40px;
-  margin: 0;
-  padding: 16px 0 16px 84px;
-  list-style: none;
-  background-image: url('punkt.png');
-  font-size:1.8vw;
-}
-
-  .Ktittel{
-    text-align: center;
-  }
-  .Knedelinje{
-  height: 4px;
-  width: 20vw;
-  background: #FEB249;
-  display: inline-block;
-  }
-  .Kbilder{
-    padding-left: 5vw;
-  }
-  .Kbilder li{
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-size: 40px;
-  margin: 0;
-  padding: 16px 0 16px 84px;
-  list-style: none;
-  background-image: url('punkt.png');
-  font-size:1.8vw;
-}
-.KtittelB{
-    text-align: center;
-  }
-
 
 /*--------------vindu1-------------*/
 .vindu1{
@@ -236,7 +189,7 @@ label{
 }
 .iphone img{
   float: right;
-  height: 60vh;
+  width: 60%;
   padding-right: 7vw;
 
 
@@ -365,13 +318,7 @@ background-color:#53D3D1 ;
   font-size: 2vw;
 
 }
-/*.nedelinjek{
-  height: 1px;
-  width: 30vw;
-  background: #FFF ;
-  display: inline-block;
-  margin-left:35vw;
-}*/
+
 .kontaktboks1{
   float: left;
   margin-left:5vw;
@@ -467,6 +414,7 @@ color: #FEB249;
 color: #fff;
 background-color:#53D3D1 ;
 }
+
 
 /*-----------------------------Problemet--------------------------------------*/
 .Pvindu1{
@@ -1012,12 +960,97 @@ float: left;
 .Abildeboks3{
   display: none;
 }
+/*-------------kilder--------------*/
+.Khovedboks{
+  margin-top: 15vh;
+}
+.Khovedboks h1{
+  font-size: 4vw;
+}
+.Kpunkter{
+  margin-left:5vw;
+}
+.Kpunkter li{
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 40px;
+  padding: 16px 0 16px 84px;
+  list-style: none;
+  background-image: url('punkt.png');
+  font-size:1.8vw;
+}
+
+  .Ktittel{
+    text-align: center;
+  }
+  .Knedelinje{
+  height: 4px;
+  width: 20vw;
+  background: #FEB249;
+  display: inline-block;
+  }
+
+  .Ktittel2{
+    text-align: center;
+    float: left;
+    margin-top: 3vh;
+  }
+  .Kkildebilde{
+    background-image:linear-gradient(rgba(83, 211, 209,0.7),rgba(255,255,255,0.7)), url(./white.jpg);
+    margin-left: 15vw;
+    margin-top: 5vh;
+    float: left;
+    padding-left: 1vw;
+    border-radius: 10px 10px 10px 10px;
+  }
+ .Kkildebilde li{
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 40px;
+  margin-top: 5vh;
+  padding: 16px 0 16px 84px;
+  list-style: none;
+  background-image: url('punkt.png');
+  font-size:1.8vw;
+  float: left;
+}
+  .Kkildebilde img{
+    float: right;
+    width: 10vw;
+  }
+.Kkildeikoner{
+    background-image:linear-gradient(rgba(83, 211, 209,0.7),rgba(255,255,255,0.7)), url(./white.jpg);
+    margin-left: 15vw;
+    margin-top: 5vh;
+    float: left;
+    padding-left: 1vw;
+    border-radius: 10px 10px 10px 10px;
+}
+ .Kkildeikoner li{
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 40px;
+  margin-top: 2vh;
+  padding: 16px 0 16px 84px;
+  list-style: none;
+  background-image: url('punkt.png');
+  font-size:1.8vw;
+  float: left;
+}
+
+
+  .Kkildeikoner i{
+  float: right;
+  font-size: 4vw;
+  padding-top: 4vh;
+}
+
 
 /*-------------------------------Responsiv----------------------*/
 
 
 [class*="col-"]{
-  border: black solid 0px;
+  border: black solid px;
 
 }
 
@@ -1521,6 +1554,30 @@ float: none;
 .Abildeboks2 img{
   display: none;
 }
+/*---------------kilder-----------*/
+.Khovedboks h1{
+  font-size: 7vw;
+}
+
+.Kpunkter li{
+  font-size:4vw;
+}
+
+.Kkildebilde li{
+ 
+  font-size:4.8vw;
+}
+
+ .Kkildeikoner li{
+  font-size: 4.8vw;
+}
+  .Kkildeikoner i{
+ font-size: 11vw;
+}
+.Kkildebilde img{
+    width: 30vw;
+  }
+
 }
 
 
@@ -1560,6 +1617,8 @@ float: none;
 
 
 
+
+
   .slagord h1{
     font-size: 6vw;
   }
@@ -1567,11 +1626,13 @@ float: none;
     font-size: 3vw;
   }
   .iphone{
-    top: 25vh;
+    top: 35vh;
   }
-  .iphone img{
-    height: 70vh;
-  }
+ .iphone img{
+  width: 90%;
+ 
+
+}
 
   .ttekst{
     float: right;
@@ -1894,6 +1955,33 @@ font-size: 6vw;
 .Abildeboks1{
     display: none;
 }
+/*---------------Kilder-------------*/
+.Khovedboks h1{
+  font-size: 6vw;
+}
+
+.Kpunkter li{
+  font-size:3.8vw;
+}
+
+
+.Kkildebilde li{
+ 
+  font-size:3.8vw;
+}
+.Kkildebilde img{
+  width:40vw;
+}
+
+ .Kkildeikoner li{
+  font-size: 3.8vw;
+}
+  .Kkildeikoner i{
+ font-size: 10vw;
+}
+.Kkildebilde img{
+    width: 20vw;
+  }
 
 }
 
@@ -1901,6 +1989,39 @@ font-size: 6vw;
 @media only screen and (min-width: 790px) and (max-width: 960px){
 .menu a{
   font-size: 2.5vw;
+
+}
+.slagord h1{
+  font-size: 4.5vw;
+}
+
+.slagordknapp{
+  font-size: 3vw;
+}
+ .iphone{
+    top: 35vh;
+  }
+ .iphone img{
+  width: 80%;
+ 
+
+}
+
+.ttekst h2{
+  font-size: 3.3vw;
+}
+.ttekst p{
+  font-size: 2vw;
+}
+
+.knapptboks{
+  font-size: 2vw;
+  margin-left: 6vw;
+}
+
+#myBtn {
+  font-size: 4.5vw;
+
 }
 
   .nav a{
@@ -2014,9 +2135,119 @@ font-size: 6vw;
   background-color: #FEB249;
 }
 
+
+
 /*-----------------------------LØSNIIIIIIIIIIIING!!!!!!-----------------------*/
 
 .Lslagord h1{
+  font-size: 4.5vw;
+
+}
+.Lslagordknapp{
+
+  font-size: 3vw;
+
+}
+
+.Ltittel{
+  font-size: 3.1vw;
+
+}
+
+
+.Lttekst p{
+  font-size: 2.1vw;}
+
+.Ltpunkter{
+  font-size: 2.5vw;
+
+}
+
+
+.Lv2knapp{
+  font-size: 2.5vw;
+
+}
+
+.Ltteekst h2{
+  font-size: 3.5vw;
+}
+.Ltteekst p{
+  font-size: 2.1vw;
+}
+.Lteksover{
+  margin-left:2vw;
+  margin-bottom: 2vh;
+  width: 35vw;
+}
+
+
+
+.Lbildetekst{
+  margin-left: 5vw;
+  margin-top: 7vh;
+  font-size: 2vw;
+}
+.Lnedelinjek2{
+  height: 2px;
+  width: 70vw;
+  margin-left:9vw;
+  margin-top: 5vh;
+}
+.Lbordervenstre{
+ height: 30vh;
+  width: 2px;
+  margin-top: 13vh;
+  margin-left: 5vw;
+
+}
+.Lborderhøyre{
+ height: 30vh;
+  width: 2px;
+´
+  margin-top: -27vh;
+  margin-left: 90vw;
+}
+.Lnedelinjekk2{
+  height: 2px;
+  width: 70vw;
+  margin-left:9vw;
+  margin-top: 6vh;
+}
+
+.Lttekst3{
+  font-size: 2.5vw;
+}
+
+
+.Lttekst33 h3{
+  font-size: 3.5vw;
+}
+.Lttekst33 p{
+  font-size: 2.2vw;
+}
+
+.Lttlinje{
+  width: 37vw;
+}
+
+.Lttekst4{
+
+  font-size: 2.5vw;
+}
+.Lttekst4 li{
+  margin: 1.5vh 0;
+}
+.Lttekst44{
+
+  font-size: 2.5vw;
+}
+
+/*------------------------------- APP BREAKPOINT ----------------------------*/
+.Atekstboks1 {
+  font-size: 2vw;
+}
+.Atekstboks1 h1{r
   font-size: 4.5vw;
 
 }
@@ -2127,4 +2358,28 @@ font-size: 6vw;
 .Lttekst44{
 
   font-size: 2.5vw;
+/*------------------------------- Kilder ----------------------------*/
+.Khovedboks h1{
+  font-size: 5vw;
+}
+
+.Kpunkter li{
+  font-size:2.8vw;
+}
+
+.Kkildebilde li{
+ 
+  font-size:2.8vw;
+}
+
+ .Kkildeikoner li{
+  font-size: 2.8vw;
+}
+  .Kkildeikoner i{
+ font-size: 9vw;
+}
+.Kkildebilde img{
+    width: 15vw;
+  }
+
 }
